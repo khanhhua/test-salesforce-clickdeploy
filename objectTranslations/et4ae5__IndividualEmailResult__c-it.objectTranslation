@@ -128,6 +128,17 @@
         <relationshipLabel><!-- Individual Email Results --></relationshipLabel>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Individual Email Result Layout</layout>
+        <sections>
+            <label>Collegamenti personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Immagine email</label>
+            <section>Email Image</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome email</nameFieldLabel>
     <startsWith>Consonant</startsWith>
     <validationRules>

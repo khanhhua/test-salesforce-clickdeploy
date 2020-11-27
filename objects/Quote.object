@@ -210,6 +210,69 @@
         <label>Employment Quote Compact Layout</label>
     </compactLayouts>
     <fields>
+        <fullName>Fax</fullName>
+    </fields>
+    <fields>
+        <fullName>Tax</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <inlineHelpText>setzt sich automatisch zusammen</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <inlineHelpText>Du findest die Statusbeschreibung in der oberen Statusleiste.</inlineHelpText>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <inlineHelpText>Inhaber des Datensatzes</inlineHelpText>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Discount</fullName>
+    </fields>
+    <fields>
+        <fullName>Subtotal</fullName>
+    </fields>
+    <fields>
+        <fullName>IsSyncing</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>BillingName</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <inlineHelpText>Zusätzliche Informationen für den Vertrag können hier hinterlegt werden.</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>QuoteToName</fullName>
+    </fields>
+    <fields>
+        <fullName>ShippingName</fullName>
+    </fields>
+    <fields>
+        <fullName>LineItemCount</fullName>
+    </fields>
+    <fields>
+        <fullName>AdditionalName</fullName>
+    </fields>
+    <fields>
+        <fullName>ExpirationDate</fullName>
+    </fields>
+    <fields>
+        <fullName>ShippingHandling</fullName>
+    </fields>
+    <fields>
         <fullName>to__c</fullName>
         <description>This fields defines the end of a quote. It is needed for the contract management in Landwehr.
 Robin S. 14.10.2019</description>

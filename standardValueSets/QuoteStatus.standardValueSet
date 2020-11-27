@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>In preparation</fullName>
+        <default>true</default>
+        <label>In preparation</label>
+        <allowEmail>true</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Discarded</fullName>
+        <default>false</default>
+        <label>Discarded</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Send to contract department</fullName>
+        <default>false</default>
+        <label>Send to contract department</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Transferred to contract</fullName>
+        <default>false</default>
+        <label>Transferred to contract</label>
+        <allowEmail>true</allowEmail>
+    </standardValue>
+</StandardValueSet>

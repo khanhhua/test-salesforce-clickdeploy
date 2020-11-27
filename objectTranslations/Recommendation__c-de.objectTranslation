@@ -115,6 +115,13 @@
         <name>UniqueKey__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Recommendation Layout</layout>
+        <sections>
+            <label>Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Vorschlagsname</nameFieldLabel>
     <quickActions>
         <label>Annehmen</label>

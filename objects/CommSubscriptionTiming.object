@@ -141,4 +141,15 @@
         <searchResultsAdditionalFields>PreferredTimeZone</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>Unit</fullName>
+        <inlineHelpText>The unit of time that works with Offset to determine the communication timing.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CommSubscriptionConsentId</fullName>
+        <inlineHelpText>The communication subscription consent record associated with the communication subscription timing.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
 </CustomObject>

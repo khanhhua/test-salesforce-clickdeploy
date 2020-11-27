@@ -38,6 +38,46 @@
         <searchResultsAdditionalFields>VERSION.OWNER</searchResultsAdditionalFields>
     </searchLayouts>
     <fields>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TagCsv</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FileType</fullName>
+    </fields>
+    <fields>
+        <fullName>ContentSize</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FileExtension</fullName>
+    </fields>
+    <fields>
+        <fullName>SharingOption</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsAssetEnabled</fullName>
+    </fields>
+    <fields>
+        <fullName>SharingPrivacy</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ExternalId__c</fullName>
         <caseSensitive>false</caseSensitive>
         <externalId>true</externalId>

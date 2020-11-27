@@ -103,5 +103,16 @@
         <name>Total_working_Employees__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Healthcare Institution Competitor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Partnerschaft Details</label>
+            <section>Partnership Details</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Klinik Wettbewerber</nameFieldLabel>
 </CustomObjectTranslation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Mail</fullName>
+        <default>false</default>
+        <label>E-Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send a Contract</fullName>
+        <default>false</default>
+        <label>Send a Contract</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loop A</fullName>
+        <default>false</default>
+        <label>Loop A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loop B</fullName>
+        <default>false</default>
+        <label>Loop B</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Loop C</fullName>
+        <default>false</default>
+        <label>Loop C</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Erstgespräch geführt</fullName>
+        <default>false</default>
+        <label>Erstgespräch geführt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Anrufversuch</fullName>
+        <default>false</default>
+        <label>Anrufversuch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Unterlagen eingetroffen?</fullName>
+        <default>false</default>
+        <label>Unterlagen eingetroffen?</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vorstellungsgespräch</fullName>
+        <default>false</default>
+        <label>Vorstellungsgespräch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitation</fullName>
+        <default>false</default>
+        <label>Hospitation</label>
+    </standardValue>
+</StandardValueSet>

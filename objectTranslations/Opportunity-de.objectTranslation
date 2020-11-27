@@ -1449,6 +1449,221 @@
         <label><!-- weitere Erfahrungen --></label>
         <name>weitere_Erfahrungen__c</name>
     </fields>
+    <layouts>
+        <layout>KAM Acquisition</layout>
+        <sections>
+            <label>Account-bezogene Informationen</label>
+            <section>Account-related Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Entscheidungskriterien des Kunden</label>
+            <section>Decision Criteria of the Customer</section>
+        </sections>
+        <sections>
+            <label><!-- Goal Measures --></label>
+            <section>Goal Measures</section>
+        </sections>
+        <sections>
+            <label><!-- Kurzinformation --></label>
+            <section>Kurzinformation</section>
+        </sections>
+        <sections>
+            <label>Umsatzkennzahlen</label>
+            <section>Sales Measures</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Dienstarten und Einsatzzeiten --></label>
+            <section>Dienstarten und Einsatzzeiten</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Positionsinfos --></label>
+            <section>Positionsinfos</section>
+        </sections>
+        <sections>
+            <label><!-- Reisekosten --></label>
+            <section>Reisekosten</section>
+        </sections>
+        <sections>
+            <label><!-- Vergütung --></label>
+            <section>Vergütung</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Placement Arzt</layout>
+        <sections>
+            <label><!-- Geographische Präferenzen --></label>
+            <section>Geographische Präferenzen</section>
+        </sections>
+        <sections>
+            <label><!-- Geplante Prüfungen &amp; Qualifizierungen --></label>
+            <section>Geplante Prüfungen &amp; Qualifizierungen</section>
+        </sections>
+        <sections>
+            <label><!-- Interne Informationen --></label>
+            <section>Interne Informationen</section>
+        </sections>
+        <sections>
+            <label><!-- Persönliche Situation --></label>
+            <section>Persönliche Situation</section>
+        </sections>
+        <sections>
+            <label><!-- Profil Kandidat (Background) --></label>
+            <section>Profil Kandidat (Background)</section>
+        </sections>
+        <sections>
+            <label><!-- Profil Placement Wunsch --></label>
+            <section>Profil Placement Wunsch</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Placement Caregiver</layout>
+        <sections>
+            <label><!-- Geographische Präferenzen --></label>
+            <section>Geographische Präferenzen</section>
+        </sections>
+        <sections>
+            <label><!-- Geplante Prüfungen &amp; Qualifizierungen --></label>
+            <section>Geplante Prüfungen &amp; Qualifizierungen</section>
+        </sections>
+        <sections>
+            <label><!-- Interne Informationen --></label>
+            <section>Interne Informationen</section>
+        </sections>
+        <sections>
+            <label><!-- Persönliche Situation --></label>
+            <section>Persönliche Situation</section>
+        </sections>
+        <sections>
+            <label><!-- Profil Kandidat (Background) --></label>
+            <section>Profil Kandidat (Background)</section>
+        </sections>
+        <sections>
+            <label><!-- Profil Placement Wunsch --></label>
+            <section>Profil Placement Wunsch</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Recruitment Arzt</layout>
+        <sections>
+            <label><!-- Anforderung Kandidat --></label>
+            <section>Anforderung Kandidat</section>
+        </sections>
+        <sections>
+            <label><!-- Details zur Abteilung --></label>
+            <section>Details zur Abteilung</section>
+        </sections>
+        <sections>
+            <label><!-- Details zur Einrichtung --></label>
+            <section>Details zur Einrichtung</section>
+        </sections>
+        <sections>
+            <label><!-- Details zur Vakanz --></label>
+            <section>Details zur Vakanz</section>
+        </sections>
+        <sections>
+            <label><!-- Vergütung --></label>
+            <section>Vergütung</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Recruitment Caregiver</layout>
+        <sections>
+            <label><!-- Anforderung Kandidat --></label>
+            <section>Anforderung Kandidat</section>
+        </sections>
+        <sections>
+            <label><!-- Details zur Abteilung --></label>
+            <section>Details zur Abteilung</section>
+        </sections>
+        <sections>
+            <label><!-- Details zur Einrichtung --></label>
+            <section>Details zur Einrichtung</section>
+        </sections>
+        <sections>
+            <label><!-- Details zur Vakanz --></label>
+            <section>Details zur Vakanz</section>
+        </sections>
+        <sections>
+            <label><!-- Vergütung --></label>
+            <section>Vergütung</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Strategic Opportunity</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Entscheidungskriterien des Kunden</label>
+            <section>Decision Criteria of the Customer</section>
+        </sections>
+        <sections>
+            <label><!-- Kurzinformation --></label>
+            <section>Kurzinformation</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vertretung Arzt</layout>
+        <sections>
+            <label><!-- Kurzinformation --></label>
+            <section>Kurzinformation</section>
+        </sections>
+        <sections>
+            <label><!-- Positionsinformationen --></label>
+            <section>Positionsinformationen</section>
+        </sections>
+        <sections>
+            <label><!-- Rahmenbedingungen --></label>
+            <section>Rahmenbedingungen</section>
+        </sections>
+        <sections>
+            <label><!-- Zeiten, Dienste, Konditionen --></label>
+            <section>Zeiten, Dienste, Konditionen</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vertretung Pfleger</layout>
+        <sections>
+            <label><!-- Allgemeine Information --></label>
+            <section>Allgemeine Information</section>
+        </sections>
+        <sections>
+            <label>Positionsinformationen</label>
+            <section>Positionsinformationen</section>
+        </sections>
+        <sections>
+            <label>Rahmenbedingungen</label>
+            <section>Rahmenbedingungen</section>
+        </sections>
+        <sections>
+            <label>Zeiten, Dienste, Konditionen</label>
+            <section>Zeiten, Dienste, Konditionen</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Neues Arzt Produkt --></label>
         <name>Neues_Arzt_Produkt</name>

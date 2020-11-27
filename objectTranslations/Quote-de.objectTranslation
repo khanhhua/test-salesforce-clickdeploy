@@ -687,6 +687,82 @@
         <name>working_hours_per_month__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Employment Contract</layout>
+        <sections>
+            <label>Konditionen</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Vertragsdetails</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label>Art des Vertrages</label>
+            <section>Contract Type</section>
+        </sections>
+        <sections>
+            <label>Versandinformation</label>
+            <section>Shipping information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Operation Contract</layout>
+        <sections>
+            <label>Vertragsinformation</label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label>Kunde</label>
+            <section>Customer</section>
+        </sections>
+        <sections>
+            <label>Personal</label>
+            <section>Personal</section>
+        </sections>
+        <sections>
+            <label>Versandinformation</label>
+            <section>Shipping information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote with Employment Contract (read only)</layout>
+        <sections>
+            <label>Konditionen</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Vertragdetails</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label>Art des Arbeitsvertrags</label>
+            <section>Contract Type</section>
+        </sections>
+        <sections>
+            <label>Versandinformation</label>
+            <section>Shipping information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote with Operation Contract (read only)</layout>
+        <sections>
+            <label>Vertragsinformation</label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label>Kunde</label>
+            <section>Customer</section>
+        </sections>
+        <sections>
+            <label>Personal</label>
+            <section>Personal</section>
+        </sections>
+        <sections>
+            <label>Versandinformation</label>
+            <section>Shipping information</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Dienstarten --></label>
         <name>Dienstarten</name>

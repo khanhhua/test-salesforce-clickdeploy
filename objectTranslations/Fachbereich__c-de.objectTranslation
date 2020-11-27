@@ -59,4 +59,15 @@
         <name>UniformProvided__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Fachbereich Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Kommentar --></label>
+            <section>Kommentar</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

@@ -23,4 +23,11 @@ If &quot;Add/Update&quot; is selected, then any previous Campaign Status&apos;s 
         <label><!-- Active --></label>
         <name>AAKCS__Active__c</name>
     </fields>
+    <layouts>
+        <layout>Campaign Status Default Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

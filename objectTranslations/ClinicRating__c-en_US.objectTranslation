@@ -43,6 +43,13 @@
         <name>User__c</name>
         <relationshipLabel><!-- Candidate Lists --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Clinic Rating Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Candidate List Name --></nameFieldLabel>
     <startsWith>Consonant</startsWith>
     <validationRules>

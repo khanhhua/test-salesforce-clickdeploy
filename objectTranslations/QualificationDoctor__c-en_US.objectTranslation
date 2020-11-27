@@ -49,6 +49,13 @@
         <label>Technical Qualifications</label>
         <name>TechnicalQualifications__c</name>
     </fields>
+    <layouts>
+        <layout>Qualification Doctor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Qualification Doctor Name</nameFieldLabel>
     <startsWith>Consonant</startsWith>
     <validationRules>

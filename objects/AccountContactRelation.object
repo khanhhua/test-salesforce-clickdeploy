@@ -36,4 +36,20 @@
         <fields>AccountId</fields>
         <label>Account Contact Relation Compact Layout</label>
     </compactLayouts>
+    <fields>
+        <fullName>Roles</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>EndDate</fullName>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+    </fields>
+    <fields>
+        <fullName>IsDirect</fullName>
+    </fields>
+    <fields>
+        <fullName>StartDate</fullName>
+    </fields>
 </CustomObject>

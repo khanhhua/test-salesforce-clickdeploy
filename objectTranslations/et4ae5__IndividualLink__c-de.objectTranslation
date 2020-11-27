@@ -68,5 +68,12 @@
         <name>et4ae5__Unique_Link_ID__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Individual Link Level Detail Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Linkname</nameFieldLabel>
 </CustomObjectTranslation>

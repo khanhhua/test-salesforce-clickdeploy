@@ -209,6 +209,13 @@
         </picklistValues>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Quote Line Item Layout</layout>
+        <sections>
+            <label>Werte</label>
+            <section>Values</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage>Die Dienstart kann nicht mehr bearbeitet werden, da der dazugehörige Vertrag den Entwurfstatus überschritten hat.</errorMessage>
         <name>LockQuoteLineItems</name>

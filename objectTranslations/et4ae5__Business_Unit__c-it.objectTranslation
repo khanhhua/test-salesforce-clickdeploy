@@ -41,6 +41,13 @@
         <name>et4ae5__PreSaved__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Business Unit Layout</layout>
+        <sections>
+            <label>Collegamenti personalizzati</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome unità operativa</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

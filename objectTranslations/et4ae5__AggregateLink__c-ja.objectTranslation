@@ -41,5 +41,12 @@
         <label><!-- Unique Link ID --></label>
         <name>et4ae5__Unique_Link_ID__c</name>
     </fields>
+    <layouts>
+        <layout>Aggregate Link Level Detail Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>リンク名</nameFieldLabel>
 </CustomObjectTranslation>

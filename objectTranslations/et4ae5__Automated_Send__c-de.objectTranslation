@@ -285,6 +285,44 @@
         <name>et4ae5__hasDelayedSends__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Active Send Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>E-Mail-Daten</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Tracking-Informationen</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Aktionen des getriggerten Versands</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inactive Send Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>E-Mail-Daten</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Tracking-Informationen</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Aktionen des getriggerten Versands</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name des getriggerten Versands</nameFieldLabel>
     <recordTypes>
         <label><!-- Active --></label>

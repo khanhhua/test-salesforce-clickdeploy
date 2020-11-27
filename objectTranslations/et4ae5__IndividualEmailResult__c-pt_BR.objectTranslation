@@ -128,6 +128,17 @@
         <relationshipLabel><!-- Individual Email Results --></relationshipLabel>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Individual Email Result Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Imagem do email</label>
+            <section>Email Image</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do email</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- An Email Send or Triggered Send Definition (but not both) must be assigned to an Individual Email Result. --></errorMessage>

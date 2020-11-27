@@ -290,6 +290,13 @@
         <name>T_Count_for_Opportunity_rollup__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Qualification Caregiver Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Qualifikation Pfleger Name</nameFieldLabel>
     <validationRules>
         <errorMessage>Du kannst nicht mehr als drei Pfleger Qualifikation pro Opportunity anlegen. Wenn du eine weitere Qualifikation benötigst, dann lege dir bitte eine weitere Opportunity an.</errorMessage>

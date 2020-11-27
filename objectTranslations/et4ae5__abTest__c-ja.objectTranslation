@@ -60,5 +60,12 @@
         <label><!-- mid --></label>
         <name>et4ae5__mid__c</name>
     </fields>
+    <layouts>
+        <layout>AB Test Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>AB テスト名</nameFieldLabel>
 </CustomObjectTranslation>

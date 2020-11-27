@@ -137,5 +137,12 @@
         <name>et4ae5__url_root__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Configuration Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Número de configuración</nameFieldLabel>
 </CustomObjectTranslation>

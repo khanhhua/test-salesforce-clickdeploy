@@ -92,6 +92,39 @@
         <label><!-- [T] Sender Name --></label>
         <name>T_Sender_Name__c</name>
     </fields>
+    <layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label><!-- E-Mail Text --></label>
+            <section>E-Mail Text</section>
+        </sections>
+        <sections>
+            <label><!-- Job Information --></label>
+            <section>Job Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaign Layout Placement</layout>
+        <sections>
+            <label><!-- E-Mail Text --></label>
+            <section>E-Mail Text</section>
+        </sections>
+        <sections>
+            <label><!-- Job Information --></label>
+            <section>Job Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Campaign Read-Only Layout</layout>
+        <sections>
+            <label><!-- E-Mail Text --></label>
+            <section>E-Mail Text</section>
+        </sections>
+        <sections>
+            <label><!-- Job Information --></label>
+            <section>Job Information</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Child Campaign --></label>
         <name>Child_Campaign</name>

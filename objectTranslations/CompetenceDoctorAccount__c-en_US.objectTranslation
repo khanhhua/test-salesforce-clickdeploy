@@ -62,6 +62,13 @@
         <label><!-- [T] Doctor Job --></label>
         <name>T_Doctor_Job__c</name>
     </fields>
+    <layouts>
+        <layout>Kompetenz Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Competence Docotor Name --></nameFieldLabel>
     <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>

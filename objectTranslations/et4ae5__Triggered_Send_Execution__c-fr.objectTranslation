@@ -65,6 +65,13 @@
         <name>et4ae5__Triggering_Record_Id__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Triggered Send Execution Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l’exécution d’envoi déclenché</nameFieldLabel>
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

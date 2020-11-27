@@ -73,6 +73,13 @@
         <relationshipLabel><!-- Account Team Member --></relationshipLabel>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Account Team Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <description><!-- Die Verwaltung der Besitzer für Ärzte und Pfleger. --></description>
         <label><!-- Besitzer Ärzte/Plfeger --></label>

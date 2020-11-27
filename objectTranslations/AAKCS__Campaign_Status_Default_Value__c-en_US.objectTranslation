@@ -21,6 +21,13 @@ NOTE: The squence order will only be applied to added status&apos;s to the indiv
         <label><!-- Sequence --></label>
         <name>AAKCS__Sequence__c</name>
     </fields>
+    <layouts>
+        <layout>Campaign Status Default Value Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Status can be a maximum of 40 characters --></errorMessage>
         <name>AAKCS__Check_length_of_status</name>

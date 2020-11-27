@@ -66,6 +66,20 @@
         <name>sortablegrid__SDG__c</name>
         <relationshipLabel><!-- Sortable Data Grid Actions --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>SDG Action Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDG Layout v2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- Payload must end with a } --></errorMessage>
         <name>sortablegrid__Payload_must_end_with_brace</name>

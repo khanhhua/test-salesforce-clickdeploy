@@ -30,6 +30,13 @@
         <name>et4ae5__Support_Ticket_Recipient__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Support Request Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Requête de support</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

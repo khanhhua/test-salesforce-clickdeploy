@@ -2482,6 +2482,171 @@
         <label><!-- Score --></label>
         <name>mkto71_Lead_Score__c</name>
     </fields>
+    <layouts>
+        <layout>Arzt PersonenAccountLayout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Agency-relevant information --></label>
+            <section>Agency-relevant information</section>
+        </sections>
+        <sections>
+            <label><!-- Einsatzpräferenzen --></label>
+            <section>Einsatzpräferenzen</section>
+        </sections>
+        <sections>
+            <label><!-- Kurzinformation --></label>
+            <section>Kurzinformation</section>
+        </sections>
+        <sections>
+            <label><!-- Rechnungsanschrift --></label>
+            <section>Rechnungsanschrift</section>
+        </sections>
+        <sections>
+            <label><!-- Rechnungsinformationen --></label>
+            <section>Rechnungsinformationen</section>
+        </sections>
+        <sections>
+            <label><!-- Registration Information --></label>
+            <section>Registration Information</section>
+        </sections>
+        <sections>
+            <label><!-- persönliche Details --></label>
+            <section>persönliche Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Competitor</layout>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- Range of services --></label>
+            <section>Range of services</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Einrichtung Layout</layout>
+        <sections>
+            <label><!-- Addresses --></label>
+            <section>Addresses</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Migration Protokoll --></label>
+            <section>Migration Protokoll</section>
+        </sections>
+        <sections>
+            <label><!-- Register Details --></label>
+            <section>Register Details</section>
+        </sections>
+        <sections>
+            <label><!-- Registration --></label>
+            <section>Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Revenue --></label>
+            <section>Revenue</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pfleger PersonenAccountLayout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Agency-relevant information --></label>
+            <section>Agency-relevant information</section>
+        </sections>
+        <sections>
+            <label><!-- Einsatzpräferenzen --></label>
+            <section>Einsatzpräferenzen</section>
+        </sections>
+        <sections>
+            <label><!-- Kurzinformation --></label>
+            <section>Kurzinformation</section>
+        </sections>
+        <sections>
+            <label><!-- Persönliche Details --></label>
+            <section>Persönliche Details</section>
+        </sections>
+        <sections>
+            <label><!-- Rechnungsanschrift --></label>
+            <section>Rechnungsanschrift</section>
+        </sections>
+        <sections>
+            <label><!-- Rechnungsinformationen --></label>
+            <section>Rechnungsinformationen</section>
+        </sections>
+        <sections>
+            <label><!-- Registration Information --></label>
+            <section>Registration Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Praxis Layout</layout>
+        <sections>
+            <label><!-- Addresses --></label>
+            <section>Addresses</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Migration Protokoll --></label>
+            <section>Migration Protokoll</section>
+        </sections>
+        <sections>
+            <label><!-- Register Details --></label>
+            <section>Register Details</section>
+        </sections>
+        <sections>
+            <label><!-- Registration --></label>
+            <section>Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Revenue --></label>
+            <section>Revenue</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Adressen ändern --></label>
         <name>Addressen_ndern</name>

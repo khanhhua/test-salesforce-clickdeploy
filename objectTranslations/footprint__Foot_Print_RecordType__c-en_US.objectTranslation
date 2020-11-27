@@ -17,4 +17,11 @@
         <label><!-- Populated On --></label>
         <name>footprint__Foot_Print_RecordType_Records__c</name>
     </fields>
+    <layouts>
+        <layout>Footprint RecordType Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

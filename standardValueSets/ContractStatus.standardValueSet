@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>In Approval Process</fullName>
+        <default>false</default>
+        <label>In Approval Process</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Activated</fullName>
+        <default>false</default>
+        <label>Activated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Draft</fullName>
+        <default>false</default>
+        <label>Draft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OperationPending</fullName>
+        <default>false</default>
+        <label>Operation Pending</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OperationRunning</fullName>
+        <default>false</default>
+        <label>Operation Running</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CommissionInvoicePending</fullName>
+        <default>false</default>
+        <label>Commission Invoice Pending</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CancellationComplete</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Cancellation (Complete)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted to contract department</fullName>
+        <default>false</default>
+        <label>Submitted to contract department</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inactive</fullName>
+        <default>false</default>
+        <label>Inactive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract signed</fullName>
+        <default>false</default>
+        <label>Contract signed</label>
+    </standardValue>
+</StandardValueSet>

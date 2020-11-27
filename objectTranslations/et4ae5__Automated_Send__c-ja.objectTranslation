@@ -248,6 +248,44 @@
         <label><!-- hasDelayedSends --></label>
         <name>et4ae5__hasDelayedSends__c</name>
     </fields>
+    <layouts>
+        <layout>Active Send Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>メール情報</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>トラッキング情報</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>トリガによる送信アクション</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inactive Send Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>メール情報</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>トラッキング情報</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>トリガによる送信アクション</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>トリガによる送信の名前</nameFieldLabel>
     <recordTypes>
         <label><!-- Active --></label>

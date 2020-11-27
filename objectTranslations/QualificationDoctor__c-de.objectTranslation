@@ -82,6 +82,13 @@
         <name>TechnicalQualifications__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Qualification Doctor Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Qualifikation Arzt</nameFieldLabel>
     <validationRules>
         <errorMessage>Du kannst nicht mehr als vier Arzt Qualifikation pro Opportunity anlegen.</errorMessage>

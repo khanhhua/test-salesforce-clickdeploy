@@ -461,6 +461,165 @@
         <label><!-- Business Unit --></label>
         <name>et4ae5__fBusiness_Unit__c</name>
     </fields>
+    <layouts>
+        <layout>Queued Send Definition Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Info --></label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label><!-- Email Send Actions --></label>
+            <section>Email Send Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Messages --></label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label><!-- Send Definition Info --></label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Send Definition Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Info --></label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label><!-- Email Send Actions --></label>
+            <section>Email Send Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Messages --></label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label><!-- Send Definition Info --></label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trackable Send Definition Layout</layout>
+        <sections>
+            <label><!-- Aggregate Tracking Info --></label>
+            <section>Aggregate Tracking Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Info --></label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label><!-- Messages --></label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label><!-- Send Definition Info --></label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label><!-- Subject --></label>
+            <section>Subject</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trackable Send Definition Layout 2015-02</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Info --></label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label><!-- Email Send Actions --></label>
+            <section>Email Send Actions</section>
+        </sections>
+        <sections>
+            <label><!-- Messages --></label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label><!-- Send Definition Info --></label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label><!-- Subscriber Info --></label>
+            <section>Subscriber Info</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Info --></label>
+            <section>Tracking Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trackable Send Definition Layout new</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Info --></label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label><!-- Messages --></label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label><!-- Send Definition Info --></label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label><!-- Subscriber Info --></label>
+            <section>Subscriber Info</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Info --></label>
+            <section>Tracking Info</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Request Tracking Immediately --></label>
         <name>et4ae5__Request_Tracking_Immediately</name>

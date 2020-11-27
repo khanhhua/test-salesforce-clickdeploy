@@ -416,6 +416,84 @@
         <label><!-- [T]_notifiedEmployee --></label>
         <name>notifiedEmployee__c</name>
     </fields>
+    <layouts>
+        <layout>Caregiver Document Layout</layout>
+        <sections>
+            <label><!-- Beschreibung --></label>
+            <section>Beschreibung</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Pflege Information --></label>
+            <section>Pflege Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Doctor Document Layout</layout>
+        <sections>
+            <label><!-- Arzt Information --></label>
+            <section>Arzt Information</section>
+        </sections>
+        <sections>
+            <label><!-- Beschreibung --></label>
+            <section>Beschreibung</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Dokument Layout</layout>
+        <sections>
+            <label><!-- Beschreibung --></label>
+            <section>Beschreibung</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Healthcare Institution Document Layout</layout>
+        <sections>
+            <label><!-- Beschreibung --></label>
+            <section>Beschreibung</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Occupational Safety Document Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Validity --></label>
+            <section>Validity</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Residence Permit Layout</layout>
+        <sections>
+            <label><!-- Beschreibung --></label>
+            <section>Beschreibung</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Document State Name</nameFieldLabel>
     <recordTypes>
         <label><!-- Caregiver Document --></label>

@@ -119,6 +119,17 @@
         <name>et4ae5__TriggeredSendDefinition__c</name>
         <relationshipLabel><!-- Individual Email Results --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Individual Email Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Image --></label>
+            <section>Email Image</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- An Email Send or Triggered Send Definition (but not both) must be assigned to an Individual Email Result. --></errorMessage>
         <name>et4ae5__Prevent_Email_and_Triggered_Send_link</name>

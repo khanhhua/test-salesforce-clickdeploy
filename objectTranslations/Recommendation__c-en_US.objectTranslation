@@ -82,6 +82,13 @@
         <label><!-- Unique Key --></label>
         <name>UniqueKey__c</name>
     </fields>
+    <layouts>
+        <layout>Recommendation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Recommendation Name --></nameFieldLabel>
     <quickActions>
         <label><!-- Approve --></label>

@@ -76,6 +76,13 @@
         <relationshipLabel><!-- Candidate Lists --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Clinic Rating Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Kandidatenliste</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- Please enter either clinic or user. --></errorMessage>

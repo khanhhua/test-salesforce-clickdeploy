@@ -253,6 +253,44 @@
         <name>et4ae5__hasDelayedSends__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Active Send Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informations sur l&apos;e-mail</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Informations de suivi</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Actions d&apos;envoi déchenché</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inactive Send Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informations sur l&apos;e-mail</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Informations de suivi</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Actions d&apos;envoi déchenché</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de l&apos;envoi déclenché</nameFieldLabel>
     <recordTypes>
         <label><!-- Active --></label>

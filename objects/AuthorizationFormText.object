@@ -141,4 +141,29 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Locale</fullName>
+    </fields>
+    <fields>
+        <fullName>ContentDocumentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AuthorizationFormId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>SummaryAuthFormText</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FullAuthorizationFormUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
 </CustomObject>

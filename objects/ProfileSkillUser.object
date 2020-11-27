@@ -185,4 +185,21 @@
         <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>UserId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProfileSkillId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>EndorsementCount</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
 </CustomObject>

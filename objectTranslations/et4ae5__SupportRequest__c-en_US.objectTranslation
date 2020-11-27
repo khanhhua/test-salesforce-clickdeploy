@@ -21,4 +21,11 @@
         <label><!-- Support Ticket Recipient --></label>
         <name>et4ae5__Support_Ticket_Recipient__c</name>
     </fields>
+    <layouts>
+        <layout>Support Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

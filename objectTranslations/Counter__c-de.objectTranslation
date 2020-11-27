@@ -23,4 +23,11 @@
         <name>Max_Campaignmembers__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Counter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

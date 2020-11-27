@@ -108,6 +108,58 @@
         <searchResultsAdditionalFields>MessageDate</searchResultsAdditionalFields>
     </searchLayouts>
     <fields>
+        <fullName>Status</fullName>
+    </fields>
+    <fields>
+        <fullName>Headers</fullName>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+    </fields>
+    <fields>
+        <fullName>FromName</fullName>
+    </fields>
+    <fields>
+        <fullName>HtmlBody</fullName>
+    </fields>
+    <fields>
+        <fullName>Incoming</fullName>
+    </fields>
+    <fields>
+        <fullName>TextBody</fullName>
+    </fields>
+    <fields>
+        <fullName>CcAddress</fullName>
+    </fields>
+    <fields>
+        <fullName>ToAddress</fullName>
+    </fields>
+    <fields>
+        <fullName>FromAddress</fullName>
+    </fields>
+    <fields>
+        <fullName>MessageDate</fullName>
+    </fields>
+    <fields>
+        <fullName>RelatedToId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>HasAttachment</fullName>
+    </fields>
+    <fields>
+        <fullName>LastOpenedDate</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstOpenedDate</fullName>
+    </fields>
+    <fields>
+        <fullName>IsExternallyVisible</fullName>
+    </fields>
+    <fields>
+        <fullName>ValidatedFromAddress</fullName>
+    </fields>
+    <fields>
         <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
