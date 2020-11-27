@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Department</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Departments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Departments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Geburten pro Jahr</label>
+        <name>BirthsPerYear__c</name>
+    </fields>
+    <fields>
+        <label>Abteilung</label>
+        <name>Department__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl Betten</label>
+        <name>NumberOfBeds__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl Kreißsäle</label>
+        <name>NumberOfDeliveryRooms__c</name>
+    </fields>
+    <fields>
+        <label>Fachbereich</label>
+        <name>Specialty__c</name>
+        <relationshipLabel><!-- Departments --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

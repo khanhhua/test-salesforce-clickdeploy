@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Unterkunftsbuchung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Unterkunftsbuchungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Abreisetag --></label>
+        <name>Abreisetag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Unterkunftsbuchungen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Anreisetag --></label>
+        <name>Anreisetag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahl Personen --></label>
+        <name>Anzahl_Personen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahl Zimmer --></label>
+        <name>Anzahl_Zimmer__c</name>
+    </fields>
+    <fields>
+        <label><!-- ContractId --></label>
+        <name>ContractId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Earliest Contract Start Date --></label>
+        <name>EarliestContractStartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entfernung Klinik - Unterkunft max. --></label>
+        <name>Entfernung_Klinik_Unterkunft_max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Haustier --></label>
+        <name>Haustier__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kochgelegenheit gewünscht --></label>
+        <name>Kochgelegenheit_gew_nscht__c</name>
+        <picklistValues>
+            <masterLabel>ja</masterLabel>
+            <translation><!-- ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>keine Info</masterLabel>
+            <translation><!-- keine Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nein</masterLabel>
+            <translation><!-- nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kostenträger Klinik --></label>
+        <name>Kostentraeger_Klinik__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kostenträger Mitarbeiter --></label>
+        <name>Kostentraeger_Mitarbeiter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kostenträger doctari --></label>
+        <name>Kostentraeger_doctari__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parkplatz erwünscht? --></label>
+        <name>Parkplatz_erwuenscht__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>keine Info</masterLabel>
+            <translation><!-- keine Info --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rechnung wird bezahlt von --></label>
+        <name>Rechnung_wird_bezahlt_von__c</name>
+        <picklistValues>
+            <masterLabel>Mitarbeiter</masterLabel>
+            <translation><!-- Mitarbeiter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari</masterLabel>
+            <translation><!-- doctari --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reisekosten --></label>
+        <name>Reisekosten__c</name>
+        <relationshipLabel><!-- Unterkunftsbuchungen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sonderwünsche --></label>
+        <name>Sonderwuensche__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verpflegung erwünscht? --></label>
+        <name>Verpflegung_erwuenscht__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- benötigte Unterkunftstage --></label>
+        <name>benoetigte_Unterkunftstage__c</name>
+    </fields>
+    <fields>
+        <label><!-- max. Preis pro Nacht --></label>
+        <name>max_Preis_pro_Nacht__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

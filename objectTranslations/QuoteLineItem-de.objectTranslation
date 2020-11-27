@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Dienstart</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Dienstarten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Dienstart</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Dienstarten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Dienstart</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Dienstarten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Dienstart</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Dienstarten</value>
+    </caseValues>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Dienstartwährung</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_currency</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Dienstartbeschreibung</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_description</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Dienstartunternehmensbereich</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_division</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Dienstartzeilenfeld</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Dienstartzeilenfelder</value>
+        </caseValues>
+        <gender>Neuter</gender>
+        <name>quotelineitem_field</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Dienstart-ID</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_id</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Dienstart-Informationen</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_information</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Dienstartnummer</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>quotelineitem_name</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Bericht zu Opportunities mit Angeboten und Dienstart</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>quotelineitem_report</name>
+    </fields>
+    <fields>
+        <label><!-- Anmerkung --></label>
+        <name>Anmerkung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Basis --></label>
+        <name>Basis__c</name>
+    </fields>
+    <fields>
+        <help><!-- Regeldienstsatz, welcher vom Kunden bezahlt werden muss --></help>
+        <label><!-- Betrag Kunde --></label>
+        <name>Betrag_Kunde__c</name>
+    </fields>
+    <fields>
+        <help><!-- Regeldienstsatz, den das Personal erhält --></help>
+        <label><!-- Betrag Personal --></label>
+        <name>Betrag_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+        <relationshipLabel>Dienstarten</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Art der Dienstart --></help>
+        <label><!-- Dienstarten Kategorie --></label>
+        <name>Dienstarten_Kategorie__c</name>
+    </fields>
+    <fields>
+        <label>Arbeitnehmer</label>
+        <name>Employee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Festbetrag --></label>
+        <name>Festbetrag__c</name>
+    </fields>
+    <fields>
+        <help><!-- ist für die Fachpflege definiert --></help>
+        <label><!-- % Kunde --></label>
+        <name>Kunde__c</name>
+    </fields>
+    <fields>
+        <label>Besonderheit</label>
+        <name>Note__c</name>
+    </fields>
+    <fields>
+        <help><!-- Nur Arbeitszeitkonto --></help>
+        <label><!-- Nur AZK --></label>
+        <name>Nur_AZK__c</name>
+    </fields>
+    <fields>
+        <label>%</label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <help><!-- ist für die Fachpflege definiert --></help>
+        <label><!-- % Personal --></label>
+        <name>Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reisezeitvergütung Kunde --></label>
+        <name>Reisezeitverg_tung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rundungsregel --></label>
+        <name>Rundungsregel__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Festbetrag Kunde --></label>
+        <name>T_Festbetrag_Kunde__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Festbetrag Personal --></label>
+        <name>T_Festbetrag_Personal__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Product Name --></label>
+        <name>T_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label>Einheit</label>
+        <name>Unit__c</name>
+        <picklistValues>
+            <masterLabel>EUR (Pauschal)</masterLabel>
+            <translation><!-- EUR (Pauschal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR / h</masterLabel>
+            <translation><!-- EUR / h --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <validationRules>
+        <errorMessage>Die Dienstart kann nicht mehr bearbeitet werden, da der dazugehörige Vertrag den Entwurfstatus überschritten hat.</errorMessage>
+        <name>LockQuoteLineItems</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Qualification Doctor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Qualification Doctor</value>
+    </caseValues>
+    <fields>
+        <label>Additional Designations</label>
+        <name>AdditionalDesignations__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ⓜ️ Medical Discipline --></label>
+        <name>MedicalDiscipline__c</name>
+    </fields>
+    <fields>
+        <label>Opportunity</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Qualification Doctor --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Qualification Level</label>
+        <name>QualificationLevel__c</name>
+        <picklistValues>
+            <masterLabel>Assistenzarzt</masterLabel>
+            <translation><!-- Assistenzarzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facharzt</masterLabel>
+            <translation><!-- Facharzt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- [T] Combine Spec.&amp;Position --></label>
+        <name>T_Combine_Spec_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Count for Opportunity rollup --></label>
+        <name>T_Count_for_Opportunity_rollup__c</name>
+    </fields>
+    <fields>
+        <label>Technical Qualifications</label>
+        <name>TechnicalQualifications__c</name>
+    </fields>
+    <nameFieldLabel>Qualification Doctor Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You may not deposit more than four Doctor Qualification per opportunity. If you would like to add another doctor qualification, please create another opportunity. --></errorMessage>
+        <name>Only_one_QualifcationDocotor_per_Opp</name>
+    </validationRules>
+</CustomObjectTranslation>

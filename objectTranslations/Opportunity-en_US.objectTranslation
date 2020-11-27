@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ASP für Opp bei Einrichtung --></label>
+        <name>ASP_f_r_Opp_bei_Einrichtung__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Abteilung --></label>
+        <name>Abteilung__c</name>
+    </fields>
+    <fields>
+        <help><!-- z.Bsp. Diagnostik, Therapie... --></help>
+        <label><!-- Abteilung bietet --></label>
+        <name>Abteilung_bietet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Academic teaching hospital --></label>
+        <name>Academic_teaching_hospital__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner --></label>
+        <name>AccountOwner__c</name>
+        <relationshipLabel><!-- Opportunities (Account Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Activity exposed to radiation --></label>
+        <name>Activity_exposed_to_radiation__c</name>
+    </fields>
+    <fields>
+        <label>Additional Info Station</label>
+        <name>AdditionalInfoStation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Profile Information --></label>
+        <name>AdditionalProfileInformation__c</name>
+    </fields>
+    <fields>
+        <label>Additional Specialisations</label>
+        <name>AdditionalSpecialisations__c</name>
+    </fields>
+    <fields>
+        <label>Additional titel (planned)</label>
+        <name>Additional_Titel_Planned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional services --></label>
+        <name>Additional_services__c</name>
+    </fields>
+    <fields>
+        <label>Admission from</label>
+        <name>Admission_from__c</name>
+    </fields>
+    <fields>
+        <label>Age limit (upper limit)</label>
+        <name>Age_Limit_Upper_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alleinstellungsmerkmale --></label>
+        <name>Alleinstellungsmerkmale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount of Competitors --></label>
+        <name>Amount_of_Competitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahl Mitarbeiter im Haus --></label>
+        <name>Anzahl_Mitarbeiter_im_Haus__c</name>
+    </fields>
+    <fields>
+        <label>Max. Anzahl Rufdienste pro Monat</label>
+        <name>Anzahl_Rufdienste_Monat_max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approbation erforderlich --></label>
+        <name>Approbation_erforderlich__c</name>
+    </fields>
+    <fields>
+        <label><!-- As Soon As Possible --></label>
+        <name>AsSoonAsPossible__c</name>
+    </fields>
+    <fields>
+        <label>Available for permanent employment from</label>
+        <name>Available_For_Permanent_Employment_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Background of the vacancy --></label>
+        <name>Background_of_the_vacancy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benötigte Weiterbildungsermächtigung im --></label>
+        <name>Ben_tigte_Weiterbildungserm_chtigung_im__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bezug --></label>
+        <name>Bezug__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthdate --></label>
+        <name>Birthdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bonus --></label>
+        <name>Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bonus agreement (bonus/malus regulation) --></label>
+        <name>Bonus_agreement_bonus_malus_regulation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Confirmed --></label>
+        <name>BudgetConfirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- CÄ WBE of the Hospital --></label>
+        <name>C_WBE_of_the_Hospital__c</name>
+    </fields>
+    <fields>
+        <label><!-- Care type --></label>
+        <name>Care_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Challenges/Obstacles --></label>
+        <name>Challenge__c</name>
+    </fields>
+    <fields>
+        <label>Changing motivation</label>
+        <name>Changing_Motivation__c</name>
+    </fields>
+    <fields>
+        <label>Chief doctor currently</label>
+        <name>Chief_Doctor_Currently__c</name>
+        <relationshipLabel><!-- Opportunities (Chefarzt aktuell) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>City</label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label>Comment</label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment on sales expectations --></label>
+        <name>Comment_on_sales_expectations__c</name>
+    </fields>
+    <fields>
+        <label>Compensation</label>
+        <name>Compensation__c</name>
+        <picklistValues>
+            <masterLabel>Außertariflich</masterLabel>
+            <translation><!-- Außertariflich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tarif</masterLabel>
+            <translation><!-- Tarif --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Concern --></label>
+        <name>Concern__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stundensätze angeben --></help>
+        <label>Condition Candidate (Assi)</label>
+        <name>ConditionCandidateAssi__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stundensätze angeben --></help>
+        <label>Condition Candidate (FA)</label>
+        <name>ConditionCandidateFA__c</name>
+    </fields>
+    <fields>
+        <label>Condition Candidate</label>
+        <name>ConditionCandidate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stundensätze angeben --></help>
+        <label>Condition Clinic (Assi)</label>
+        <name>ConditionClinicAssi__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stundensätze angeben --></help>
+        <label>Condition Clinic (FA)</label>
+        <name>ConditionClinicFA__c</name>
+    </fields>
+    <fields>
+        <label>Condition Clinic</label>
+        <name>ConditionClinic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Caregivers --></label>
+        <name>Condition_Caregivers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Caregivers valid until --></label>
+        <name>Condition_Caregivers_valid_until__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Doctors --></label>
+        <name>Condition_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition Doctors valid until --></label>
+        <name>Condition_Doctors_valid_until__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition PP --></label>
+        <name>Condition_PP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Condition PP valid until --></label>
+        <name>Condition_PP_valid_until__c</name>
+    </fields>
+    <fields>
+        <label>Contact Person Employees</label>
+        <name>ContactPersonEmployees__c</name>
+        <relationshipLabel><!-- Opportunities (Contact Person Employees) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Contact Person Speciality</label>
+        <name>ContactPersonSpeciality__c</name>
+        <relationshipLabel><!-- Opportunities (Contact Person Speciality) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Commercial --></label>
+        <name>Contact_Person_Commercial__c</name>
+        <relationshipLabel><!-- Opportunities (Contact Person Commercial) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Department Head --></label>
+        <name>Contact_Person_Department_Head__c</name>
+        <relationshipLabel><!-- Opportunities (Contact Person Department Head) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Person GF --></label>
+        <name>Contact_Person_GF__c</name>
+        <relationshipLabel><!-- Opportunities (Contact Person GF) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Person Purchasing --></label>
+        <name>Contact_Person_Purchasing__c</name>
+        <relationshipLabel><!-- Opportunities (Contact Person Purchasing) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contractual agreements --></label>
+        <name>Contractual_agreements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency Text --></label>
+        <name>CurrencyText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lfd. Gespräche mit Agenturen? --></label>
+        <name>CurrentTalkWithOtherAgencies__c</name>
+    </fields>
+    <fields>
+        <help><!-- Welche aktuellen Schwerpunkte, Tätigkeiten, Funktionen übernimmt der Kandidat aktuell? --></help>
+        <label>Current Position</label>
+        <name>Current_Main_Focus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Position --></label>
+        <name>Current_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Supply Situation --></label>
+        <name>Current_Supply_Situation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lfd. Gespräche mit pot. AG? --></label>
+        <name>CurrentlyTalkWithPotAG__c</name>
+    </fields>
+    <fields>
+        <label>Date From</label>
+        <name>DateFrom__c</name>
+    </fields>
+    <fields>
+        <label>Date To</label>
+        <name>DateTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date medical certificate --></label>
+        <name>Date_medical_certificate__c</name>
+    </fields>
+    <fields>
+        <label>Date of Certificate</label>
+        <name>Date_of_Certificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of examination year --></label>
+        <name>Date_of_examination_year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Desired workplace --></label>
+        <name>Desired_workplace__c</name>
+        <picklistValues>
+            <masterLabel>Care Facility</masterLabel>
+            <translation><!-- Care Facility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice</masterLabel>
+            <translation><!-- Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehabilitation Clinic</masterLabel>
+            <translation><!-- Rehabilitation Clinic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Detail Lost Reason</label>
+        <name>DetailLostReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dienstart --></label>
+        <name>Dienstart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dienstzeiten --></label>
+        <name>Dienstzeiten__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery Completed --></label>
+        <name>DiscoveryCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Einheit --></label>
+        <name>Einheit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Einrichtungsart --></label>
+        <name>Einrichtungsart__c</name>
+    </fields>
+    <fields>
+        <help><!-- Anrede und Grußform werden automatisch erstellt --></help>
+        <label><!-- Email Body --></label>
+        <name>Email_Body__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beispiele: Kinderbetreuung, Zusatzversicherung, Firmenwagen, Firmen-Rente, Unterkunft, Hilfe bei der Wohnungssuche etc. --></help>
+        <label>Employee benefits</label>
+        <name>Employee_Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Erforderliche Unterlagen --></label>
+        <name>Erforderliche_Unterlagen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Sales --></label>
+        <name>Expected_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected leadership experience Ⓜ️ --></label>
+        <name>Expected_leadership_experience__c</name>
+        <picklistValues>
+            <masterLabel>1 - 2 Years</masterLabel>
+            <translation><!-- 1 - 2 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - 5 Years</masterLabel>
+            <translation><!-- 2 - 5 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 &gt; Years</masterLabel>
+            <translation><!-- 5 &gt; Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected professional experience --></label>
+        <name>Expected_professional_experience__c</name>
+        <picklistValues>
+            <masterLabel>1 - 2 Years</masterLabel>
+            <translation><!-- 1 - 2 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - 5 Years</masterLabel>
+            <translation><!-- 2 - 5 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 &gt; Years</masterLabel>
+            <translation><!-- 5 &gt; Years --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fachsprachenprüfung vorhanden --></label>
+        <name>Fachsprachenpr_fung_vorhanden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Factor --></label>
+        <name>Factor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fort- und Weiterbildungn --></label>
+        <name>Fort_und_Weiterbildungn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full-Time Position Ⓜ️ --></label>
+        <name>Full_Time_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Further Education (planned) --></label>
+        <name>Further_Education_planned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Further education and training --></label>
+        <name>Further_education_and_training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geburtsjahr --></label>
+        <name>Geburtsjahr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal Attainment Actions --></label>
+        <name>Goal_Attainment_Actions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal Comment --></label>
+        <name>Goal_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal --></label>
+        <name>Goal__c</name>
+        <picklistValues>
+            <masterLabel>Cross Selling</masterLabel>
+            <translation><!-- Cross Selling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase in Sales</masterLabel>
+            <translation><!-- Increase in Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increased Competitiveness</masterLabel>
+            <translation><!-- Increased Competitiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Vendor/MSP</masterLabel>
+            <translation><!-- Master Vendor/MSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Management</masterLabel>
+            <translation><!-- Onsite Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Supplier</masterLabel>
+            <translation><!-- Preferred Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Optimization</masterLabel>
+            <translation><!-- Process Optimization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Expansion</masterLabel>
+            <translation><!-- Site Expansion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Hobbies</label>
+        <name>Hobbies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honorar Kandidat --></label>
+        <name>HonorarKandidat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Individual customer --></label>
+        <name>Individual_customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Institution Type Ⓜ️ --></label>
+        <name>InstitutionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Description --></label>
+        <name>InternalDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kündigung zum --></label>
+        <name>K_ndigung_zum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kündigungsfrist (Tage) --></label>
+        <name>K_ndigungsfrist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kandidat --></label>
+        <name>Kandidat__c</name>
+        <relationshipLabel><!-- Opportunities (Kandidat) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Die in Textkernel hinterlegten Lebensläufe können nach Schlagworten durchsucht werden.Trenne die Schlagworte mit einem Semikolon --></help>
+        <label><!-- Keyword search CV --></label>
+        <name>Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Large City --></label>
+        <name>Large_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Stage Update --></label>
+        <name>LastStageUpdate__c</name>
+    </fields>
+    <fields>
+        <label>Datum der letzten versendeten Kampagne</label>
+        <name>Last_Sent_Camapign_Date__c</name>
+    </fields>
+    <fields>
+        <label>Lost Reason Comment</label>
+        <name>LostReasonComment__c</name>
+    </fields>
+    <fields>
+        <label>Lost Reason</label>
+        <name>LostReason__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hat der Kandidat Erfahrung in MA-Führung? In welcher Teamstärke? --></help>
+        <label>Führungserfahrung</label>
+        <name>Management_Experience__c</name>
+    </fields>
+    <fields>
+        <label><!-- Margin --></label>
+        <name>Margin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Anzahl Dienste pro Monat</label>
+        <name>Max_Number_Of_Services_Per_Month__c</name>
+    </fields>
+    <fields>
+        <label>Medical Specialist Exam Specialisation</label>
+        <name>Medical_Specialist_Exam_Specialisation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Protocol --></label>
+        <name>MigrationProtocol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Negotiation topics (customer request) --></label>
+        <name>Negotiation_topics_customer_request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nächster Schritt --></label>
+        <name>NextStep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-tariff compensation --></label>
+        <name>Non_tariff_compensation__c</name>
+    </fields>
+    <fields>
+        <label>Number of Beds</label>
+        <name>NumberOfBeds__c</name>
+    </fields>
+    <fields>
+        <label>Number of Candidates</label>
+        <name>NumberOfCandidates__c</name>
+    </fields>
+    <fields>
+        <label>Number of beds in the department</label>
+        <name>Number_Of_Beds_In_The_Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of call services per month max. --></label>
+        <name>Number_Of_Call_Services_Per_Month_Max__c</name>
+    </fields>
+    <fields>
+        <label>Number of call services per month</label>
+        <name>Number_Of_Call_Services_Per_Month__c</name>
+    </fields>
+    <fields>
+        <label>Number of Children</label>
+        <name>Number_Of_Children__c</name>
+    </fields>
+    <fields>
+        <label>Numer of emergency services / month max</label>
+        <name>Number_Of_Emergency_Services_Month_Max__c</name>
+    </fields>
+    <fields>
+        <label>Number of emergency services per month</label>
+        <name>Number_Of_Emergency_Services_Per_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Employees --></label>
+        <name>Number_Of_Employees__c</name>
+    </fields>
+    <fields>
+        <label>Number of Beds</label>
+        <name>Number_of_Beds__c</name>
+    </fields>
+    <fields>
+        <label>Occupation required</label>
+        <name>Occupation_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer ID --></label>
+        <name>Offer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer checked --></label>
+        <name>Offer_checked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer released --></label>
+        <name>Offer_released__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offer submitted --></label>
+        <name>Offer_submitted__c</name>
+    </fields>
+    <fields>
+        <label>Opportunity Editor</label>
+        <name>OpportunityEditor__c</name>
+        <relationshipLabel><!-- Opportunities (Opportunity Editor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Other Information</label>
+        <name>OtherInformation__c</name>
+    </fields>
+    <fields>
+        <label>Other recruiter involved</label>
+        <name>Other_Recruiter_Involved__c</name>
+    </fields>
+    <fields>
+        <label><!-- PLZ Gebiet --></label>
+        <name>PLZ_Gebiet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Account --></label>
+        <name>Parent_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part-Time Position (%) --></label>
+        <name>PartTimePositionPercent__c</name>
+        <picklistValues>
+            <masterLabel>25 %</masterLabel>
+            <translation><!-- 25 % --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50 %</masterLabel>
+            <translation><!-- 50 % --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75 %</masterLabel>
+            <translation><!-- 75 % --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Part-Time Position Ⓜ️ --></label>
+        <name>Part_Time_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period of Payment --></label>
+        <name>Period_of_Payment__c</name>
+    </fields>
+    <fields>
+        <label>Perspectives for further development</label>
+        <name>Perspectives_For_Further_Development__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pflege-Qualifizierung --></label>
+        <name>PflegeQualifizierung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pflege-Weiterbildungen --></label>
+        <name>Pflege_Weiterbildungen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pflege-praktische Erfahrungen --></label>
+        <name>Pflege_praktische_Erfahrungen__c</name>
+    </fields>
+    <fields>
+        <label>Placement Model</label>
+        <name>PlacementModel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Die Einrichtung in der der Arzt arbeiten soll. --></help>
+        <label>Place of Action Account</label>
+        <name>PlaceofActionAccount__c</name>
+        <relationshipLabel><!-- Opportunities als Einsatz --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Planned in the quarter</label>
+        <name>Planned_In_The_Quarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planned negotiation date --></label>
+        <name>Planned_negotiation_date__c</name>
+    </fields>
+    <fields>
+        <label>Position distribution key</label>
+        <name>Position_Distribution_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position Ⓜ️ --></label>
+        <name>Position__c</name>
+        <picklistValues>
+            <masterLabel>Abteilungsleitung</masterLabel>
+            <translation><!-- Abteilungsleitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assistenzarzt</masterLabel>
+            <translation><!-- Assistenzarzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chefarzt</masterLabel>
+            <translation><!-- Chefarzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facharzt</masterLabel>
+            <translation><!-- Facharzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leitender CA</masterLabel>
+            <translation><!-- Leitender CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leitender OA</masterLabel>
+            <translation><!-- Leitender OA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leitung</masterLabel>
+            <translation><!-- Leitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitarbeiter</masterLabel>
+            <translation><!-- Mitarbeiter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oberarzt</masterLabel>
+            <translation><!-- Oberarzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stellvertretende Leitung</masterLabel>
+            <translation><!-- Stellvertretende Leitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sonstige</masterLabel>
+            <translation><!-- sonstige --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Postal Code Account</label>
+        <name>PostalCodeAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalCodeAreaHealthCareInstitution --></label>
+        <name>PostalCodeArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- PostalCode Area --></label>
+        <name>PostalCode_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code Area Shipping Adress --></label>
+        <name>Postal_Code_Area_Shipping_Adress__c</name>
+    </fields>
+    <fields>
+        <label>Preferred communication medium</label>
+        <name>Preferred_Communication_Medium__c</name>
+        <picklistValues>
+            <masterLabel>Dienstliches Telefon</masterLabel>
+            <translation><!-- Dienstliches Telefon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festnetz Telefon</masterLabel>
+            <translation><!-- Festnetz Telefon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobiltelefon</masterLabel>
+            <translation><!-- Mobiltelefon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMS</masterLabel>
+            <translation><!-- SMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WhatsApp</masterLabel>
+            <translation><!-- WhatsApp --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preis Klinik --></label>
+        <name>PreisKlinik__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process Optimization --></label>
+        <name>Process_Optimization__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Profiledescription</label>
+        <name>Profiledescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualification Caregiver --></label>
+        <name>Qualification_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality --></label>
+        <name>Quality__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ROI Analysis Completed --></label>
+        <name>ROIAnalysisCompleted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Umkreis km (vom Ort) --></label>
+        <name>RadiusKm__c</name>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deutschlandweit</masterLabel>
+            <translation><!-- Deutschlandweit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schweizweit</masterLabel>
+            <translation><!-- Schweizweit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Range of tasks vacancy</label>
+        <name>Range_Of_Tasks_Vacancy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reisekosten --></label>
+        <name>Reisekosten__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Related Account is New --></label>
+        <name>Related_Account_is_New__c</name>
+    </fields>
+    <fields>
+        <label><!-- RequestedStateCanton --></label>
+        <name>RequestedStateCanton__c</name>
+    </fields>
+    <fields>
+        <label>required to attend school</label>
+        <name>Required_To_Attend_School__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required further training authorization --></label>
+        <name>Required_further_training_authorization__c</name>
+    </fields>
+    <fields>
+        <label>Responsibility</label>
+        <name>Responsibility__c</name>
+        <picklistValues>
+            <masterLabel>Einrichtung</masterLabel>
+            <translation><!-- Einrichtung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kandidat (vollumfänglich)</masterLabel>
+            <translation><!-- Kandidat (vollumfänglich) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari (subsidiär)</masterLabel>
+            <translation><!-- doctari (subsidiär) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Running User in Report --></label>
+        <name>Running_User_in_Report__c</name>
+    </fields>
+    <fields>
+        <label>salary expectations ideal</label>
+        <name>Salary_Expectations_Ideal__c</name>
+    </fields>
+    <fields>
+        <label>salary expectations irrelevant</label>
+        <name>Salary_Expectations_Irrelevant__c</name>
+    </fields>
+    <fields>
+        <label>Salary expectations at least</label>
+        <name>Salary_expectations_At_Least__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Previous Year PK --></label>
+        <name>Sales_Previous_Year_PK__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Previous Year PP ÄÄ --></label>
+        <name>Sales_Previous_Year_PP_AA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Previous Year PP PK --></label>
+        <name>Sales_Previous_Year_PP_PK__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Previous Year Total --></label>
+        <name>Sales_Previous_Year_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Previous Year ÄÄ --></label>
+        <name>Sales_Previous_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kandiat erlaubt Profilversand ohne gesonderte Rücksprache --></help>
+        <label><!-- Profilversand ohne Rücksprache ok? --></label>
+        <name>SendProfileWithoutTalk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source description --></label>
+        <name>Source_description__c</name>
+    </fields>
+    <fields>
+        <label>special allowances</label>
+        <name>Special_Allowances__c</name>
+    </fields>
+    <fields>
+        <label>special features department</label>
+        <name>Special_Features_Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special requirements for candidates --></label>
+        <name>Special_requirements_for_candidates__c</name>
+    </fields>
+    <fields>
+        <label>Specialist knowledge (planned)</label>
+        <name>Specialist_Knowledge_Planned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specialist Profile --></label>
+        <name>Specialist_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprachniveau --></label>
+        <name>Sprachniveau__c</name>
+    </fields>
+    <fields>
+        <label>State</label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Station --></label>
+        <name>StationMulti__c</name>
+    </fields>
+    <fields>
+        <label>Station</label>
+        <name>Station__c</name>
+        <picklistValues>
+            <masterLabel>ANG</masterLabel>
+            <translation><!-- ANG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANÄ</masterLabel>
+            <translation><!-- ANÄ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amb PD</masterLabel>
+            <translation><!-- Amb PD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHI</masterLabel>
+            <translation><!-- CHI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIA</masterLabel>
+            <translation><!-- DIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GER</masterLabel>
+            <translation><!-- GER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GP</masterLabel>
+            <translation><!-- GP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSO</masterLabel>
+            <translation><!-- GSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GYN</masterLabel>
+            <translation><!-- GYN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GebH</masterLabel>
+            <translation><!-- GebH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HNO</masterLabel>
+            <translation><!-- HNO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HYG</masterLabel>
+            <translation><!-- HYG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INN</masterLabel>
+            <translation><!-- INN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITS</masterLabel>
+            <translation><!-- ITS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAR</masterLabel>
+            <translation><!-- KAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KRS</masterLabel>
+            <translation><!-- KRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ki-ITS</masterLabel>
+            <translation><!-- Ki-ITS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTRA</masterLabel>
+            <translation><!-- MTRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEO</masterLabel>
+            <translation><!-- NEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEU</masterLabel>
+            <translation><!-- NEU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS</masterLabel>
+            <translation><!-- NS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP</masterLabel>
+            <translation><!-- OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ORT</masterLabel>
+            <translation><!-- ORT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onkologie</masterLabel>
+            <translation><!-- Onkologie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNE</masterLabel>
+            <translation><!-- PNE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSY</masterLabel>
+            <translation><!-- PSY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PfHeim</masterLabel>
+            <translation><!-- PfHeim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reha</masterLabel>
+            <translation><!-- Reha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STR U</masterLabel>
+            <translation><!-- STR U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URO</masterLabel>
+            <translation><!-- URO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WEA</masterLabel>
+            <translation><!-- WEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZNA</masterLabel>
+            <translation><!-- ZNA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stellenumfang --></label>
+        <name>Stellenumfang__c</name>
+        <picklistValues>
+            <masterLabel>Egal</masterLabel>
+            <translation><!-- Egal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teilzeit</masterLabel>
+            <translation><!-- Teilzeit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vollzeit</masterLabel>
+            <translation><!-- Vollzeit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subject Line --></label>
+        <name>Subject_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success and Profit Probability --></label>
+        <name>Success_and_Profit_Probability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Reduction --></label>
+        <name>Supplier_Reduction__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier Strategy Customer Commment --></label>
+        <name>Supplier_Strategy_Customer_Commment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier Strategy Customer --></label>
+        <name>Supplier_Strategy_Customer__c</name>
+        <picklistValues>
+            <masterLabel>E-Sourcing via Platform</masterLabel>
+            <translation><!-- E-Sourcing via Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Vendor/MSP</masterLabel>
+            <translation><!-- Master Vendor/MSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onsite Management</masterLabel>
+            <translation><!-- Onsite Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Supplier</masterLabel>
+            <translation><!-- Preferred Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Supplier Strategy</masterLabel>
+            <translation><!-- Single Supplier Strategy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- [T] Recipient Candidate Suggestion --></label>
+        <lookupFilter>
+            <errorMessage><!-- Bitte wähle einen Personen Account aus! --></errorMessage>
+        </lookupFilter>
+        <name>TRecipientCandidateSuggestion__c</name>
+        <relationshipLabel><!-- Opportunities ([T] Recipient Candidate Suggestion) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T] Suggested Candidate --></label>
+        <name>TSuggestedCandidate__c</name>
+        <relationshipLabel><!-- Opportunities ([T] Candidate Suggestion) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T]Amount Of Campaigns --></label>
+        <name>T_AmountOfCampaigns__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Campaign Id --></label>
+        <name>T_Campaign_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Caregiver Further Educations --></label>
+        <name>T_CaregiverFurtherEducations__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Caregiver Job Full --></label>
+        <name>T_CaregiverJobFull__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] CaregiverPracticalExperiences --></label>
+        <name>T_CaregiverPracticalExperiences__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Caregiver Job --></label>
+        <name>T_Caregiver_Job__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]_CheckCloned --></label>
+        <name>T_CheckCloned__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Deadline --></label>
+        <name>T_Deadline__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Doctor Job --></label>
+        <name>T_Doctor_Job__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] IsCloned --></label>
+        <name>T_IsCloned__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number Assistant Doctor Qualificatio --></label>
+        <name>T_NumberAssistantDoctorQualificatio__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number Medical Specialist Qualificat --></label>
+        <name>T_NumberMedicalSpecialistQualificat__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number of Qualification Caregiver --></label>
+        <name>T_Number_of_Qualification_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number of Qualification Doctor --></label>
+        <name>T_Number_of_Qualification_Doctor__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] One --></label>
+        <name>T_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Opp RecordType &amp; PlacementModell --></label>
+        <name>T_OppRecordType_PlacementModell__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Opportunity ID --></label>
+        <name>T_Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tariff --></label>
+        <name>T__c</name>
+    </fields>
+    <fields>
+        <label>Takeover of services</label>
+        <name>Takeover_Of_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tarifbezeichnung --></label>
+        <name>Tarifbezeichnung__c</name>
+    </fields>
+    <fields>
+        <label>Tariff Compensation</label>
+        <name>TariffCompensation__c</name>
+    </fields>
+    <fields>
+        <label>Technical Qualifications</label>
+        <name>TechnicalQualifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template 1. Contract offer for --></label>
+        <name>Template_1_Contract_offer_for__c</name>
+    </fields>
+    <fields>
+        <label>Travelcost &amp; Housing</label>
+        <name>TravelcostsHousing__c</name>
+    </fields>
+    <fields>
+        <label>Type/Period of Service</label>
+        <name>TypePeriodOfService__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Care --></label>
+        <name>Type_of_Care__c</name>
+        <picklistValues>
+            <masterLabel>Akutklinik</masterLabel>
+            <translation><!-- Akutklinik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulanter Pflegedienst</masterLabel>
+            <translation><!-- Ambulanter Pflegedienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulanz</masterLabel>
+            <translation><!-- Ambulanz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einzelpraxis</masterLabel>
+            <translation><!-- Einzelpraxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gemeinschaftspraxis</masterLabel>
+            <translation><!-- Gemeinschaftspraxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haus der Grund- und Regelversorgung</masterLabel>
+            <translation><!-- Haus der Grund- und Regelversorgung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haus der Maximalversorgung</masterLabel>
+            <translation><!-- Haus der Maximalversorgung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medizinisches Versorgungszentrum</masterLabel>
+            <translation><!-- Medizinisches Versorgungszentrum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pflegeheim</masterLabel>
+            <translation><!-- Pflegeheim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehaklinik</masterLabel>
+            <translation><!-- Rehaklinik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehaklinik mit Akutbereich</masterLabel>
+            <translation><!-- Rehaklinik mit Akutbereich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schwerpunktkrankenhaus</masterLabel>
+            <translation><!-- Schwerpunktkrankenhaus --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Vacancy Publicly advertised</label>
+        <name>Vacancy_Publicly_Advertised__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid until (Additional services) --></label>
+        <name>Valid_until_Additional_services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid until (Bonus agreement) --></label>
+        <name>Valid_until_Bonus_agreement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid until (Contractual agreements) --></label>
+        <name>Valid_until_Contractual_agreements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Was ist wichtig am neuen Arbeitsplatz? --></label>
+        <name>Was_ist_wichtig_am_neuen_Arbeitsplatz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weiterbildungsermächtigung --></label>
+        <name>Weiterbildungserm_chtigung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weiterbildungsermächtigungen der CÄ --></label>
+        <name>Weiterbildungserm_chtigungen_der_C__c</name>
+    </fields>
+    <fields>
+        <label>What is out of question?</label>
+        <name>What_Is_Out_Of_Question__c</name>
+    </fields>
+    <fields>
+        <label>Willingness duty taking over</label>
+        <name>Willingness_Duty_Taking_Over__c</name>
+    </fields>
+    <fields>
+        <label>Year of training AD</label>
+        <name>Year_Of_Training_AD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit Einheit --></label>
+        <name>ZeitEinheit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis --></label>
+        <name>Zeitbis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit von --></label>
+        <name>Zeitvon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zusatz --></label>
+        <name>Zusatz__c</name>
+        <picklistValues>
+            <masterLabel>Notfall</masterLabel>
+            <translation><!-- Notfall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schmerz</masterLabel>
+            <translation><!-- Schmerz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unfall</masterLabel>
+            <translation><!-- Unfall --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>optimal time window accessibility</label>
+        <name>optimal_Time_Window_Accessibility__c</name>
+    </fields>
+    <fields>
+        <label><!-- weitere Erfahrungen --></label>
+        <name>weitere_Erfahrungen__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Neues Arzt Produkt --></label>
+        <name>Neues_Arzt_Produkt</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Neues Pfleger Produkt --></label>
+        <name>Neues_Pfleger_Produkt</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Open Report --></label>
+        <name>Open_Report</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- KAM Akquise --></label>
+        <name>KAM_Akquise</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Placement Caregiver --></label>
+        <name>PlacementCaregiver</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Placement Doctor</label>
+        <name>PlacementDoctor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Recruitment Caregiver --></label>
+        <name>RecruitmentCaregiver</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Recruitment Doctor</label>
+        <name>RecruitmentDoctor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Strategic Opportunity --></label>
+        <name>Strategic_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Substitute Caregiver</label>
+        <name>SubstituteCaregiver</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Substitute Doctor</label>
+        <name>SubstituteDoctor</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For technical quote and contract processes. --></description>
+        <label><!-- Technical Opportunity --></label>
+        <name>Technical_Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Der Schlusstermin darf nicht nicht der Vergangenheit liegen! --></errorMessage>
+        <name>Close_Date_less_equal_Created_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte Grund für Verlust angeben --></errorMessage>
+        <name>ClosedLostWithReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Eine geschlossene Opportunity darf nicht bearbeitet werden. --></errorMessage>
+        <name>ClosedOppsReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only edit this field if you pick Non-Tariff in the compensation field. --></errorMessage>
+        <name>NonTariffCompensationOnlyForNonTariff</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Das Einsatzende darf nicht vor dem Einsatzbeginn sein. --></errorMessage>
+        <name>Operation_Time</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The condition for the clinic must be greater or equal than the condition for the candidate. --></errorMessage>
+        <name>OpportunityCondition</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Report --></label>
+        <name>Report</name>
+    </webLinks>
+</CustomObjectTranslation>

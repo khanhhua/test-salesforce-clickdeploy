@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Dienstart &amp; Einsatzzeit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Dienstarten &amp; Einsatzzeiten</value>
+    </caseValues>
+    <fields>
+        <label>Account</label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Type Of Services &amp; Period Of Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Ende</label>
+        <name>End__c</name>
+    </fields>
+    <fields>
+        <label>Von</label>
+        <name>From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Dienstarten &amp; Einsatzzeiten --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Dienstzeit</label>
+        <name>PeriodOfService__c</name>
+    </fields>
+    <fields>
+        <label>Fachbereich</label>
+        <name>Specialty__c</name>
+        <relationshipLabel><!-- Type Of Services &amp; Period Of Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Beginn</label>
+        <name>Start__c</name>
+    </fields>
+    <fields>
+        <label>Bis</label>
+        <name>To__c</name>
+    </fields>
+    <fields>
+        <label>Dienstart</label>
+        <name>TypeOfService__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <recordTypes>
+        <label><!-- Dienstart &amp; Einsatzzeit --></label>
+        <name>TypeOfServicePeriodOfService</name>
+    </recordTypes>
+</CustomObjectTranslation>

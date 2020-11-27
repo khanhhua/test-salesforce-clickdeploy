@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <gender>Feminine</gender>
+    <label>Reisekosten Art</label>
+    <nameField>
+        <displayFormat>RA-{0000}</displayFormat>
+        <label>Reisekosten Art Nummer</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Reisekosten Arten</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Sonstiges__c</fullName>
+        <externalId>false</externalId>
+        <label>Sonstiges</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reisekosten__c</fullName>
+        <externalId>false</externalId>
+        <label>Reisekosten</label>
+        <referenceTo>Reisekosten__c</referenceTo>
+        <relationshipLabel>Reisekosten Arten</relationshipLabel>
+        <relationshipName>Reisekosten_Arten</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>T_FMArtKMHelper__c</fullName>
+        <externalId>false</externalId>
+        <label>[T]_FMArtKMHelper</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</fullName>
+                    <default>false</default>
+                    <label>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</label>
+                </value>
+                <value>
+                    <fullName>Andere Erstattungsarten</fullName>
+                    <default>false</default>
+                    <label>Andere Erstattungsarten</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>for_Month_Quote__c</fullName>
+        <description>SFC-2293</description>
+        <externalId>false</externalId>
+        <label>for Month/Quote</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>pro Monat</fullName>
+                    <default>false</default>
+                    <label>pro Monat</label>
+                </value>
+                <value>
+                    <fullName>pro Einsatz</fullName>
+                    <default>false</default>
+                    <label>pro Einsatz</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>T_FMArtHelpPicklist__c</fullName>
+        <externalId>false</externalId>
+        <label>[T]_FMArtHelpPicklist</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bahntickets</fullName>
+                    <default>false</default>
+                    <label>Bahntickets</label>
+                </value>
+                <value>
+                    <fullName>ÖPNV - Tickets</fullName>
+                    <default>false</default>
+                    <label>ÖPNV - Tickets</label>
+                </value>
+                <value>
+                    <fullName>Taxifahrten</fullName>
+                    <default>false</default>
+                    <label>Taxifahrten</label>
+                </value>
+                <value>
+                    <fullName>Flug - Tickets</fullName>
+                    <default>false</default>
+                    <label>Flug - Tickets</label>
+                </value>
+                <value>
+                    <fullName>Mietfahrzeug</fullName>
+                    <default>false</default>
+                    <label>Mietfahrzeug</label>
+                </value>
+                <value>
+                    <fullName>Bahncard</fullName>
+                    <default>false</default>
+                    <label>Bahncard</label>
+                </value>
+                <value>
+                    <fullName>Fahrradverleih</fullName>
+                    <default>false</default>
+                    <label>Fahrradverleih</label>
+                </value>
+                <value>
+                    <fullName>Maut</fullName>
+                    <default>false</default>
+                    <label>Maut</label>
+                </value>
+                <value>
+                    <fullName>Sonstiges</fullName>
+                    <default>false</default>
+                    <label>Sonstiges</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Verpflegung_Erstattung__c</fullName>
+        <externalId>false</externalId>
+        <label>Verpflegung Erstattung</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Verpflegungsmehraufwendungen nach den Regelungen des Reisekostenrechts</fullName>
+                    <default>false</default>
+                    <label>Verpflegungsmehraufwendungen nach den Regelungen des Reisekostenrechts</label>
+                </value>
+                <value>
+                    <fullName>Einmalpauschale (steuerpflichtig)</fullName>
+                    <default>false</default>
+                    <label>Einmalpauschale (steuerpflichtig)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Unterkunft_Erstattung_Art_Klinik__c</fullName>
+        <externalId>false</externalId>
+        <label>Unterkunft Erstattung Art Klinik</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Einmalpauschale</fullName>
+                    <default>false</default>
+                    <label>Einmalpauschale</label>
+                </value>
+                <value>
+                    <fullName>per Unterkunftsrechnung</fullName>
+                    <default>false</default>
+                    <label>per Unterkunftsrechnung</label>
+                </value>
+                <value>
+                    <fullName>arbeitstäglich inkl. An- und Abreise</fullName>
+                    <default>false</default>
+                    <label>arbeitstäglich inkl. An- und Abreise</label>
+                </value>
+                <value>
+                    <fullName>kalendertäglich</fullName>
+                    <default>false</default>
+                    <label>kalendertäglich</label>
+                </value>
+                <value>
+                    <fullName>bei krankheitsbedingten Ausfall</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>bei krankheitsbedingten Ausfall</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fahrkosten_und_Mobilitaet_Erstattung__c</fullName>
+        <externalId>false</externalId>
+        <label>Fahrkosten und Mobilität Erstattung</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pauschale nach den Regelungen des Reisekostenrechts</fullName>
+                    <default>false</default>
+                    <label>Pauschale nach den Regelungen des Reisekostenrechts</label>
+                </value>
+                <value>
+                    <fullName>Einmalpauschale (steuerpflichtig)</fullName>
+                    <default>false</default>
+                    <label>Einmalpauschale (steuerpflichtig)</label>
+                </value>
+                <value>
+                    <fullName>laut Unterkunftsrechnung</fullName>
+                    <default>false</default>
+                    <label>laut Unterkunftsrechnung</label>
+                </value>
+                <value>
+                    <fullName>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</fullName>
+                    <default>false</default>
+                    <label>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</label>
+                </value>
+                <value>
+                    <fullName>Bahntickets</fullName>
+                    <default>false</default>
+                    <label>Bahntickets</label>
+                </value>
+                <value>
+                    <fullName>ÖPNV - Tickets</fullName>
+                    <default>false</default>
+                    <label>ÖPNV - Tickets</label>
+                </value>
+                <value>
+                    <fullName>Taxifahrten</fullName>
+                    <default>false</default>
+                    <label>Taxifahrten</label>
+                </value>
+                <value>
+                    <fullName>Flug - Tickets</fullName>
+                    <default>false</default>
+                    <label>Flug - Tickets</label>
+                </value>
+                <value>
+                    <fullName>Mietfahrzeug</fullName>
+                    <default>false</default>
+                    <label>Mietfahrzeug</label>
+                </value>
+                <value>
+                    <fullName>Bahncard</fullName>
+                    <default>false</default>
+                    <label>Bahncard</label>
+                </value>
+                <value>
+                    <fullName>Fahrradverleih</fullName>
+                    <default>false</default>
+                    <label>Fahrradverleih</label>
+                </value>
+                <value>
+                    <fullName>Maut</fullName>
+                    <default>false</default>
+                    <label>Maut</label>
+                </value>
+                <value>
+                    <fullName>Sonstiges</fullName>
+                    <default>false</default>
+                    <label>Sonstiges</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Unterkunft_Erstattung_Art_Mitarbeiter__c</fullName>
+        <externalId>false</externalId>
+        <label>Unterkunft Erstattung Art Mitarbeiter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Einmalpauschale (steuerpflichtig)</fullName>
+                    <default>false</default>
+                    <label>Einmalpauschale (steuerpflichtig)</label>
+                </value>
+                <value>
+                    <fullName>per Unterkunftsrechnung</fullName>
+                    <default>false</default>
+                    <label>per Unterkunftsrechnung</label>
+                </value>
+                <value>
+                    <fullName>pro Übernachtung</fullName>
+                    <default>false</default>
+                    <label>pro Übernachtung</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fahrkosten_und_Mobilit_t_Erstattungsart__c</fullName>
+        <externalId>false</externalId>
+        <label>Fahrkosten und Mobilität Erstattungsart</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</fullName>
+                    <default>false</default>
+                    <label>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</label>
+                </value>
+                <value>
+                    <fullName>Bahntickets</fullName>
+                    <default>false</default>
+                    <label>Bahntickets</label>
+                </value>
+                <value>
+                    <fullName>ÖPNV - Tickets</fullName>
+                    <default>false</default>
+                    <label>ÖPNV - Tickets</label>
+                </value>
+                <value>
+                    <fullName>Taxifahrten</fullName>
+                    <default>false</default>
+                    <label>Taxifahrten</label>
+                </value>
+                <value>
+                    <fullName>Flug - Tickets</fullName>
+                    <default>false</default>
+                    <label>Flug - Tickets</label>
+                </value>
+                <value>
+                    <fullName>Mietfahrzeug</fullName>
+                    <default>false</default>
+                    <label>Mietfahrzeug</label>
+                </value>
+                <value>
+                    <fullName>Bahncard</fullName>
+                    <default>false</default>
+                    <label>Bahncard</label>
+                </value>
+                <value>
+                    <fullName>Fahrradverleih</fullName>
+                    <default>false</default>
+                    <label>Fahrradverleih</label>
+                </value>
+                <value>
+                    <fullName>Maut</fullName>
+                    <default>false</default>
+                    <label>Maut</label>
+                </value>
+                <value>
+                    <fullName>Sonstiges</fullName>
+                    <default>false</default>
+                    <label>Sonstiges</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+</CustomObject>

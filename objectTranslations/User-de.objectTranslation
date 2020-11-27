@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Handelsregister Zusatz</label>
+        <name>CommercialRegisterAddition__c</name>
+    </fields>
+    <fields>
+        <label>Handelsregister</label>
+        <name>CommercialRegister__c</name>
+    </fields>
+    <fields>
+        <label>Firma</label>
+        <name>Company__c</name>
+        <picklistValues>
+            <masterLabel>doctari</masterLabel>
+            <translation><!-- doctari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Fachpflege</masterLabel>
+            <translation><!-- doctari Fachpflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Med ANÜ</masterLabel>
+            <translation><!-- doctari Med ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Pflege</masterLabel>
+            <translation><!-- doctari Pflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Pflege ANÜ</masterLabel>
+            <translation><!-- doctari Pflege ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Ärzte ANÜ</masterLabel>
+            <translation><!-- doctari Ärzte ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Ärzte Plus</masterLabel>
+            <translation><!-- doctari Ärzte Plus --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>E-Mail Signatur E-Mail</label>
+        <name>E_Mail_Sig__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Is Integration User --></label>
+        <name>IsIntegrationUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Managing Directors --></label>
+        <name>ManagingDirectors__c</name>
+    </fields>
+    <fields>
+        <label>E-Mail Signatur Telefon</label>
+        <name>Phone_Sig__c</name>
+    </fields>
+    <fields>
+        <label><!-- Register --></label>
+        <name>Register__c</name>
+    </fields>
+    <fields>
+        <label>Sitz des Unternehmens</label>
+        <name>SeatOfTheSociety__c</name>
+    </fields>
+    <fields>
+        <label><!-- User ID (18) --></label>
+        <name>UserID18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Marketing Cloud Page --></label>
+        <name>et4ae5__Default_ET_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default MID --></label>
+        <name>et4ae5__Default_MID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange Admin --></label>
+        <name>et4ae5__ExactTargetForAppExchangeAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange User --></label>
+        <name>et4ae5__ExactTargetForAppExchangeUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud Username --></label>
+        <name>et4ae5__ExactTargetUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- @deprecated --></label>
+        <name>et4ae5__ExactTarget_OAuth_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud Admin --></label>
+        <name>et4ae5__ValidExactTargetAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud User --></label>
+        <name>et4ae5__ValidExactTargetUser__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Fachbereich</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Fachbereiche</value>
+    </caseValues>
+    <fields>
+        <label>Account</label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Fachbereiche --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kommentar</label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label>AP Personal</label>
+        <name>ContactOfHumanResourcesDepartment__c</name>
+        <relationshipLabel><!-- Fachbereiche (AP Fachbereich) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>AP Fachbereich</label>
+        <name>ContactOfSpecialtyDepartment__c</name>
+        <relationshipLabel><!-- Fachbereiche (AP Personal) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Opportunity</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Fachbereiche --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Geforderte Unterlagen</label>
+        <name>RequiredDocuments__c</name>
+        <picklistValues>
+            <masterLabel>Arbeitsmedizinische Vorsorge</masterLabel>
+            <translation><!-- Arbeitsmedizinische Vorsorge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erweitertes Führungszeugnis</masterLabel>
+            <translation><!-- Erweitertes Führungszeugnis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Führungszeugnis</masterLabel>
+            <translation><!-- Führungszeugnis --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Fachbereich</label>
+        <name>Specialty__c</name>
+    </fields>
+    <fields>
+        <label>Dienstkleidung Gestellt</label>
+        <name>UniformProvided__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

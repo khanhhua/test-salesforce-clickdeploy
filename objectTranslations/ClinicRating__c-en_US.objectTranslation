@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate List</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidate Lists</value>
+    </caseValues>
+    <fields>
+        <label><!-- Candidate --></label>
+        <name>CandidateId__c</name>
+        <relationshipLabel><!-- Candidate Lists (Candidate) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Clinic --></label>
+        <name>ClinicId__c</name>
+        <relationshipLabel><!-- Candidate Lists (Clinic) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Blacklist</masterLabel>
+            <translation><!-- Blacklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitelist</masterLabel>
+            <translation><!-- Whitelist --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>UniqueKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Candidate Lists --></relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Candidate List Name --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please enter either clinic or user. --></errorMessage>
+        <name>ClinicOrUserFilled</name>
+    </validationRules>
+</CustomObjectTranslation>

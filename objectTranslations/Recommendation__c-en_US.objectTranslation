@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Recommendation --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Recommendation --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Candidate --></label>
+        <name>CandidateId__c</name>
+        <relationshipLabel><!-- Recommendations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>OpportunityId__c</name>
+        <relationshipLabel><!-- Recommendations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Rejection Reason --></label>
+        <name>OtherRejectionReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection Reason --></label>
+        <name>RejectionReason__c</name>
+        <picklistValues>
+            <masterLabel>ANÜ knowledge missing</masterLabel>
+            <translation><!-- ANÜ knowledge missing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned to WW</masterLabel>
+            <translation><!-- Assigned to WW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availabilities not matching</masterLabel>
+            <translation><!-- Availabilities not matching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer rejected</masterLabel>
+            <translation><!-- Customer rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer staffed internally</masterLabel>
+            <translation><!-- Customer staffed internally --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PK rejected</masterLabel>
+            <translation><!-- PK rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepare CV</masterLabel>
+            <translation><!-- Prepare CV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>UniqueKey__c</name>
+    </fields>
+    <nameFieldLabel><!-- Recommendation Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Approve --></label>
+        <name>Approve</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reject --></label>
+        <name>Reject</name>
+    </quickActions>
+    <startsWith><!-- Consonant --></startsWith>
+    <webLinks>
+        <label>Request Recommendation</label>
+        <name>RequestRecommendation</name>
+    </webLinks>
+</CustomObjectTranslation>

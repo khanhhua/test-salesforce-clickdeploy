@@ -1,0 +1,3299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreatePdf</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreatePdf</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreatePdf</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailQuote</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailQuote</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailQuote</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewQuote</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewQuote</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewQuote</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SyncQuote</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SyncQuote</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SyncQuote</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <searchLayouts>
+        <customTabListAdditionalFields>QUOTE.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.ISSYNCING</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.EXPIRATIONDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.SUBTOTAL</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.TOTALPRICE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.ISSYNCING</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.EXPIRATIONDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.SUBTOTAL</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.TOTALPRICE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.ISSYNCING</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.EXPIRATIONDATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.SUBTOTAL</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.TOTALPRICE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.PHONE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.ISSYNCING</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.EXPIRATIONDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.SUBTOTAL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.TOTALPRICE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <compactLayouts>
+        <fullName>Quote_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountId</fields>
+        <fields>Person_Account__c</fields>
+        <fields>doctari_client__c</fields>
+        <fields>Operating_Days__c</fields>
+        <fields>EarliestContractStartDate__c</fields>
+        <fields>LatestContractEndDate__c</fields>
+        <label>Quote Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>EmploymentQuoteCompactLayout</fullName>
+        <fields>Name</fields>
+        <fields>QuoteNumber</fields>
+        <fields>AccountId</fields>
+        <fields>Status</fields>
+        <fields>Creation_of_contract_Employee__c</fields>
+        <fields>Entry_date__c</fields>
+        <fields>Hourly_rate__c</fields>
+        <label>Employment Quote Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>to__c</fullName>
+        <description>This fields defines the end of a quote. It is needed for the contract management in Landwehr.
+Robin S. 14.10.2019</description>
+        <externalId>false</externalId>
+        <label>to</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lock__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Lock</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>from__c</fullName>
+        <description>This fields defines the start of the quote. It is needed for the contract management in Landwehr.
+Robin S. 14.10.2019</description>
+        <externalId>false</externalId>
+        <label>from</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>BC_100__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>die Person erhält eine BahnCard 100</inlineHelpText>
+        <label>BC 100</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comment__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Notwendige Informationen für die Vertragserstellungen können hier hinterlegt werden. Diese Informationen werden ebenfalls nach L1 übertragen.</inlineHelpText>
+        <label>Comment</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Own_car__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>die Person nutzt ihren eigenen PKW</inlineHelpText>
+        <label>Own car</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PLZArea__c</fullName>
+        <externalId>false</externalId>
+        <label>PLZ Area</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>PLZ_Gebiet</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Station__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>beschreibt die Station, auf der der Einsatz erfolgen soll</inlineHelpText>
+        <label>Station</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Anlage_1__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Anforderungsprofile</inlineHelpText>
+        <label>Anlage 1</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Radiuskm__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>definiert das Einsatzgebiet nach dem Umkreis in km um den angegebenen Ort</inlineHelpText>
+        <label>Radius km</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Radius_km</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CheckHUED__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Check HUED</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Commision__c</fullName>
+        <description>This fields defines commission for a quote. It is needed for the contract management in Landwehr.
+Robin S. 14.10.2019</description>
+        <externalId>false</externalId>
+        <label>Commission doctari</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Entry_date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Vertragsbeginn</inlineHelpText>
+        <label>Entry date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Company_car__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>die Person erhält einen Firmenwagen</inlineHelpText>
+        <label>Company car</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Creation_of__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>definiert die Art des Vertrages, der geschlossen werden soll</inlineHelpText>
+        <label>Creation of contract (customer)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ANÜ Überlassungsvertrag</fullName>
+                    <default>false</default>
+                    <label>ANÜ Überlassungsvertrag</label>
+                </value>
+                <value>
+                    <fullName>ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                    <default>false</default>
+                    <label>ANÜ Überlassungsvertrag mit ZV doctari</label>
+                </value>
+                <value>
+                    <fullName>ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                    <default>false</default>
+                    <label>ANÜ Überlassungsvertrag mit ZV Kunde</label>
+                </value>
+                <value>
+                    <fullName>Änderungsvertrag ANÜ Überlassungsvertrag</fullName>
+                    <default>false</default>
+                    <label>Änderungsvertrag ANÜ Überlassungsvertrag</label>
+                </value>
+                <value>
+                    <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                    <default>false</default>
+                    <label>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</label>
+                </value>
+                <value>
+                    <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                    <default>false</default>
+                    <label>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</label>
+                </value>
+                <value>
+                    <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag</fullName>
+                    <default>false</default>
+                    <label>Verlängerungsvertrag ANÜ Überlassungsvertrag</label>
+                </value>
+                <value>
+                    <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                    <default>false</default>
+                    <label>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</label>
+                </value>
+                <value>
+                    <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                    <default>false</default>
+                    <label>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FirstSigned__c</fullName>
+        <externalId>false</externalId>
+        <label>FirstSigned</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>FirstSigned</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Hourly_rate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Brutto-Verdienst pro Stunde in €</inlineHelpText>
+        <label>Hourly rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>HoursPerDay__c</fullName>
+        <description>This fields defines the hours per day for a quote, by dividing the hours per week through 5 days.</description>
+        <externalId>false</externalId>
+        <formula>WorkingHoursPerWeek__c / 5</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>berechnetes Feld: Arbeitsstunden pro Woche / 5</inlineHelpText>
+        <label>Hours per day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ValueOfADay__c</fullName>
+        <description>Calculates by multiplying the hourly rate with the hours per day</description>
+        <externalId>false</externalId>
+        <formula>Hourly_rate__c *  HoursPerDay__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>berechnetes Feld: Stundensatz * h/Tag</inlineHelpText>
+        <label>Value of a day</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Betrag_Kunde__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount customer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CourierOrder__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Information für die Vertragsabteilung, ob ein Kurier benötigt wird.</inlineHelpText>
+        <label>Courier Order</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>CourierOrder</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Legal_Entity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Rechtsträger</inlineHelpText>
+        <label>Legal Entity</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quotes (Legal Entity)</relationshipLabel>
+        <relationshipName>Quotes1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RecruitingAs__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Berufsbezeichnung entsprechend Urkunde/Qualifikationsnachweis, die sich aus der Kompetenz der Person ergibt; diese kann bearbeitet werden</inlineHelpText>
+        <label>Recruiting As</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TPRentalFree__c</fullName>
+        <description>Uses Hourly Rate and Hours per Day to calculate the rental free value</description>
+        <externalId>false</externalId>
+        <formula>Hourly_rate__c * HoursPerDay__c * 0.6</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Tagespauschale, die das Personal pro Tag erhält, sofern er/sie nicht im Kundeneinsatz ist</inlineHelpText>
+        <label>TP Rental Free</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>T_QuoteCheck__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>[T]_QuoteCheck</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OperatingTime__c</fullName>
+        <description>Field is filled by declarative lookup rollup summary QuoteOperatingTime</description>
+        <externalId>false</externalId>
+        <label>Operating Time</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PlaceOfAction__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Ort, an dem der Einsatz stattfinden wird</inlineHelpText>
+        <label>Place of Action</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PreferredCity__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>definiert das Einsatzgebiet nach einem Ort in Kombination mit dem Feld “Umkreis in km”</inlineHelpText>
+        <label>Preferred City</label>
+        <length>120</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.Account.ContractStreet__c + &quot;, &quot; +
+Opportunity.Account.ContractPostalCode__c + &quot;, &quot; +
+Opportunity.Account.ContractCity__c + &quot;, &quot; +
+TEXT(Opportunity.Account.ContractCountry__c)  + &quot;, &quot; +
+Opportunity.Account.ContractAddressCo__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>die im Account hinterlegte Vertragsanschrift des Kunden</inlineHelpText>
+        <label>Contract Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FinalAuthority__c</fullName>
+        <description>Formula shows final authority from account of related opportunity</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity.Account.FinalAuthority__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>referenziert das Feld “Abschlussvollmacht” des Kunden Accounts</inlineHelpText>
+        <label>Final Authority</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MailingAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Person_Account__r.MailingAddressCo__c),&quot;&quot;,Person_Account__r.MailingAddressCo__c + &quot;, &quot;) +
+Person_Account__r.PersonContact.MailingStreet + &quot;, &quot; +
+Person_Account__r.PersonContact.MailingPostalCode + &quot;, &quot; +
+Person_Account__r.PersonContact.MailingCity + &quot;, &quot; +
+Person_Account__r.PersonContact.MailingCountry</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>gibt die Postanschrift der Person wieder, mit dem der Vertrag geschlossen werden soll</inlineHelpText>
+        <label>Mailing Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Operating_Days__c</fullName>
+        <description>This fields the operating days for a quote. It is needed for the contract management in Landwehr.
+Robin S. 14.10.2019</description>
+        <externalId>false</externalId>
+        <label>Operating Days</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Person_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Name der Person, mit der ein Vertrag geschlossen werden soll</inlineHelpText>
+        <label>Person Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Doctor, Caregiver</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Quotes</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShippingMethod__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Information für die Vertragsabteilung, wie der Vertrag versendet werden soll.</inlineHelpText>
+        <label>Shipping method</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>ShippingMethod</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>T_Quote_Number__c</fullName>
+        <description>This field is used for the Enhanced Lightning Grid app, to display the quote number as a link in a related list.</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/lightning/r/&apos;&amp;Id&amp;&apos;/view&apos;, QuoteNumber, &quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>[T] Quote Number</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>doctari_client__c</fullName>
+        <description>Is needed for Landwehr.
+Robin S. 14.10.2019</description>
+        <externalId>false</externalId>
+        <label>doctari client</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>doctari Fachpflege GmbH</fullName>
+                    <default>false</default>
+                    <label>doctari Fachpflege GmbH</label>
+                </value>
+                <value>
+                    <fullName>doctari Pflege ANÜ GmbH</fullName>
+                    <default>false</default>
+                    <label>doctari Pflege ANÜ GmbH</label>
+                </value>
+                <value>
+                    <fullName>doctari Ärzte ANÜ GmbH</fullName>
+                    <default>false</default>
+                    <label>doctari Ärzte ANÜ GmbH</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Betrag_Personal__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount personal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>LandlordDoctors__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>zeigt den auf dem Kunden-Account hinterlegten Hausbesitzer Ärzte an</inlineHelpText>
+        <label>Landlord Doctors</label>
+        <length>120</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>limitation_type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Art der Befristung</inlineHelpText>
+        <label>limitation type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>unlimited</fullName>
+                    <default>false</default>
+                    <label>unlimited</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FurtherEducation__c</fullName>
+        <externalId>false</externalId>
+        <label>Further Education</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Pflege_Weiterbildungen</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Shipping_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.Account.ShippingStreet + &quot;, &quot; +
+Opportunity.Account.ShippingPostalCode + &quot;, &quot; +
+Opportunity.Account.ShippingCity + &quot;, &quot; +
+Opportunity.Account.ShippingCountry &amp; BR() &amp;
+Opportunity.Account.ShippingAddressCo__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>die im Account hinterlegte Hausanschrift des Kunden</inlineHelpText>
+        <label>Shipping Address</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_of_Contract__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Contract</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>amendment agreement</fullName>
+                    <default>false</default>
+                    <label>amendment agreement</label>
+                </value>
+                <value>
+                    <fullName>Contract extension</fullName>
+                    <default>false</default>
+                    <label>Contract extension</label>
+                </value>
+                <value>
+                    <fullName>Limitation reason</fullName>
+                    <default>false</default>
+                    <label>Limitation reason</label>
+                </value>
+                <value>
+                    <fullName>temporary without reason</fullName>
+                    <default>false</default>
+                    <label>temporary without reason</label>
+                </value>
+                <value>
+                    <fullName>temporary with reason</fullName>
+                    <default>false</default>
+                    <label>temporary with reason</label>
+                </value>
+                <value>
+                    <fullName>unlimited</fullName>
+                    <default>false</default>
+                    <label>unlimited</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UsedFromContract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Referenz zum Hauptvertrag; wird bei Vertragsänderungen automatisch ausgefüllt</inlineHelpText>
+        <label>Used From Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Quotes</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactDepartment__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact Department</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Quotes</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LandlordCaregiver__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>zeigt den auf dem Kunden-Account hinterlegten Hausbesitzer Pflege an</inlineHelpText>
+        <label>Landlord Caregiver</label>
+        <length>120</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.Owner.FirstName &amp; &quot; &quot; &amp; Opportunity.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Inhaber des verknüpften Opportunity Datensatzes</inlineHelpText>
+        <label>Opportunity Owner</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>gross_monthly_fee__c</fullName>
+        <description>Entering working hours per week and a hourly rate, will calculate that field</description>
+        <externalId>false</externalId>
+        <formula>WorkingHoursPerYear__c * Hourly_rate__c / 12</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>berechnetes Feld: Stundensatz * Arbeitsstunden pro Jahr / 12 Monate</inlineHelpText>
+        <label>gross monthly fee</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>EmploymentContract__c</fullName>
+        <externalId>false</externalId>
+        <label>Employment Contract</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>EmploymentContract</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RatioToFullTimeJob__c</fullName>
+        <description>Ratio between working hours per year and a full time job ob 2090 hours</description>
+        <externalId>false</externalId>
+        <formula>WorkingHoursPerYear__c / 2090</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>gibt das prozentuale Verhältnis zu einer 40-Stunden-Woche wieder</inlineHelpText>
+        <label>Ratio to full-time job</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Competence_Personal__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(Person_Account__r.T_Doctor_Job__c ), Person_Account__r.Caregiver_Job__c ,Person_Account__r.T_Doctor_Job__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Referenz zur hinterlegten Kompetenz der Person</inlineHelpText>
+        <label>Competence Personal</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WorkingHoursPerWeek__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Gesamtanzahl der Arbeitsstunden pro Woche</inlineHelpText>
+        <label>working hours per week</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WorkingHoursPerYear__c</fullName>
+        <externalId>false</externalId>
+        <formula>WorkingHoursPerWeek__c * 52.25</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>berechnetes Feld: Arbeitsstunden pro Woche * 52,25</inlineHelpText>
+        <label>Working hours per year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OtherPersonalAddress__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>hier kann eine alternative Adresse zum Feld “Adresse Personal” hinterlegt werden</inlineHelpText>
+        <label>Other Personal Address</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RequestedStateCanton__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>definiert das Einsatzgebiet nach Bundesländern</inlineHelpText>
+        <label>Requested State Canton</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>RequestedStateCanton</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommentOperationCheck__c</fullName>
+        <externalId>false</externalId>
+        <label>Comment Operation Check</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LatestContractEndDate__c</fullName>
+        <description>This field is filled by declarative lookup rollup summary QuoteLatestContractEndDate</description>
+        <externalId>false</externalId>
+        <label>Latest Contract End Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>QualificationPersonal__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK( Opportunity.T_Caregiver_Job__c ), Opportunity.T_Doctor_Job__c ,Opportunity.T_Caregiver_Job__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Referenz zur hinterlegten Qualifikation der verknüpften Opportunity</inlineHelpText>
+        <label>Qualification Personal</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Work_area_in_facility__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>beschreibt die Tätigkeit, für die die Person eingesetzt werden soll</inlineHelpText>
+        <label>Work area (in facility)</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactPersonEmployees__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Ansprechpartner des Kunden für den Bereich Personal</inlineHelpText>
+        <label>Contact Person Employees</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Quotes (Contact Person Employees)</relationshipLabel>
+        <relationshipName>Quotes1</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Sum_Operating_Time_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>LatestContractEndDate__c -  EarliestContractStartDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sum Operating Time Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>working_hours_per_month__c</fullName>
+        <description>The working hours per year are divided through 12 months to calculate the hours per month</description>
+        <externalId>false</externalId>
+        <formula>WorkingHoursPerYear__c / 12</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>berechnetes Feld: Arbeitsstunden pro Jahr / 12 Monate</inlineHelpText>
+        <label>working hours per month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CommentSendingInformation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Zusätzliche Informationen über den Versand für die Vertragsabteilung</inlineHelpText>
+        <label>Comment Sending Information</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>EarliestContractStartDate__c</fullName>
+        <description>This field is filled by declarative lookup rollup summary QuoteEarliestContractStartDate</description>
+        <externalId>false</externalId>
+        <label>Earliest Contract Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CommentContractInformation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Zusätzliche Informationen, die der Vertragsabteilung mitgeteilt werden sollen</inlineHelpText>
+        <label>Comment Contract Information</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Creation_of_contract_Employee__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Art des Vertrages</inlineHelpText>
+        <label>Creation of contract Personal</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Arbeitsvertrag Fachpfleger</fullName>
+                    <default>false</default>
+                    <label>Arbeitsvertrag Fachpfleger</label>
+                </value>
+                <value>
+                    <fullName>Änderungsvertrag Arbeitsvertrag Fachpfleger</fullName>
+                    <default>false</default>
+                    <label>Änderungsvertrag Arbeitsvertrag Fachpfleger</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>EmploymentContractAnnex2Salary__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Vergütung und Abrechnungsmodus</inlineHelpText>
+        <label>Employment Contract Annex 2 Salary</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ContactPersonForContractShipping__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Ansprechpartner des Kunden für den Bereich Vertragsversand</inlineHelpText>
+        <label>Contact person for contract shipping</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Quotes (Contact person for contract shipping)</relationshipLabel>
+        <relationshipName>Quotes2</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>differentShippingAddressCustomer__c</fullName>
+        <description>sfc-3270</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Diese Adresse wird nicht für den Vertrag verwendet, sondern nur für das Anschreiben.</inlineHelpText>
+        <label>different shipping address (Customer)</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>differentShippingAddressPersonal__c</fullName>
+        <description>sfc3270</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Diese Adresse wird nicht für den Vertrag verwendet, sondern nur für das Anschreiben.</inlineHelpText>
+        <label>different shipping address (Personal)</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Appendix3EssentialWorkingConditions__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Wesentliche Arbeitsbedingungen (kundenseitig)</inlineHelpText>
+        <label>Appendix 3 Essential Working Conditions</label>
+        <type>Checkbox</type>
+    </fields>
+    <recordTypes>
+        <fullName>Contract</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Quote_Compact_Layout</compactLayoutAssignment>
+        <label>Contract</label>
+        <picklistValues>
+            <picklist>CourierOrder__c</picklist>
+            <values>
+                <fullName>Courier Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Courier Hospital</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of__c</picklist>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of_contract_Employee__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EmploymentContract__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV AN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FirstSigned__c</picklist>
+            <values>
+                <fullName>- none -</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FurtherEducation__c</picklist>
+            <values>
+                <fullName>Ambulanzdienst%2FNotfallmedizin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Außerklinische Beatmung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Endoskopie %26 Herzkatheterlabor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fachkunde 1 %26 2 %28Sterilisation%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geriatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gerontopsychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hebamme%2FEntbindungspfleger%2FIn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hygiene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITS%2FAnästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kardiotechnik</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KinderITS %28Neonatologie Level 1-3%29%2FKinderanästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nephrologie%2FDialyse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onkologie%2FPalliativmedizin%2FHospizpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pflegedienstleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rehabilitation und Langzeitpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stationsleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strahlenschutz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stroke Unit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Study Nurse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weaning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wohnbereichsleitung</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PLZArea__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ausland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bundesweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Radiuskm__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deutschlandweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestedStateCanton__c</picklist>
+            <values>
+                <fullName>Aargau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Ausserrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Innerrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baden-Württemberg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Stadt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Berlin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brandenburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bremen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CH - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fribourg %28Freiburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Genève %28Genf%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glarus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Graubünden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hamburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hessen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luzern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mecklenburg-Vorpommern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neuchâtel %28Neuenburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nidwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Niedersachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nordrhein-Westfalen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rheinland-Pfalz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saarland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen-Anhalt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schaffhausen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schleswig-Holstein</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schwyz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solothurn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>St%2EGallen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thurgau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thüringen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticino %28Tessin%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valais %28Wallis%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vaud %28Waadt%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zürich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alte Bundesländer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ShippingMethod__c</picklist>
+            <values>
+                <fullName>courier Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>courier customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Discarded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In preparation</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Send to contract department</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Contract extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limitation reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>amendment agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary with reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary without reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>doctari_client__c</picklist>
+            <values>
+                <fullName>doctari Fachpflege GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Pflege ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Ärzte ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>limitation_type__c</picklist>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Employment_contract</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>EmploymentQuoteCompactLayout</compactLayoutAssignment>
+        <label>Employment contract</label>
+        <picklistValues>
+            <picklist>CourierOrder__c</picklist>
+            <values>
+                <fullName>Courier Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Courier Hospital</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of__c</picklist>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of_contract_Employee__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EmploymentContract__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV AN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FirstSigned__c</picklist>
+            <values>
+                <fullName>- none -</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FurtherEducation__c</picklist>
+            <values>
+                <fullName>Ambulanzdienst%2FNotfallmedizin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Außerklinische Beatmung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Endoskopie %26 Herzkatheterlabor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fachkunde 1 %26 2 %28Sterilisation%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geriatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gerontopsychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hebamme%2FEntbindungspfleger%2FIn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hygiene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITS%2FAnästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kardiotechnik</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KinderITS %28Neonatologie Level 1-3%29%2FKinderanästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nephrologie%2FDialyse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onkologie%2FPalliativmedizin%2FHospizpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pflegedienstleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rehabilitation und Langzeitpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stationsleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strahlenschutz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stroke Unit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Study Nurse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weaning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wohnbereichsleitung</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PLZArea__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ausland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bundesweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Radiuskm__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deutschlandweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestedStateCanton__c</picklist>
+            <values>
+                <fullName>Aargau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Ausserrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Innerrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baden-Württemberg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Stadt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Berlin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brandenburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bremen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CH - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fribourg %28Freiburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Genève %28Genf%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glarus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Graubünden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hamburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hessen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luzern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mecklenburg-Vorpommern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neuchâtel %28Neuenburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nidwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Niedersachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nordrhein-Westfalen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rheinland-Pfalz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saarland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen-Anhalt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schaffhausen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schleswig-Holstein</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schwyz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solothurn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>St%2EGallen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thurgau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thüringen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticino %28Tessin%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valais %28Wallis%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vaud %28Waadt%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zürich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alte Bundesländer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ShippingMethod__c</picklist>
+            <values>
+                <fullName>courier Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>courier customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Discarded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In preparation</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Send to contract department</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Contract extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limitation reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>amendment agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary with reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary without reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>doctari_client__c</picklist>
+            <values>
+                <fullName>doctari Fachpflege GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Pflege ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Ärzte ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>limitation_type__c</picklist>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Quote_with_Contract_AV</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>EmploymentQuoteCompactLayout</compactLayoutAssignment>
+        <label>Quote with Contract (Arbeitsvertrag)</label>
+        <picklistValues>
+            <picklist>CourierOrder__c</picklist>
+            <values>
+                <fullName>Courier Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Courier Hospital</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of__c</picklist>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of_contract_Employee__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EmploymentContract__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV AN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FirstSigned__c</picklist>
+            <values>
+                <fullName>- none -</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FurtherEducation__c</picklist>
+            <values>
+                <fullName>Ambulanzdienst%2FNotfallmedizin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Außerklinische Beatmung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Endoskopie %26 Herzkatheterlabor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fachkunde 1 %26 2 %28Sterilisation%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geriatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gerontopsychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hebamme%2FEntbindungspfleger%2FIn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hygiene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITS%2FAnästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kardiotechnik</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KinderITS %28Neonatologie Level 1-3%29%2FKinderanästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nephrologie%2FDialyse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onkologie%2FPalliativmedizin%2FHospizpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pflegedienstleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rehabilitation und Langzeitpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stationsleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strahlenschutz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stroke Unit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Study Nurse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weaning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wohnbereichsleitung</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PLZArea__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ausland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bundesweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Radiuskm__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deutschlandweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestedStateCanton__c</picklist>
+            <values>
+                <fullName>Aargau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Ausserrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Innerrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baden-Württemberg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Stadt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Berlin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brandenburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bremen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CH - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fribourg %28Freiburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Genève %28Genf%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glarus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Graubünden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hamburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hessen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luzern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mecklenburg-Vorpommern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neuchâtel %28Neuenburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nidwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Niedersachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nordrhein-Westfalen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rheinland-Pfalz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saarland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen-Anhalt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schaffhausen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schleswig-Holstein</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schwyz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solothurn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>St%2EGallen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thurgau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thüringen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticino %28Tessin%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valais %28Wallis%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vaud %28Waadt%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zürich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alte Bundesländer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ShippingMethod__c</picklist>
+            <values>
+                <fullName>courier Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>courier customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Transferred to contract</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Contract extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limitation reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>amendment agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary with reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary without reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>doctari_client__c</picklist>
+            <values>
+                <fullName>doctari Fachpflege GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Pflege ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Ärzte ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>limitation_type__c</picklist>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Quote_with_Contract_EV</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Quote_Compact_Layout</compactLayoutAssignment>
+        <label>Quote with Contract (Einsatzvertrag)</label>
+        <picklistValues>
+            <picklist>CourierOrder__c</picklist>
+            <values>
+                <fullName>Courier Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Courier Hospital</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of__c</picklist>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Creation_of_contract_Employee__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Änderungsvertrag Arbeitsvertrag Fachpfleger</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EmploymentContract__c</picklist>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV AN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arbeitsvertrag und Anlage 1 mit ZV doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FirstSigned__c</picklist>
+            <values>
+                <fullName>- none -</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FurtherEducation__c</picklist>
+            <values>
+                <fullName>Ambulanzdienst%2FNotfallmedizin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Außerklinische Beatmung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Endoskopie %26 Herzkatheterlabor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fachkunde 1 %26 2 %28Sterilisation%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Geriatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gerontopsychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hebamme%2FEntbindungspfleger%2FIn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hygiene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITS%2FAnästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kardiotechnik</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KinderITS %28Neonatologie Level 1-3%29%2FKinderanästhesie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nephrologie%2FDialyse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Onkologie%2FPalliativmedizin%2FHospizpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pflegedienstleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psychiatrie</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rehabilitation und Langzeitpflege</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stationsleitung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Strahlenschutz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stroke Unit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Study Nurse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weaning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wohnbereichsleitung</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PLZArea__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ausland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bundesweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Radiuskm__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deutschlandweit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>RequestedStateCanton__c</picklist>
+            <values>
+                <fullName>Aargau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Ausserrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Appenzell Innerrhoden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baden-Württemberg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basel-Stadt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Berlin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brandenburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bremen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CH - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D - alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fribourg %28Freiburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Genève %28Genf%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glarus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Graubünden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hamburg</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hessen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jura</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Luzern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mecklenburg-Vorpommern</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neuchâtel %28Neuenburg%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nidwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Niedersachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nordrhein-Westfalen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obwalden</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rheinland-Pfalz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Saarland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sachsen-Anhalt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schaffhausen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schleswig-Holstein</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Schwyz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solothurn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>St%2EGallen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thurgau</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thüringen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ticino %28Tessin%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Uri</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Valais %28Wallis%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vaud %28Waadt%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zug</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zürich</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>alte Bundesländer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ShippingMethod__c</picklist>
+            <values>
+                <fullName>courier Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>courier customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital Personal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>digital customer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Transferred to contract</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Contract__c</picklist>
+            <values>
+                <fullName>Contract extension</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limitation reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>amendment agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary with reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>temporary without reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>doctari_client__c</picklist>
+            <values>
+                <fullName>doctari Fachpflege GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Pflege ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>doctari Ärzte ANÜ GmbH</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>limitation_type__c</picklist>
+            <values>
+                <fullName>unlimited</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>EmploymentMandatoryLocal</fullName>
+        <active>true</active>
+        <description>Rather City or State information need to be entered for employment contracts</description>
+        <errorConditionFormula>(
+ISPICKVAL(Creation_of_contract_Employee__c,&quot;Arbeitsvertrag Fachpfleger&quot;)
+&amp;&amp;
+NOT(ISNEW())
+)
+&amp;&amp;
+(
+(ISBLANK(RequestedStateCanton__c) &amp;&amp; ISBLANK(PreferredCity__c))
+||
+(ISBLANK(PreferredCity__c) &amp;&amp; NOT(ISPICKVAL(Radiuskm__c,&quot;&quot;)))
+||
+(NOT(ISBLANK(PreferredCity__c)) &amp;&amp; ISPICKVAL(Radiuskm__c,&quot;&quot;))
+)</errorConditionFormula>
+        <errorMessage>Es muss ein Einsatzgebiet definiert werden. Zudem benötigt die Ortsangabe einen Umkreis.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RatioToFullTimeJobUnder75Percent</fullName>
+        <active>true</active>
+        <description>Certain fields can not be selected when ratio to full time job is lower than 75 percent.</description>
+        <errorConditionFormula>RatioToFullTimeJob__c &lt; 0.75  &amp;&amp; ( BC_100__c = true  ||  Company_car__c = true)</errorConditionFormula>
+        <errorMessage>BahnCard 100 or company car can not be selected when the ratio to a full time job is less than 75 percent.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ContactPersonForContractShippingRequired</fullName>
+        <active>true</active>
+        <description>sfc-3559</description>
+        <errorConditionFormula>IF( TEXT(Status) = &apos;Transferred to contract&apos; &amp;&amp;  ISBLANK(ContactPersonEmployees__c) , true, false)</errorConditionFormula>
+        <errorMessage>Bitte befülle das Feld &quot;Ansprechpartner für Vertragsversand&quot; auf dem Reiter &quot;Details&quot;, bevor der Vertrag nach Landwehr geschickt werden kann.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Einsatzzeitraum</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Einsatzzeitraum</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/lightning/o/OperatingTime__c/new?defaultFieldValues=Quote__c={!Quote.Id}&amp;backgroundContext=%2Flightning%2Fr%2FQuote%2F{!Quote.Id}%2Fview</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Einsatzzeitraum</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Einsatzzeiträume</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Einsatzzeitraum</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Einsatzzeiträume</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Einsatzzeitraum</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Einsatzzeiträume</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Einsatzzeitraum</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Einsatzzeiträume</value>
+    </caseValues>
+    <fields>
+        <label>Einsatzzeitraum</label>
+        <name>ConcatenateTime__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referenz zum erstellten Vertrag; wird automatisch ausgefüllt. --></help>
+        <label>Vertrag</label>
+        <name>Contract__c</name>
+        <relationshipLabel>Einsatzzeiträume</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Zum Einsatzzeitraum können hier die genauen Einsatztermine bei dem Kunden hinterlegt werden. --></help>
+        <label>Einsatztermine (Kunde)</label>
+        <name>Deployment_dates_customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zum Einsatzzeitraum können hier die genauen Einsatztermine der Person hinterlegt werden (kann von den Einsatzterminen des Kunden abweichen). --></help>
+        <label>Einsatztermine (Personal)</label>
+        <name>Deployment_dates_personal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Start des Einsatzes der Person (kann vom Einsatzzeitraum des Kunden abweichen) --></help>
+        <label>Von (Personal)</label>
+        <name>From_Personal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Start des Einsatzes bei dem Kunden --></help>
+        <label>Von (Kunde)</label>
+        <name>From__c</name>
+    </fields>
+    <fields>
+        <help><!-- vereinbarte Mindeststunden --></help>
+        <label>Mindeststunden (Kunden)</label>
+        <name>MonthlyHoursCustomer__c</name>
+    </fields>
+    <fields>
+        <help><!-- vereinbarte Mindeststunden (können von den Mindeststunden des Kunden abweichen) --></help>
+        <label>Mindeststunden (Personal)</label>
+        <name>MonthlyHoursPerson__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gesamtanzahl der zu leistenden Einsatztage --></help>
+        <label>Einsatztage</label>
+        <name>Operational_days__c</name>
+    </fields>
+    <fields>
+        <label>Porky Externe ID</label>
+        <name>PorkyExternalID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referenz zum erstellten Vertragsentwurf; wird automatisch ausgefüllt. --></help>
+        <label>Vertragsentwurf</label>
+        <name>Quote__c</name>
+        <relationshipLabel>Einsatzzeiträume</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T]Operating Time converted to days --></label>
+        <name>T_Operating_Time_converted_to_days__c</name>
+    </fields>
+    <fields>
+        <label>[T] Einsatzzeitraum ist aktueller Monat</label>
+        <name>T_Operation_Time_CM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ende des Einsatzes der Person (kann vom Einsatzzeitraum des Kunden abweichen) --></help>
+        <label>Bis (Personal)</label>
+        <name>To_Personal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ende des Einsatzes bei dem Kunden --></help>
+        <label>Bis (Kunde)</label>
+        <name>To__c</name>
+    </fields>
+    <fields>
+        <label>doctari Mandant</label>
+        <name>doctari_client__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <validationRules>
+        <errorMessage><!-- &quot;Von&quot; muss das gleiche oder ein früheres Datum als &quot;Bis&quot; beinhalten. --></errorMessage>
+        <name>From_less_or_equal_than_To</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Der Einsatzzeitraum kann nicht mehr bearbeitet werden, da der dazugehörige Vertrag den Entwurfstatus überschritten hat.</errorMessage>
+        <name>LockOperationTimes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Die Mindeststunden müssen ausgefüllt sein --></errorMessage>
+        <name>MindeststundenRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Der Vertragsentwurf muss ausgefüllt sein --></errorMessage>
+        <name>QuoteRequired</name>
+    </validationRules>
+</CustomObjectTranslation>

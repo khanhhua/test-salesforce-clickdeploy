@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Reisekosten Art</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Reisekosten Arten</value>
+    </caseValues>
+    <fields>
+        <label><!-- Fahrkosten und Mobilität Erstattungsart --></label>
+        <name>Fahrkosten_und_Mobilit_t_Erstattungsart__c</name>
+        <picklistValues>
+            <masterLabel>Bahncard</masterLabel>
+            <translation><!-- Bahncard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahntickets</masterLabel>
+            <translation><!-- Bahntickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fahrradverleih</masterLabel>
+            <translation><!-- Fahrradverleih --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flug - Tickets</masterLabel>
+            <translation><!-- Flug - Tickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maut</masterLabel>
+            <translation><!-- Maut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mietfahrzeug</masterLabel>
+            <translation><!-- Mietfahrzeug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxifahrten</masterLabel>
+            <translation><!-- Taxifahrten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ÖPNV - Tickets</masterLabel>
+            <translation><!-- ÖPNV - Tickets --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fahrkosten und Mobilität Erstattung --></label>
+        <name>Fahrkosten_und_Mobilitaet_Erstattung__c</name>
+        <picklistValues>
+            <masterLabel>Bahncard</masterLabel>
+            <translation><!-- Bahncard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahntickets</masterLabel>
+            <translation><!-- Bahntickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einmalpauschale (steuerpflichtig)</masterLabel>
+            <translation><!-- Einmalpauschale (steuerpflichtig) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fahrradverleih</masterLabel>
+            <translation><!-- Fahrradverleih --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flug - Tickets</masterLabel>
+            <translation><!-- Flug - Tickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maut</masterLabel>
+            <translation><!-- Maut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mietfahrzeug</masterLabel>
+            <translation><!-- Mietfahrzeug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pauschale nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- Pauschale nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxifahrten</masterLabel>
+            <translation><!-- Taxifahrten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>laut Unterkunftsrechnung</masterLabel>
+            <translation><!-- laut Unterkunftsrechnung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ÖPNV - Tickets</masterLabel>
+            <translation><!-- ÖPNV - Tickets --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reisekosten --></label>
+        <name>Reisekosten__c</name>
+        <relationshipLabel><!-- Reisekosten Arten --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sonstiges --></label>
+        <name>Sonstiges__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]_FMArtHelpPicklist --></label>
+        <name>T_FMArtHelpPicklist__c</name>
+        <picklistValues>
+            <masterLabel>Bahncard</masterLabel>
+            <translation><!-- Bahncard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahntickets</masterLabel>
+            <translation><!-- Bahntickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fahrradverleih</masterLabel>
+            <translation><!-- Fahrradverleih --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flug - Tickets</masterLabel>
+            <translation><!-- Flug - Tickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maut</masterLabel>
+            <translation><!-- Maut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mietfahrzeug</masterLabel>
+            <translation><!-- Mietfahrzeug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxifahrten</masterLabel>
+            <translation><!-- Taxifahrten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ÖPNV - Tickets</masterLabel>
+            <translation><!-- ÖPNV - Tickets --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- [T]_FMArtKMHelper --></label>
+        <name>T_FMArtKMHelper__c</name>
+        <picklistValues>
+            <masterLabel>Andere Erstattungsarten</masterLabel>
+            <translation><!-- Andere Erstattungsarten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unterkunft Erstattung Art Klinik --></label>
+        <name>Unterkunft_Erstattung_Art_Klinik__c</name>
+        <picklistValues>
+            <masterLabel>Einmalpauschale</masterLabel>
+            <translation><!-- Einmalpauschale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>arbeitstäglich inkl. An- und Abreise</masterLabel>
+            <translation><!-- arbeitstäglich inkl. An- und Abreise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kalendertäglich</masterLabel>
+            <translation><!-- kalendertäglich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>per Unterkunftsrechnung</masterLabel>
+            <translation><!-- per Unterkunftsrechnung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unterkunft Erstattung Art Mitarbeiter --></label>
+        <name>Unterkunft_Erstattung_Art_Mitarbeiter__c</name>
+        <picklistValues>
+            <masterLabel>Einmalpauschale (steuerpflichtig)</masterLabel>
+            <translation><!-- Einmalpauschale (steuerpflichtig) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>per Unterkunftsrechnung</masterLabel>
+            <translation><!-- per Unterkunftsrechnung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pro Übernachtung</masterLabel>
+            <translation><!-- pro Übernachtung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Verpflegung Erstattung --></label>
+        <name>Verpflegung_Erstattung__c</name>
+        <picklistValues>
+            <masterLabel>Einmalpauschale (steuerpflichtig)</masterLabel>
+            <translation><!-- Einmalpauschale (steuerpflichtig) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verpflegungsmehraufwendungen nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- Verpflegungsmehraufwendungen nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- for Month/Quote --></label>
+        <name>for_Month_Quote__c</name>
+        <picklistValues>
+            <masterLabel>pro Einsatz</masterLabel>
+            <translation><!-- pro Einsatz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pro Monat</masterLabel>
+            <translation><!-- pro Monat --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

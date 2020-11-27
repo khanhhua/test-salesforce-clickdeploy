@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Account Team Member</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Account Team Member</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Team Member --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Hausbesitzer Ort --></label>
+        <name>Hausbesitzer_Ort__c</name>
+    </fields>
+    <fields>
+        <label>Hausbesitzer seit</label>
+        <name>LandlordSince_c__c</name>
+    </fields>
+    <fields>
+        <label>Nicht zugewiesen</label>
+        <name>Not_assigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Running User is Landlord --></label>
+        <name>Running_User_is_Landlord__c</name>
+    </fields>
+    <fields>
+        <label>Team Mitglied Rolle</label>
+        <name>Team_Member_Roles__c</name>
+        <picklistValues>
+            <masterLabel>First Contact Responsibility</masterLabel>
+            <translation>Erstansprache Verantwortung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAM</masterLabel>
+            <translation><!-- KAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord Caregiver</masterLabel>
+            <translation>Hausbesitzer Pfleger</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord Doctor</masterLabel>
+            <translation>Hausbesitzer Ärzte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Placement Caregiver</masterLabel>
+            <translation>Placement Pfleger</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Placement Doctor</masterLabel>
+            <translation>Placement Ärzte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruitment responsibility</masterLabel>
+            <translation>Recruitment Verantwortung</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Team Mitglied</label>
+        <name>Team_Member__c</name>
+    </fields>
+    <fields>
+        <label>Benutzer</label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Account Team Member --></relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <recordTypes>
+        <description><!-- Die Verwaltung der Besitzer für Ärzte und Pfleger. --></description>
+        <label><!-- Besitzer Ärzte/Plfeger --></label>
+        <name>Doctor_Caregiver</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Die Verwaltung der Hausbesitzer für Kliniken. --></description>
+        <label><!-- Hausbesitzer Klinik --></label>
+        <name>Institution</name>
+    </recordTypes>
+</CustomObjectTranslation>

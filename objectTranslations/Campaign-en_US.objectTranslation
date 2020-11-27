@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Campaign Status</value>
+        </caseValues>
+        <name>status_campaign</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign ID --></label>
+        <name>Campaign_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Body --></label>
+        <name>Email_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jobportal Link --></label>
+        <name>Jobportal_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- MarketoAPICallout --></label>
+        <name>MarketoAPICallout__c</name>
+    </fields>
+    <fields>
+        <help><!-- Die Einsatzzeit entspricht der Zeit, die in der Opportunity festgelegt wurde. --></help>
+        <label><!-- Operating Time --></label>
+        <name>Operating_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <lookupFilter>
+            <errorMessage><!-- Für diese Opportunity kann keine Kampagne erstellt werden --></errorMessage>
+        </lookupFilter>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Full Name --></label>
+        <name>Owner_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placement Model --></label>
+        <name>Placement_Model__c</name>
+    </fields>
+    <fields>
+        <help><!-- This offer is not displayed on the job search. --></help>
+        <label><!-- private campaign --></label>
+        <name>PrivateCampaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject Line --></label>
+        <name>Subject_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Callout executed --></label>
+        <name>T_Callout_executed__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Count --></label>
+        <name>T_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Count for Opportunity Rollup --></label>
+        <name>T_Count_for_Opportunity_Rollup__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] MCAPICallout --></label>
+        <name>T_MCAPICallout__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]_MarketoSenderAddress --></label>
+        <name>T_MarketoSenderAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Naming Helper --></label>
+        <name>T_Naming_Helper__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Offer Template --></label>
+        <name>T_Offer_Template__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T] Opp RecType / PlacementModel --></label>
+        <name>T_Opportunity_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Sender Address --></label>
+        <name>T_Sender_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Sender Name --></label>
+        <name>T_Sender_Name__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Child Campaign --></label>
+        <name>Child_Campaign</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lösche alle Mitglieder --></label>
+        <name>LoescheMitglieder</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mailing List --></label>
+        <name>MailingList</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Senden --></label>
+        <name>Senden</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Default Campaign Record Type --></description>
+        <label><!-- Campaign Record Type --></label>
+        <name>Campaign_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The Campaign is read-only in status &quot;Sent&quot; or &quot;Closed&quot; --></description>
+        <label><!-- Campaign (Sent/Closed) Record Type --></label>
+        <name>Campaign_Sent_Closed_Record_Type</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- In Status &quot;Sent&quot; or &quot;Closed&quot; the Campaign is read only. --></errorMessage>
+        <name>CampaignIsReadOnlyInStatusClosedOrSent</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>et4ae5__ViewCampaignInfluenceReport</name>
+    </webLinks>
+</CustomObjectTranslation>

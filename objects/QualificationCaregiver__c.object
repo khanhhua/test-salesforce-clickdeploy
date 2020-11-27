@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Qualification_Caregiver_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Qualifikation Pfleger</label>
+    <nameField>
+        <label>Qualification Caregiver Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Qualifikationen Pfleger</pluralLabel>
+    <searchLayouts>
+        <searchFilterFields>NAME</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Opportunity.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Substitute Caregiver, Placement Caregiver, Recruitment Caregiver</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Qualifications Caregiver</relationshipLabel>
+        <relationshipName>Qualifications_Caregiver</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CaregiverJobs__c</fullName>
+        <externalId>false</externalId>
+        <label>Ⓜ️ Caregiver Jobs</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Pflege_Berufe</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>T_CaregiverJobsMapped__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(CaregiverJobs__c, &quot;Gesundheits-und Krankenpfleger/in&quot;), &quot;GuK&quot;, 
+IF( ISPICKVAL(CaregiverJobs__c, &quot;Gesundheits- und Kinderkrankenpfleger/in&quot;), &quot;GuKinderK&quot;, 
+IF( ISPICKVAL(CaregiverJobs__c, &quot;Gesundheits- und Pflegeassistent/in (Pflegehelfer/in)&quot;), &quot;Gu Pflegeassistent (PH)&quot;, 
+IF( ISPICKVAL(CaregiverJobs__c, &quot;Medizinische Fachangestellte/r (Arzthelfer/in)&quot;), &quot;Med. Fachangestellte/r (AH)&quot;, 
+IF( ISPICKVAL(CaregiverJobs__c, &quot;Hebamme/Entbindungspfleger&quot;), &quot;Heb/Entbindungspfleger&quot;, 
+TEXT(CaregiverJobs__c ))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>[T] CaregiverJobsMapped</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CaregiverFurtherEducation__c</fullName>
+        <externalId>false</externalId>
+        <label>Ⓜ️ Caregiver Further Education</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ITS/Anästhesie </fullName>
+                    <default>false</default>
+                    <label>ITS/Anästhesie </label>
+                </value>
+                <value>
+                    <fullName>KinderITS (Neonatologie Level 1-3)/Kinderanästhesie</fullName>
+                    <default>false</default>
+                    <label>KinderITS (Neonatologie Level 1-3)/Kinderanästhesie</label>
+                </value>
+                <value>
+                    <fullName>OP</fullName>
+                    <default>false</default>
+                    <label>OP</label>
+                </value>
+                <value>
+                    <fullName>Ambulanzdienst/Notfallmedizin</fullName>
+                    <default>false</default>
+                    <label>Ambulanzdienst/Notfallmedizin</label>
+                </value>
+                <value>
+                    <fullName>Endoskopie &amp; Herzkatheterlabor</fullName>
+                    <default>false</default>
+                    <label>Endoskopie &amp; Herzkatheterlabor</label>
+                </value>
+                <value>
+                    <fullName>Kardiotechnik</fullName>
+                    <default>false</default>
+                    <label>Kardiotechnik</label>
+                </value>
+                <value>
+                    <fullName>Onkologie/Palliativmedizin/Hospizpflege</fullName>
+                    <default>false</default>
+                    <label>Onkologie/Palliativmedizin/Hospizpflege</label>
+                </value>
+                <value>
+                    <fullName>Nephrologie/Dialyse</fullName>
+                    <default>false</default>
+                    <label>Nephrologie/Dialyse</label>
+                </value>
+                <value>
+                    <fullName>Rehabilitation und Langzeitpflege</fullName>
+                    <default>false</default>
+                    <label>Rehabilitation und Langzeitpflege</label>
+                </value>
+                <value>
+                    <fullName>Hygiene</fullName>
+                    <default>false</default>
+                    <label>Hygiene</label>
+                </value>
+                <value>
+                    <fullName>Study Nurse</fullName>
+                    <default>false</default>
+                    <label>Study Nurse</label>
+                </value>
+                <value>
+                    <fullName>Psychiatrie</fullName>
+                    <default>false</default>
+                    <label>Psychiatrie</label>
+                </value>
+                <value>
+                    <fullName>Gerontopsychiatrie </fullName>
+                    <default>false</default>
+                    <label>Gerontopsychiatrie </label>
+                </value>
+                <value>
+                    <fullName>Geriatrie</fullName>
+                    <default>false</default>
+                    <label>Geriatrie</label>
+                </value>
+                <value>
+                    <fullName>Außerklinische Beatmung</fullName>
+                    <default>false</default>
+                    <label>Außerklinische Beatmung</label>
+                </value>
+                <value>
+                    <fullName>Fachkunde 1 &amp; 2 (Sterilisation)</fullName>
+                    <default>false</default>
+                    <label>Fachkunde 1 &amp; 2 (Sterilisation)</label>
+                </value>
+                <value>
+                    <fullName>Pflegedienstleitung</fullName>
+                    <default>false</default>
+                    <label>Pflegedienstleitung</label>
+                </value>
+                <value>
+                    <fullName>Stationsleitung</fullName>
+                    <default>false</default>
+                    <label>Stationsleitung</label>
+                </value>
+                <value>
+                    <fullName>Wohnbereichsleitung</fullName>
+                    <default>false</default>
+                    <label>Wohnbereichsleitung</label>
+                </value>
+                <value>
+                    <fullName>Stroke Unit</fullName>
+                    <default>false</default>
+                    <label>Stroke Unit</label>
+                </value>
+                <value>
+                    <fullName>IMC</fullName>
+                    <default>false</default>
+                    <label>IMC</label>
+                </value>
+                <value>
+                    <fullName>Hebamme/Entbindungspfleger/In</fullName>
+                    <default>false</default>
+                    <label>Hebamme/Entbindungspfleger/In</label>
+                </value>
+                <value>
+                    <fullName>Strahlenschutz</fullName>
+                    <default>false</default>
+                    <label>Strahlenschutz</label>
+                </value>
+                <value>
+                    <fullName>Studium im Gesundheitswesen</fullName>
+                    <default>false</default>
+                    <label>Studium im Gesundheitswesen</label>
+                </value>
+                <value>
+                    <fullName>Studium in der Pflege</fullName>
+                    <default>false</default>
+                    <label>Studium in der Pflege</label>
+                </value>
+                <value>
+                    <fullName>Qualitätsmanagement</fullName>
+                    <default>false</default>
+                    <label>Qualitätsmanagement</label>
+                </value>
+                <value>
+                    <fullName>Weaning</fullName>
+                    <default>false</default>
+                    <label>Weaning</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>T_CaregiverFurtherEducation__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;None;&quot; +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;ITS/Anästhesie &quot;), &quot;ITS/Anästhesie;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;KinderITS (Neonatologie Level 1-3)/Kinderanästhesie&quot;), &quot;KinderITS (Neonatologie Level 1-3)/Kinderanästhesie;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;OP&quot;), &quot;OP;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Ambulanzdienst/Notfallmedizin&quot;), &quot;Ambulanzdienst/Notfallmedizin;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Endoskopie &amp; Herzkatheterlabor&quot;), &quot;Endoskopie &amp; Herzkatheterlabor;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Kardiotechnik&quot;), &quot;Kardiotechnik;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Onkologie/Palliativmedizin/Hospizpflege&quot;), &quot;Onkologie/Palliativmedizin/Hospizpflege;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Nephrologie/Dialyse&quot;), &quot;Nephrologie/Dialyse;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Rehabilitation und Langzeitpflege&quot;), &quot;Rehabilitation und Langzeitpflege;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Hygiene&quot;), &quot;Hygiene;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Study Nurse&quot;), &quot;Study Nurse;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Psychiatrie&quot;), &quot;Psychiatrie;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Gerontopsychiatrie&quot;), &quot;Gerontopsychiatrie;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Geriatrie&quot;), &quot;Geriatrie;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Außerklinische Beatmung&quot;), &quot;Außerklinische Beatmung;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Fachkunde 1 &amp; 2 (Sterilisation)&quot;), &quot;Fachkunde 1 &amp; 2 (Sterilisation);&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Pflegedienstleitung&quot;), &quot;Pflegedienstleitung;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Stationsleitung&quot;), &quot;Stationsleitung;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Wohnbereichsleitung&quot;), &quot;Wohnbereichsleitung;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Stoke Unit&quot;), &quot;Stoke Unit;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;IMC&quot;), &quot;IMC;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Hebamme/Entbindungspfleger/In&quot;), &quot;Hebamme/Entbindungspfleger/In;&quot;, NULL)  +
+IF(INCLUDES(CaregiverFurtherEducation__c, &quot;Strahlenschutz&quot;), &quot;Strahlenschutz;&quot;, NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>[T] Caregiver Further Education</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CaregiverPracticalExperience__c</fullName>
+        <externalId>false</externalId>
+        <label>Ⓜ️ Caregiver Practical Experience</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ITS/Anästhesie </fullName>
+                    <default>false</default>
+                    <label>ITS/Anästhesie </label>
+                </value>
+                <value>
+                    <fullName>KinderITS (Neonatologie Level 1-3)/Kinderanästhesie</fullName>
+                    <default>false</default>
+                    <label>KinderITS (Neonatologie Level 1-3)/Kinderanästhesie</label>
+                </value>
+                <value>
+                    <fullName>OP</fullName>
+                    <default>false</default>
+                    <label>OP</label>
+                </value>
+                <value>
+                    <fullName>Ambulanzdienst/Notfallmedizin</fullName>
+                    <default>false</default>
+                    <label>Ambulanzdienst/Notfallmedizin</label>
+                </value>
+                <value>
+                    <fullName>Endoskopie &amp; Herzkatheterlabor</fullName>
+                    <default>false</default>
+                    <label>Endoskopie &amp; Herzkatheterlabor</label>
+                </value>
+                <value>
+                    <fullName>Kardiotechnik</fullName>
+                    <default>false</default>
+                    <label>Kardiotechnik</label>
+                </value>
+                <value>
+                    <fullName>Onkologie/Palliativmedizin/Hospizpflege</fullName>
+                    <default>false</default>
+                    <label>Onkologie/Palliativmedizin/Hospizpflege</label>
+                </value>
+                <value>
+                    <fullName>Nephrologie/Dialyse</fullName>
+                    <default>false</default>
+                    <label>Nephrologie/Dialyse</label>
+                </value>
+                <value>
+                    <fullName>Rehabilitation und Langzeitpflege</fullName>
+                    <default>false</default>
+                    <label>Rehabilitation und Langzeitpflege</label>
+                </value>
+                <value>
+                    <fullName>Hygiene</fullName>
+                    <default>false</default>
+                    <label>Hygiene</label>
+                </value>
+                <value>
+                    <fullName>Study Nurse</fullName>
+                    <default>false</default>
+                    <label>Study Nurse</label>
+                </value>
+                <value>
+                    <fullName>Psychiatrie</fullName>
+                    <default>false</default>
+                    <label>Psychiatrie</label>
+                </value>
+                <value>
+                    <fullName>Gerontopsychiatrie </fullName>
+                    <default>false</default>
+                    <label>Gerontopsychiatrie </label>
+                </value>
+                <value>
+                    <fullName>Geriatrie</fullName>
+                    <default>false</default>
+                    <label>Geriatrie</label>
+                </value>
+                <value>
+                    <fullName>Außerklinische Beatmung</fullName>
+                    <default>false</default>
+                    <label>Außerklinische Beatmung</label>
+                </value>
+                <value>
+                    <fullName>Fachkunde 1 &amp; 2 (Sterilisation)</fullName>
+                    <default>false</default>
+                    <label>Fachkunde 1 &amp; 2 (Sterilisation)</label>
+                </value>
+                <value>
+                    <fullName>Pflegedienstleitung</fullName>
+                    <default>false</default>
+                    <label>Pflegedienstleitung</label>
+                </value>
+                <value>
+                    <fullName>Stationsleitung</fullName>
+                    <default>false</default>
+                    <label>Stationsleitung</label>
+                </value>
+                <value>
+                    <fullName>Wohnbereichsleitung</fullName>
+                    <default>false</default>
+                    <label>Wohnbereichsleitung</label>
+                </value>
+                <value>
+                    <fullName>Stroke Unit</fullName>
+                    <default>false</default>
+                    <label>Stroke Unit</label>
+                </value>
+                <value>
+                    <fullName>IMC</fullName>
+                    <default>false</default>
+                    <label>IMC</label>
+                </value>
+                <value>
+                    <fullName>Hebamme/Entbindungspfleger/In</fullName>
+                    <default>false</default>
+                    <label>Hebamme/Entbindungspfleger/In</label>
+                </value>
+                <value>
+                    <fullName>Strahlenschutz</fullName>
+                    <default>false</default>
+                    <label>Strahlenschutz</label>
+                </value>
+                <value>
+                    <fullName>Weaning</fullName>
+                    <default>false</default>
+                    <label>Weaning</label>
+                </value>
+                <value>
+                    <fullName>Studium im Gesundheitswesen</fullName>
+                    <default>false</default>
+                    <label>Studium im Gesundheitswesen</label>
+                </value>
+                <value>
+                    <fullName>Studium in der Pflege</fullName>
+                    <default>false</default>
+                    <label>Studium in der Pflege</label>
+                </value>
+                <value>
+                    <fullName>Qualitätsmanagement</fullName>
+                    <default>false</default>
+                    <label>Qualitätsmanagement</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>T_CaregiverPracticalExperience__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;None;&quot; +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;ITS/Anästhesie &quot;), &quot;ITS/Anästhesie;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;KinderITS (Neonatologie Level 1-3)/Kinderanästhesie&quot;), &quot;KinderITS (Neonatologie Level 1-3)/Kinderanästhesie;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;OP&quot;), &quot;OP;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Ambulanzdienst/Notfallmedizin&quot;), &quot;Ambulanzdienst/Notfallmedizin;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Endoskopie &amp; Herzkatheterlabor&quot;), &quot;Endoskopie &amp; Herzkatheterlabor;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Kardiotechnik&quot;), &quot;Kardiotechnik;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Onkologie/Palliativmedizin/Hospizpflege&quot;), &quot;Onkologie/Palliativmedizin/Hospizpflege;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Nephrologie/Dialyse&quot;), &quot;Nephrologie/Dialyse;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Rehabilitation und Langzeitpflege&quot;), &quot;Rehabilitation und Langzeitpflege;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Hygiene&quot;), &quot;Hygiene;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Study Nurse&quot;), &quot;Study Nurse;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Psychiatrie&quot;), &quot;Psychiatrie;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Gerontopsychiatrie &quot;), &quot;Gerontopsychiatrie;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Geriatrie&quot;), &quot;Geriatrie;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Außerklinische Beatmung&quot;), &quot;Außerklinische Beatmung;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Fachkunde 1 &amp; 2 (Sterilisation)&quot;), &quot;Fachkunde 1 &amp; 2 (Sterilisation);&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Pflegedienstleitung&quot;), &quot;Pflegedienstleitung;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Stationsleitung&quot;), &quot;Stationsleitung;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Wohnbereichsleitung&quot;), &quot;Wohnbereichsleitung;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Stoke Unit&quot;), &quot;Stoke Unit;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;IMC&quot;), &quot;IMC;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Hebamme/Entbindungspfleger/In&quot;), &quot;Hebamme/Entbindungspfleger/In;&quot;, NULL)  +
+IF(INCLUDES( CaregiverPracticalExperience__c , &quot;Strahlenschutz&quot;), &quot;Strahlenschutz;&quot;, NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>[T] Caregiver Practical Experience</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T_Count_for_Opportunity_rollup__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>This field is used for the dlrs and opportunity automatic naming process.
+Robin S. 20.02.2019</description>
+        <externalId>false</externalId>
+        <label>[T] Count for Opportunity rollup</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Only_one_QualifcationCaregiver_per_Opp</fullName>
+        <active>true</active>
+        <errorConditionFormula>$User.ProfileId &lt;&gt; &quot;00e1r0000027FuT&quot; &amp;&amp; Isnew() &amp;&amp; 
+Opportunity__r.T_Number_of_Qualification_Caregiver__c &gt; 2</errorConditionFormula>
+        <errorMessage>You may not deposit more than three Caregiver Qualification per opportunity. If you would like to add another caregiver qualification, please create another opportunity</errorMessage>
+    </validationRules>
+</CustomObject>
