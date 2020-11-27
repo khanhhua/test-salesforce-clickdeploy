@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Account_Team_Member_Layout</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>The default account teams doesnt privide the functionalities which we need for the Owner Structures.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Account Team Member</label>
+    <nameField>
+        <displayFormat>AM-{0000}</displayFormat>
+        <label>Account Team Member Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Account Team Member</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>Account_Team_Member_Layout</fullName>
+        <fields>Team_Member__c</fields>
+        <label>Account Team Member Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Account_Team_Member</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Account Team Member</relationshipLabel>
+        <relationshipName>Account_Team_Member</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Team_Member__c</fullName>
+        <description>Placeholder for Username or &quot;Unassigned&quot;</description>
+        <externalId>false</externalId>
+        <label>Team Member</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Not_assigned__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISBLANK(User__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Not assigned</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LandlordSince_c__c</fullName>
+        <externalId>false</externalId>
+        <label>Landlord since</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Hausbesitzer_Ort__c</fullName>
+        <externalId>false</externalId>
+        <formula>BLANKVALUE(User__r.City, &quot;Berlin&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hausbesitzer Ort</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_Member_Roles__c</fullName>
+        <externalId>false</externalId>
+        <label>Team Member Roles</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>First Contact Responsibility</fullName>
+                    <default>false</default>
+                    <label>First Contact Responsibility</label>
+                </value>
+                <value>
+                    <fullName>KAM</fullName>
+                    <default>false</default>
+                    <label>KAM</label>
+                </value>
+                <value>
+                    <fullName>Landlord Caregiver</fullName>
+                    <default>false</default>
+                    <label>Landlord Caregiver</label>
+                </value>
+                <value>
+                    <fullName>Landlord Doctor</fullName>
+                    <default>false</default>
+                    <label>Landlord Doctor</label>
+                </value>
+                <value>
+                    <fullName>Placement Caregiver</fullName>
+                    <default>false</default>
+                    <label>Placement Caregiver</label>
+                </value>
+                <value>
+                    <fullName>Placement Doctor</fullName>
+                    <default>false</default>
+                    <label>Placement Doctor</label>
+                </value>
+                <value>
+                    <fullName>Recruitment responsibility</fullName>
+                    <default>false</default>
+                    <label>Recruitment responsibility</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Running_User_is_Landlord__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  User__r.Id  = $User.Id, 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Running User is Landlord</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>Institution</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Account_Team_Member_Layout</compactLayoutAssignment>
+        <description>Die Verwaltung der Hausbesitzer für Kliniken.</description>
+        <label>Hausbesitzer Klinik</label>
+        <picklistValues>
+            <picklist>Team_Member_Roles__c</picklist>
+            <values>
+                <fullName>KAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landlord Caregiver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landlord Doctor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Placement Caregiver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Placement Doctor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Doctor_Caregiver</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>Account_Team_Member_Layout</compactLayoutAssignment>
+        <description>Die Verwaltung der Besitzer für Ärzte und Pfleger.</description>
+        <label>Besitzer Ärzte/Plfeger</label>
+        <picklistValues>
+            <picklist>Team_Member_Roles__c</picklist>
+            <values>
+                <fullName>First Contact Responsibility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recruitment responsibility</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

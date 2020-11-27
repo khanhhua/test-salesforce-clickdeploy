@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Reisekosten Ausprägung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Reisekosten Ausprägungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Anzahl Flug-Tickets --></label>
+        <name>Anzahl_Flug_Tickets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahl Sonstiges --></label>
+        <name>Anzahl_Sonstiges__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ausprägung Fahrkosten und Mobilität --></label>
+        <name>Auspraegung_Fahrkosten_Mobilitaet__c</name>
+        <picklistValues>
+            <masterLabel>An- und Abfahrt pro Monat</masterLabel>
+            <translation><!-- An- und Abfahrt pro Monat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>arbeitstäglich</masterLabel>
+            <translation><!-- arbeitstäglich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>wöchentlich</masterLabel>
+            <translation><!-- wöchentlich --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ausprägung Fahrkosten und Mobilität Bahn --></label>
+        <name>Auspraegung_Fahrkosten_und_Mobilitaet_B__c</name>
+        <picklistValues>
+            <masterLabel>An- und Abreise Auftrag</masterLabel>
+            <translation><!-- An- und Abreise Auftrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heimfahrten pro Monat</masterLabel>
+            <translation><!-- Heimfahrten pro Monat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>arbeitstäglich</masterLabel>
+            <translation><!-- arbeitstäglich --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ausprägung Fahrkosten und Mobilität ÖPNV --></label>
+        <name>Auspraegung_Fahrkosten_und_Mobilitaet_O__c</name>
+        <picklistValues>
+            <masterLabel>An- und Abreise Auftrag</masterLabel>
+            <translation><!-- An- und Abreise Auftrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heimfahrten pro Monat</masterLabel>
+            <translation><!-- Heimfahrten pro Monat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>arbeitstäglich</masterLabel>
+            <translation><!-- arbeitstäglich --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ausprägung Mitarbeiter Unterkunft --></label>
+        <name>Auspraegung_Mitarbeiter_Unterkunft__c</name>
+        <picklistValues>
+            <masterLabel>Frühstück</masterLabel>
+            <translation><!-- Frühstück --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Übernachtung</masterLabel>
+            <translation><!-- Übernachtung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ausprägung Unterkunft Klinik --></label>
+        <name>Auspraegung_Unterkunft_Klinik__c</name>
+        <picklistValues>
+            <masterLabel>arbeitstäglich</masterLabel>
+            <translation><!-- arbeitstäglich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kalendertäglich</masterLabel>
+            <translation><!-- kalendertäglich --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Bahn Heimfahrten pro Monat --></label>
+        <name>Bahn_Heimfahrten_pro_Monat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Einmalpauschale bis maximaler Betrag --></label>
+        <name>Einmalpauschale_bis_maximaler_Betrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frühstück bis maximaler Betrag --></label>
+        <name>Fruehstueck_bis_maximaler_Betrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- KM-Pauschale Heimfahrten pro Monat --></label>
+        <name>KM_Pauschale_Heimfahrten_pro_Monat__c</name>
+    </fields>
+    <fields>
+        <label><!-- ÖPNV Heimfahrten pro Monat --></label>
+        <name>PNV_Heimfahrten_pro_Monat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reisekosten Art --></label>
+        <name>Reisekosten_Art__c</name>
+        <relationshipLabel><!-- Reisekosten Ausprägungen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Übernachtung bis maximaler Betrag --></label>
+        <name>Uebernachtung_bis_maximaler_Betrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuschlag --></label>
+        <name>Zuschlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuschlag arbeitstäglich --></label>
+        <name>Zuschlag_arbeitstaeglich__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zuschlag kalendertäglich --></label>
+        <name>Zuschlag_kalendertaeglich__c</name>
+    </fields>
+    <fields>
+        <label><!-- krankheitsbedingte Ausprägung --></label>
+        <name>krankheitsbedingte_Auspraegung__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximaler Betrag Flugticket --></label>
+        <name>maximaler_Betrag_Flugticket__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximaler Betrag (Reisekostenrechts) --></label>
+        <name>maximaler_Betrag_Reisekostenrechts__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximaler Betrag Sonstiges --></label>
+        <name>maximaler_Betrag_Sonstiges__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximaler Betrag arbeitstäglich --></label>
+        <name>maximaler_Betrag_arbeitstaeglich__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximaler Betrag kalendertäglich --></label>
+        <name>maximaler_Betrag_kalendert_glich__c</name>
+    </fields>
+    <fields>
+        <label><!-- maximaler Betrag krankheitsb. Ausfall --></label>
+        <name>maximaler_Betrag_krankheitsb_Ausfall__c</name>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

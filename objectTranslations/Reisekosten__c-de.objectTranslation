@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Reisekosten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Reisekosten</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accommodation Refund --></label>
+        <name>Accommodation_Refund__c</name>
+        <picklistValues>
+            <masterLabel>Buchung über Doctari</masterLabel>
+            <translation><!-- Buchung über Doctari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Account</label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Reisekosten --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Betrag</label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label>Kostenart</label>
+        <name>Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+        <relationshipLabel><!-- Traveling Costs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Opportunity</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Reisekosten --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Vertragsentwurf</label>
+        <name>Quote__c</name>
+        <relationshipLabel><!-- Traveling Costs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Einheit</label>
+        <name>ReferenceUnit__c</name>
+        <picklistValues>
+            <masterLabel>einmalig</masterLabel>
+            <translation><!-- einmalig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kostenfrei</masterLabel>
+            <translation><!-- kostenfrei --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pro Tag</masterLabel>
+            <translation><!-- pro Tag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pro Woche</masterLabel>
+            <translation><!-- pro Woche --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Refund --></label>
+        <name>Refund__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Nur zu befüllen wenn es eine Erstattung gibt --></help>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Bahncard</masterLabel>
+            <translation><!-- Bahncard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bahntickets</masterLabel>
+            <translation><!-- Bahntickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einmalpauschale  (steuerpflichtig)</masterLabel>
+            <translation><!-- Einmalpauschale  (steuerpflichtig) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einmalpauschale (steuerpflichtig)</masterLabel>
+            <translation><!-- Einmalpauschale (steuerpflichtig) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fahrradverleih</masterLabel>
+            <translation><!-- Fahrradverleih --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flug - Tickets</masterLabel>
+            <translation><!-- Flug - Tickets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maut</masterLabel>
+            <translation><!-- Maut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mietfahrzeug</masterLabel>
+            <translation><!-- Mietfahrzeug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pauschale nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- Pauschale nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxifahrten</masterLabel>
+            <translation><!-- Taxifahrten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verpflegungsmehraufwendungen nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- Verpflegungsmehraufwendungen nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts</masterLabel>
+            <translation><!-- km-Pauschale mit dem privaten PkW nach den Regelungen des Reisekostenrechts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>laut Unterkunftsrechnung</masterLabel>
+            <translation><!-- laut Unterkunftsrechnung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ÖPNV - Tickets</masterLabel>
+            <translation><!-- ÖPNV - Tickets --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Auszufüllen wenn bei Art der Erstattung &quot;Sonstiges gewählt wurde --></help>
+        <label><!-- other type --></label>
+        <name>other_type__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <recordTypes>
+        <label><!-- Accommodation booking --></label>
+        <name>Accommodation_booking</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Doctor/Caregiver --></label>
+        <name>Doctor_Caregiver</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Institution --></label>
+        <name>Institution</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Wenn es keine Erstattung gibt kann keine Art der Erstattung ausgewählt werden --></errorMessage>
+        <name>RefundTypeRelation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Für die Art der Erstattung muss &quot;Sonstiges&quot; ausgewählt sein um das Feld &quot;Sonstiges&quot; zu befüllen. --></errorMessage>
+        <name>othertype</name>
+    </validationRules>
+</CustomObjectTranslation>

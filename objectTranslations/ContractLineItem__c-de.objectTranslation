@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Vertragskondition</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Vertragskonditionen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Vertragskondition</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Vertragskonditionen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Vertragskondition</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Vertragskonditionen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Vertragskondition</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Vertragskonditionen</value>
+    </caseValues>
+    <fields>
+        <label>Vertrag</label>
+        <name>Contract__c</name>
+        <relationshipLabel>Vertragskonditionen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Arbeitnehmer</label>
+        <name>EmployeePrice__c</name>
+    </fields>
+    <fields>
+        <label>Klinik</label>
+        <name>HospitalPrice__c</name>
+    </fields>
+    <fields>
+        <label>Besonderheit</label>
+        <name>Line_Item_Description__c</name>
+    </fields>
+    <fields>
+        <label>%</label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Porky External ID --></label>
+        <name>PorkyExternalID__c</name>
+    </fields>
+    <fields>
+        <label>Dienstart</label>
+        <name>Product__c</name>
+        <relationshipLabel>Vertragskondition</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Runden</label>
+        <name>Round__c</name>
+        <picklistValues>
+            <masterLabel>1/2</masterLabel>
+            <translation><!-- 1/2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1/4</masterLabel>
+            <translation><!-- 1/4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>x, yy</masterLabel>
+            <translation><!-- x, yy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dienstart</label>
+        <name>ServiceType__c</name>
+        <picklistValues>
+            <masterLabel>Aktivstunden</masterLabel>
+            <translation><!-- Aktivstunden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbeitsmittelpauschale</masterLabel>
+            <translation><!-- Arbeitsmittelpauschale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bereitschaftdienst aktiv</masterLabel>
+            <translation><!-- Bereitschaftdienst aktiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bereitschaftsdienst</masterLabel>
+            <translation><!-- Bereitschaftsdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bereitschaftsdienst passiv</masterLabel>
+            <translation><!-- Bereitschaftsdienst passiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fahrtkostenpauschale</masterLabel>
+            <translation><!-- Fahrtkostenpauschale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feiertagsdienst</masterLabel>
+            <translation><!-- Feiertagsdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feiertagszuschlag</masterLabel>
+            <translation><!-- Feiertagszuschlag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freitext</masterLabel>
+            <translation><!-- Freitext --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nachtdienst</masterLabel>
+            <translation><!-- Nachtdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nachtzuschlag</masterLabel>
+            <translation><!-- Nachtzuschlag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regeldienst</masterLabel>
+            <translation><!-- Regeldienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rufbereitschaft exkl. Aktivstunden</masterLabel>
+            <translation><!-- Rufbereitschaft exkl. Aktivstunden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rufbereitschaft inkl. Aktivstunden</masterLabel>
+            <translation><!-- Rufbereitschaft inkl. Aktivstunden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rufbereitschaft zzgl. Aktivstunden</masterLabel>
+            <translation><!-- Rufbereitschaft zzgl. Aktivstunden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rufdienst aktiv</masterLabel>
+            <translation><!-- Rufdienst aktiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rufdienst passiv</masterLabel>
+            <translation><!-- Rufdienst passiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samstagszuschlag</masterLabel>
+            <translation><!-- Samstagszuschlag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonntagszuschlag</masterLabel>
+            <translation><!-- Sonntagszuschlag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spesen</masterLabel>
+            <translation><!-- Spesen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tagdienst</masterLabel>
+            <translation><!-- Tagdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tagesaufwandspauschale</masterLabel>
+            <translation><!-- Tagesaufwandspauschale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unterkunftspauschale</masterLabel>
+            <translation><!-- Unterkunftspauschale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wochenendzuschlag</masterLabel>
+            <translation><!-- Wochenendzuschlag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Einheit</label>
+        <name>Unit__c</name>
+        <picklistValues>
+            <masterLabel>EUR (Pauschal)</masterLabel>
+            <translation><!-- EUR (Pauschal) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR / h</masterLabel>
+            <translation><!-- EUR / h --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Vertragskonditionsnummer</nameFieldLabel>
+</CustomObjectTranslation>

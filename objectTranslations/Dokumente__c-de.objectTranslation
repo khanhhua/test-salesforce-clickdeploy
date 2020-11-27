@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Unterlagen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Unterlagen</value>
+    </caseValues>
+    <fields>
+        <label>Account Typ</label>
+        <name>AccountType__c</name>
+        <picklistValues>
+            <masterLabel>Arzt</masterLabel>
+            <translation><!-- Arzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einrichtung</masterLabel>
+            <translation>Einrichtung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pfleger</masterLabel>
+            <translation><!-- Pfleger --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Account</label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Dokumente --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Zusatzbezeichnung</label>
+        <name>AdditionalDesignations__c</name>
+    </fields>
+    <fields>
+        <label>Zusatzblatt vohanden</label>
+        <name>AdditionalSheedAvailable__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>vorhanden</label>
+        <name>Available__c</name>
+        <picklistValues>
+            <masterLabel>ja</masterLabel>
+            <translation><!-- ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nein</masterLabel>
+            <translation><!-- nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nebenbestimmungen</label>
+        <name>BesidesRegulations__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Kartennutzung gültig bis</label>
+        <name>CardUsageValidUntil__c</name>
+    </fields>
+    <fields>
+        <label>Pflege-Weiterbildung</label>
+        <name>CaregiverFurtherEducation__c</name>
+    </fields>
+    <fields>
+        <label>Pflege-Beruf</label>
+        <name>CaregiverJob__c</name>
+    </fields>
+    <fields>
+        <label>Beschreibung</label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label>Dokumentennummer</label>
+        <name>Document_Number__c</name>
+    </fields>
+    <fields>
+        <label>Internes Prüfdatum</label>
+        <name>InternalInspectionDate__c</name>
+    </fields>
+    <fields>
+        <label>Verlinkung Dokument</label>
+        <name>LinkToDocument__c</name>
+    </fields>
+    <fields>
+        <label>Fachrichtung</label>
+        <name>MedicalDiscipline__c</name>
+    </fields>
+    <fields>
+        <label>Beglaubigtes- / Originaldokument gesehen</label>
+        <name>OriginalDocumentSeen__c</name>
+    </fields>
+    <fields>
+        <label>Kostenübernahme</label>
+        <name>Reimbursement__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Aufenthaltstitel</label>
+        <name>ResidenceDocument__c</name>
+        <picklistValues>
+            <masterLabel>befristet</masterLabel>
+            <translation><!-- befristet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unbefristet</masterLabel>
+            <translation><!-- unbefristet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Der Aufenthaltstitel erlaubt das Vermittlungmodell ANÜ --></help>
+        <label>Aufenthaltstitel erlaubt ANÜ</label>
+        <name>ResidencePermitANUE__c</name>
+    </fields>
+    <fields>
+        <help><!-- Der Aufenthaltstitel erlaubt das Vermittlungsmodell Honorar --></help>
+        <label>Aufenthaltstitel erlaubt Honorar</label>
+        <name>ResidencePermitHonorar__c</name>
+    </fields>
+    <fields>
+        <label>Gesehen von</label>
+        <name>SeenBy__c</name>
+        <relationshipLabel><!-- Document States --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T]_DateUntilForCase --></label>
+        <name>T_DateUntilForCase__c</name>
+    </fields>
+    <fields>
+        <label>Fachkunde</label>
+        <name>TechnicalQualifications__c</name>
+    </fields>
+    <fields>
+        <label>Tracking Status</label>
+        <name>Tracking_Status__c</name>
+        <picklistValues>
+            <masterLabel>tbd</masterLabel>
+            <translation><!-- tbd --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dokument Typ</label>
+        <name>TypeOfDocument__c</name>
+        <picklistValues>
+            <masterLabel>A1-Bescheinigung</masterLabel>
+            <translation><!-- A1-Bescheinigung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANÜ Tarifvertrag</masterLabel>
+            <translation><!-- ANÜ Tarifvertrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abfrage Vorarbeitgeber</masterLabel>
+            <translation><!-- Abfrage Vorarbeitgeber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abschlussvollmacht Rahmenvertrag MED ANÜ</masterLabel>
+            <translation><!-- Abschlussvollmacht Rahmenvertrag MED ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abschlussvollmacht Rahmenvertrag Ärzte ANÜ</masterLabel>
+            <translation><!-- Abschlussvollmacht Rahmenvertrag Ärzte ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abschlussvollmacht Rahmenvertrag Ärzte ANÜ + MED ANÜ</masterLabel>
+            <translation><!-- Abschlussvollmacht Rahmenvertrag Ärzte ANÜ + MED ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allgmemeine Vollmacht zu ANÜ Verträgen</masterLabel>
+            <translation><!-- Allgmemeine Vollmacht zu ANÜ Verträgen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approbationsurkunde</masterLabel>
+            <translation><!-- Approbationsurkunde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbeits- und Brandschutzunterweisung</masterLabel>
+            <translation><!-- Arbeits- und Brandschutzunterweisung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbeitserlaubnis</masterLabel>
+            <translation><!-- Arbeitserlaubnis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbeitsmedizinische Vorsorgebescheinigung (G42 und ggf. G24)</masterLabel>
+            <translation><!-- Arbeitsmedizinische Vorsorgebescheinigung (G42 und ggf. G24) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbeitsschutzunterweisung</masterLabel>
+            <translation><!-- Arbeitsschutzunterweisung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbeitszeugnisse</masterLabel>
+            <translation><!-- Arbeitszeugnisse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aufenthaltstitel befristet</masterLabel>
+            <translation><!-- Aufenthaltstitel befristet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aufenthaltstitel unbefristet</masterLabel>
+            <translation><!-- Aufenthaltstitel unbefristet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berufshaftpflichtversicherung (vollumfänglich für Freiberuflichkeit)</masterLabel>
+            <translation><!-- Berufshaftpflichtversicherung (vollumfänglich für Freiberuflichkeit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einsatzbogen</masterLabel>
+            <translation><!-- Einsatzbogen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einwilligung Abrechnungen online</masterLabel>
+            <translation><!-- Einwilligung Abrechnungen online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einwilligung Datenweitergabe</masterLabel>
+            <translation><!-- Einwilligung Datenweitergabe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erstunterweisung</masterLabel>
+            <translation><!-- Erstunterweisung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Examensurkunde</masterLabel>
+            <translation><!-- Examensurkunde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facharzturkunde Zusatzbezeichnung/-en</masterLabel>
+            <translation><!-- Facharzturkunde Zusatzbezeichnung/-en --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facharzturkunde/-n</masterLabel>
+            <translation><!-- Facharzturkunde/-n --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachkundennachweise</masterLabel>
+            <translation><!-- Fachkundennachweise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachkundennachweise Strahlenschutz</masterLabel>
+            <translation><!-- Fachkundennachweise Strahlenschutz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachweiterbildung</masterLabel>
+            <translation><!-- Fachweiterbildung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fiktionsbescheinigung</masterLabel>
+            <translation><!-- Fiktionsbescheinigung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fort- und Weiterbildungsnachweis</masterLabel>
+            <translation><!-- Fort- und Weiterbildungsnachweis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fortbildungszertifikat</masterLabel>
+            <translation><!-- Fortbildungszertifikat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impfstatus</masterLabel>
+            <translation><!-- Impfstatus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Krankenversicherung Nachweis</masterLabel>
+            <translation><!-- Krankenversicherung Nachweis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebenslauf</masterLabel>
+            <translation><!-- Lebenslauf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasernATTEST</masterLabel>
+            <translation><!-- MasernATTEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasernPASS</masterLabel>
+            <translation><!-- MasernPASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mebeko Anerkennung</masterLabel>
+            <translation><!-- Mebeko Anerkennung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meldung beim Gesundheitsamt</masterLabel>
+            <translation><!-- Meldung beim Gesundheitsamt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mitgliedschaft Berufsgenossenschaft</masterLabel>
+            <translation><!-- Mitgliedschaft Berufsgenossenschaft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personalausweis</masterLabel>
+            <translation><!-- Personalausweis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personalbogen</masterLabel>
+            <translation><!-- Personalbogen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profil für Vermittlung</masterLabel>
+            <translation><!-- Profil für Vermittlung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotionsurkunde</masterLabel>
+            <translation><!-- Promotionsurkunde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prüfungszeugnis</masterLabel>
+            <translation><!-- Prüfungszeugnis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RV Befreiung</masterLabel>
+            <translation><!-- RV Befreiung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rahmenvertrag MED ANÜ</masterLabel>
+            <translation><!-- Rahmenvertrag MED ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rahmenvertrag Vermittlerleistung</masterLabel>
+            <translation><!-- Rahmenvertrag Vermittlerleistung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rahmenvertrag Ärzte ANÜ</masterLabel>
+            <translation><!-- Rahmenvertrag Ärzte ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rahmenvertrag Ärzte ANÜ + MED ANÜ</masterLabel>
+            <translation><!-- Rahmenvertrag Ärzte ANÜ + MED ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reiseausweis</masterLabel>
+            <translation><!-- Reiseausweis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reisepass</masterLabel>
+            <translation><!-- Reisepass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSR-Nummer</masterLabel>
+            <translation><!-- SSR-Nummer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SV-Nummer</masterLabel>
+            <translation><!-- SV-Nummer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staatsexamen</masterLabel>
+            <translation><!-- Staatsexamen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strahlenpass</masterLabel>
+            <translation><!-- Strahlenpass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNZUREICHEND MasernATTEST</masterLabel>
+            <translation><!-- UNZUREICHEND MasernATTEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNZUREICHEND MasernPASS</masterLabel>
+            <translation><!-- UNZUREICHEND MasernPASS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unterweisung Strahlenschutz</masterLabel>
+            <translation><!-- Unterweisung Strahlenschutz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAZ Vorsorgebescheinigung</masterLabel>
+            <translation><!-- WAZ Vorsorgebescheinigung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WAZ-Vorsorge Strahlenschutz</masterLabel>
+            <translation><!-- WAZ-Vorsorge Strahlenschutz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Dosimeter</masterLabel>
+            <translation><!-- doctari Dosimeter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>gültig von</label>
+        <name>ValidFrom__c</name>
+    </fields>
+    <fields>
+        <label>gültig bis</label>
+        <name>ValidUntil__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]_WirtschaftsraumEU --></label>
+        <name>WirtschaftsraumEU__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]_notifiedEmployee --></label>
+        <name>notifiedEmployee__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <recordTypes>
+        <label>Pfleger Dokument</label>
+        <name>CaregiverDocument</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Arzt Dokument</label>
+        <name>DoctorDocument</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Dokument</label>
+        <name>GeneralDocument</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Einrichtung Dokument</label>
+        <name>HealthcareInstitutionDocument</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Arbeitssicherheit</label>
+        <name>Occupational_safety</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Aufenthaltstitel</label>
+        <name>ResidencePermit</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Dieses Feld ist Pflicht, wenn ein original Dokument gesehen wurde --></errorMessage>
+        <name>AccountFieldMustBeSet</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dieses Dokument kann leider nur vom Recruitment oder vom Office bearbeitet werden. --></errorMessage>
+        <name>DocumentTypeSVNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Gültig von darf nicht nach gültig bis sein --></errorMessage>
+        <name>ResidentDocumentFromGreaterThenTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Wenn Aufenthaltstitel begrenzt ist, darf gültig bis nicht leer sein --></errorMessage>
+        <name>ResidentDocumentLimitedNeedValidUntil</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Gültig bis darf nicht in der Vergangenheit liegen --></errorMessage>
+        <name>ResidentDocumentToInFuture</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Wenn Aufenthaltstitel unbegrenz ist darf gültig von nicht leer sein --></errorMessage>
+        <name>ResidentDocumentUnlimitedNeedValidFrom</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Gültig ab muss gesetzt sein, wenn gültig bis gesetzt ist --></errorMessage>
+        <name>ResidentDocumentUntilFilledFromNot</name>
+    </validationRules>
+</CustomObjectTranslation>

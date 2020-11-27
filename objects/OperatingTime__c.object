@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Operating_Time_Contract_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Einsatzzeitraum</label>
+    <nameField>
+        <displayFormat>OT-{00000}</displayFormat>
+        <label>Einsatzzeit Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Einsatzzeiträume</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>To__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Ende des Einsatzes bei dem Kunden</inlineHelpText>
+        <label>To (Customer)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>From__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Start des Einsatzes bei dem Kunden</inlineHelpText>
+        <label>From (Customer)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Quote__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Referenz zum erstellten Vertragsentwurf; wird automatisch ausgefüllt.</inlineHelpText>
+        <label>Quote</label>
+        <referenceTo>Quote</referenceTo>
+        <relationshipLabel>Operation Time</relationshipLabel>
+        <relationshipName>OperationTime</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contract__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>SFC-2446</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Referenz zum erstellten Vertrag; wird automatisch ausgefüllt.</inlineHelpText>
+        <label>Contract</label>
+        <referenceTo>Contract</referenceTo>
+        <relationshipLabel>Operation Time</relationshipLabel>
+        <relationshipName>Operation_Time</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>To_Personal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Ende des Einsatzes der Person (kann vom Einsatzzeitraum des Kunden abweichen)</inlineHelpText>
+        <label>To (Personal)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>From_Personal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Start des Einsatzes der Person (kann vom Einsatzzeitraum des Kunden abweichen)</inlineHelpText>
+        <label>From (Personal)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>doctari_client__c</fullName>
+        <description>references the doctari client field from contract via process for reporting</description>
+        <externalId>false</externalId>
+        <label>doctari client</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ConcatenateTime__c</fullName>
+        <description>Concatenate the operating Time for DLRS.
+Robin S. 12.12.2019</description>
+        <externalId>false</externalId>
+        <formula>TEXT(DAY(From__c))&amp;&quot;.&quot;&amp;TEXT(MONTH(From__c))&amp;&quot;.&quot;&amp;TEXT(YEAR(From__c)) &amp; &quot; - &quot;
+&amp; TEXT(DAY(To__c))&amp;&quot;.&quot;&amp;TEXT(MONTH(To__c))&amp;&quot;.&quot;&amp;TEXT(YEAR(To__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Concatenate Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PorkyExternalID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>PorkyExternalID is used for the porky sync.
+Robin S. 21.11.2019</description>
+        <externalId>true</externalId>
+        <label>Porky External ID</label>
+        <length>32</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Operational_days__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Gesamtanzahl der zu leistenden Einsatztage</inlineHelpText>
+        <label>Operational days</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MonthlyHoursPerson__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>vereinbarte Mindeststunden (können von den Mindeststunden des Kunden abweichen)</inlineHelpText>
+        <label>Monthly Hours Person</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>T_Operation_Time_CM__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+( MONTH(From__c) &gt;= MONTH(TODAY()) &amp;&amp; YEAR(From__c) = YEAR(TODAY()) &amp;&amp;
+  MONTH(To__c)   &lt;= MONTH(TODAY()) &amp;&amp; YEAR(To__c)   = YEAR(TODAY()) )
+
+||
+
+( MONTH(From__c) &lt;= MONTH(TODAY()) &amp;&amp; YEAR(From__c) = YEAR(TODAY()) &amp;&amp;
+  MONTH(To__c)   &gt;= MONTH(TODAY()) &amp;&amp; YEAR(To__c)   = YEAR(TODAY()) ),
+
+1,
+0)</formula>
+        <label>[T] Operation Time CM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MonthlyHoursCustomer__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>vereinbarte Mindeststunden</inlineHelpText>
+        <label>Monthly Hours Customer</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Deployment_dates_customer__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Zum Einsatzzeitraum können hier die genauen Einsatztermine bei dem Kunden hinterlegt werden.</inlineHelpText>
+        <label>Deployment dates (Customer)</label>
+        <length>3000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Deployment_dates_personal__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Zum Einsatzzeitraum können hier die genauen Einsatztermine der Person hinterlegt werden (kann von den Einsatzterminen des Kunden abweichen).</inlineHelpText>
+        <label>Deployment dates (personal)</label>
+        <length>3000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>T_Operating_Time_converted_to_days__c</fullName>
+        <externalId>false</externalId>
+        <formula>To__c -  From__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>[T]Operating Time converted to days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>QuoteRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Contract__r.RecordType.Name &lt;&gt; &apos;Porky (History)&apos;, ISBLANK(Quote__c )), true, false)</errorConditionFormula>
+        <errorMessage>Der Vertragsentwurf muss ausgefüllt sein</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>LockOperationTimes</fullName>
+        <active>true</active>
+        <description>Hinders users from editing operation times, where contract is not in a draft status anymore.</description>
+        <errorConditionFormula>NOT(
+				ISBLANK(Contract__c) ||
+				(NOT(ISBLANK(Contract__c)) &amp;&amp; ISPICKVAL(Contract__r.Status, &quot;Draft&quot;)) ||
+				ISCHANGED(Contract__c) ||
+				$Permission.EditFinalContracts
+				)</errorConditionFormula>
+        <errorMessage>This operation time can not be edited any more. It&apos;s contract has already exceeded the draft status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MindeststundenRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND(Contract__r.RecordType.Name &lt;&gt; &apos;Porky (History)&apos;, ISBLANK(MonthlyHoursCustomer__c)), true, false)</errorConditionFormula>
+        <errorMessage>Die Mindeststunden müssen ausgefüllt sein</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>From_less_or_equal_than_To</fullName>
+        <active>true</active>
+        <errorConditionFormula>From__c  &gt;  To__c</errorConditionFormula>
+        <errorDisplayField>From__c</errorDisplayField>
+        <errorMessage>&quot;Von&quot; muss das gleiche oder ein früheres Datum als &quot;Bis&quot; beinhalten.</errorMessage>
+    </validationRules>
+</CustomObject>

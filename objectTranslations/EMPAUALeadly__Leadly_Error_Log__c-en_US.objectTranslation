@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Error Description --></label>
+        <name>EMPAUALeadly__Error_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Timestamp --></label>
+        <name>EMPAUALeadly__Error_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records affected --></label>
+        <name>EMPAUALeadly__Records_affected__c</name>
+    </fields>
+</CustomObjectTranslation>

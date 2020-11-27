@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Qualifikation Pfleger</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Qualifikation Pfleger</value>
+    </caseValues>
+    <fields>
+        <label>Caregiver Further Education</label>
+        <name>CaregiverFurtherEducation__c</name>
+        <picklistValues>
+            <masterLabel>Ambulanzdienst/Notfallmedizin</masterLabel>
+            <translation><!-- Ambulanzdienst/Notfallmedizin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Außerklinische Beatmung</masterLabel>
+            <translation><!-- Außerklinische Beatmung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endoskopie &amp; Herzkatheterlabor</masterLabel>
+            <translation><!-- Endoskopie &amp; Herzkatheterlabor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachkunde 1 &amp; 2 (Sterilisation)</masterLabel>
+            <translation><!-- Fachkunde 1 &amp; 2 (Sterilisation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geriatrie</masterLabel>
+            <translation><!-- Geriatrie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerontopsychiatrie </masterLabel>
+            <translation><!-- Gerontopsychiatrie  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hebamme/Entbindungspfleger/In</masterLabel>
+            <translation><!-- Hebamme/Entbindungspfleger/In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hygiene</masterLabel>
+            <translation><!-- Hygiene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITS/Anästhesie </masterLabel>
+            <translation><!-- ITS/Anästhesie  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kardiotechnik</masterLabel>
+            <translation><!-- Kardiotechnik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KinderITS (Neonatologie Level 1-3)/Kinderanästhesie</masterLabel>
+            <translation><!-- KinderITS (Neonatologie Level 1-3)/Kinderanästhesie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nephrologie/Dialyse</masterLabel>
+            <translation><!-- Nephrologie/Dialyse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP</masterLabel>
+            <translation><!-- OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onkologie/Palliativmedizin/Hospizpflege</masterLabel>
+            <translation><!-- Onkologie/Palliativmedizin/Hospizpflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pflegedienstleitung</masterLabel>
+            <translation><!-- Pflegedienstleitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychiatrie</masterLabel>
+            <translation><!-- Psychiatrie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualitätsmanagement</masterLabel>
+            <translation><!-- Qualitätsmanagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehabilitation und Langzeitpflege</masterLabel>
+            <translation><!-- Rehabilitation und Langzeitpflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stationsleitung</masterLabel>
+            <translation><!-- Stationsleitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strahlenschutz</masterLabel>
+            <translation><!-- Strahlenschutz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stroke Unit</masterLabel>
+            <translation><!-- Stroke Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Studium im Gesundheitswesen</masterLabel>
+            <translation><!-- Studium im Gesundheitswesen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Studium in der Pflege</masterLabel>
+            <translation><!-- Studium in der Pflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Study Nurse</masterLabel>
+            <translation><!-- Study Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weaning</masterLabel>
+            <translation><!-- Weaning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wohnbereichsleitung</masterLabel>
+            <translation><!-- Wohnbereichsleitung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Caregiver Job</label>
+        <name>CaregiverJobs__c</name>
+    </fields>
+    <fields>
+        <label>Caregiver Practical Experience</label>
+        <name>CaregiverPracticalExperience__c</name>
+        <picklistValues>
+            <masterLabel>Ambulanzdienst/Notfallmedizin</masterLabel>
+            <translation><!-- Ambulanzdienst/Notfallmedizin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Außerklinische Beatmung</masterLabel>
+            <translation><!-- Außerklinische Beatmung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endoskopie &amp; Herzkatheterlabor</masterLabel>
+            <translation><!-- Endoskopie &amp; Herzkatheterlabor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachkunde 1 &amp; 2 (Sterilisation)</masterLabel>
+            <translation><!-- Fachkunde 1 &amp; 2 (Sterilisation) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geriatrie</masterLabel>
+            <translation><!-- Geriatrie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerontopsychiatrie </masterLabel>
+            <translation><!-- Gerontopsychiatrie  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hebamme/Entbindungspfleger/In</masterLabel>
+            <translation><!-- Hebamme/Entbindungspfleger/In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hygiene</masterLabel>
+            <translation><!-- Hygiene --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITS/Anästhesie </masterLabel>
+            <translation><!-- ITS/Anästhesie  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kardiotechnik</masterLabel>
+            <translation><!-- Kardiotechnik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KinderITS (Neonatologie Level 1-3)/Kinderanästhesie</masterLabel>
+            <translation><!-- KinderITS (Neonatologie Level 1-3)/Kinderanästhesie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nephrologie/Dialyse</masterLabel>
+            <translation><!-- Nephrologie/Dialyse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OP</masterLabel>
+            <translation><!-- OP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onkologie/Palliativmedizin/Hospizpflege</masterLabel>
+            <translation><!-- Onkologie/Palliativmedizin/Hospizpflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pflegedienstleitung</masterLabel>
+            <translation><!-- Pflegedienstleitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psychiatrie</masterLabel>
+            <translation><!-- Psychiatrie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualitätsmanagement</masterLabel>
+            <translation><!-- Qualitätsmanagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehabilitation und Langzeitpflege</masterLabel>
+            <translation><!-- Rehabilitation und Langzeitpflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stationsleitung</masterLabel>
+            <translation><!-- Stationsleitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strahlenschutz</masterLabel>
+            <translation><!-- Strahlenschutz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stroke Unit</masterLabel>
+            <translation><!-- Stroke Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Studium im Gesundheitswesen</masterLabel>
+            <translation><!-- Studium im Gesundheitswesen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Studium in der Pflege</masterLabel>
+            <translation><!-- Studium in der Pflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Study Nurse</masterLabel>
+            <translation><!-- Study Nurse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weaning</masterLabel>
+            <translation><!-- Weaning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wohnbereichsleitung</masterLabel>
+            <translation><!-- Wohnbereichsleitung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Qualifications Caregiver --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T] Caregiver Further Education --></label>
+        <name>T_CaregiverFurtherEducation__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] CaregiverJobsMapped --></label>
+        <name>T_CaregiverJobsMapped__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Caregiver Practical Experience --></label>
+        <name>T_CaregiverPracticalExperience__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Count for Opportunity rollup --></label>
+        <name>T_Count_for_Opportunity_rollup__c</name>
+    </fields>
+    <nameFieldLabel>Qualifikation Pfleger Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You may not deposit more than three Caregiver Qualification per opportunity. If you would like to add another caregiver qualification, please create another opportunity --></errorMessage>
+        <name>Only_one_QualifcationCaregiver_per_Opp</name>
+    </validationRules>
+</CustomObjectTranslation>

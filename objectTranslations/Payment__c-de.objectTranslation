@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Vergütung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Vergütungen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Dienstart --></label>
+        <name>Dienstart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Faktor --></label>
+        <name>Factor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honorar --></label>
+        <name>Honorar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Vergütungen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preis Klinik --></label>
+        <name>PriceHealthcareInstitution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qualifikation --></label>
+        <name>Qualifikation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Einheit --></label>
+        <name>Unit__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

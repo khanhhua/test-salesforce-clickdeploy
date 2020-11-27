@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Selector_test --></label>
+        <name>Selector_test</name>
+    </fieldSets>
+    <fields>
+        <label><!-- Campaign ID (KD) --></label>
+        <name>Campaign_ID_KD__c</name>
+    </fields>
+    <fields>
+        <label>Feedback</label>
+        <name>Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+        <relationshipLabel><!-- Campaign Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T]Running User is Api User --></label>
+        <name>Running_User_is_Api_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Email Body Campaign --></label>
+        <name>T_Email_Body_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Subject Line Campaign --></label>
+        <name>T_Subject_Line_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity --></label>
+        <name>et4ae5__Activity__c</name>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubscribed</masterLabel>
+            <translation><!-- Unsubscribed --></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Don&apos;t add members for Closed Campaigns --></errorMessage>
+        <name>DontAddMembersForClosedCampaigns</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Recommendation</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Recommendations</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Vorschlag</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Vorschläge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Vorschlag</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Vorschläge</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Vorschlag</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Vorschläge</value>
+    </caseValues>
+    <fields>
+        <label>Kandidat</label>
+        <name>CandidateId__c</name>
+        <relationshipLabel>Vorschlag (Kandidat)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kommentar</label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label>Opportunity</label>
+        <name>OpportunityId__c</name>
+        <relationshipLabel>Vorschlag</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Weiterer Ablehnungsgrund</label>
+        <name>OtherRejectionReason__c</name>
+    </fields>
+    <fields>
+        <label>Ablehnungsgrund</label>
+        <name>RejectionReason__c</name>
+        <picklistValues>
+            <masterLabel>ANÜ knowledge missing</masterLabel>
+            <translation>ANÜ-Wissen fehlt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned to WW</masterLabel>
+            <translation>Vergabe an WW</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availabilities not matching</masterLabel>
+            <translation>Verfügbarkeiten nicht übereinstimmend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer rejected</masterLabel>
+            <translation>Kunde hat abgelehnt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer staffed internally</masterLabel>
+            <translation>Kunde hat intern besetzt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Sonstiges</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PK rejected</masterLabel>
+            <translation>PK hat abgelehnt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prepare CV</masterLabel>
+            <translation>Lebenslauf muss aufbereitet werden</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Akzeptiert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Ausstehend</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Abgelehnt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>UniqueKey__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Vorschlagsname</nameFieldLabel>
+    <quickActions>
+        <label>Annehmen</label>
+        <name>Approve</name>
+    </quickActions>
+    <quickActions>
+        <label>Ablehnen</label>
+        <name>Reject</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- RequestRecommendation --></label>
+        <name>RequestRecommendation</name>
+    </webLinks>
+</CustomObjectTranslation>

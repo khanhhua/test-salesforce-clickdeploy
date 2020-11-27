@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>EMPAUALeadly__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Opportunity --></label>
+        <name>EMPAUALeadly__Create_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>EMPAUALeadly__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logic Operators --></label>
+        <name>EMPAUALeadly__Logic_Operators__c</name>
+    </fields>
+    <fields>
+        <help><!-- Execution Order for Rules (1 is the first) --></help>
+        <label><!-- Order --></label>
+        <name>EMPAUALeadly__Order__c</name>
+    </fields>
+</CustomObjectTranslation>

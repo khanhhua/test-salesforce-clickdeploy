@@ -1,0 +1,2625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Ansprechpartner ANÜ Abrechnung --></label>
+        <name>ANAnsprechpartner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>AccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landlord Doctor --></label>
+        <name>Account_Owner_Berlin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landlord Caregiver --></label>
+        <name>Account_Owner_Hamburg__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner_LV --></label>
+        <name>Account_Owner_LV__c</name>
+    </fields>
+    <fields>
+        <label>Accountinhaber</label>
+        <name>Account_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accountname Billing Address --></label>
+        <name>AccountnameBillingAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accountname Contract Address --></label>
+        <name>AccountnameContractAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity exposed to radiation --></label>
+        <name>Activity_exposed_to_radiation__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nein</masterLabel>
+            <translation><!-- nein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unbekannt</masterLabel>
+            <translation><!-- unbekannt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Additional Designation (Historical) --></label>
+        <name>AdditionalDesignationHistorical__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Email --></label>
+        <name>AdditionalEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Phone No --></label>
+        <name>AdditionalPhoneNo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kenntnisse und Erfahrungen im Umfeld der Zusatzbezeichnungen, die aber (noch) NICHT formal urkundlich als Zusatzbezeichnung vom Arzt erworben wurden. (Beispiele: Geriatrie, Palliativmedizin, Sportmedizin, Neonatologie, Sozialmedizin…) --></help>
+        <label>Additional Specialisations</label>
+        <name>AdditionalSpecialisations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Designations --></label>
+        <name>Additional_Designations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Potenzial Revenue Caregiver --></label>
+        <name>Annual_Potenzial_Revenue_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Potenzial Revenue PP Cargiver --></label>
+        <name>Annual_Potenzial_Revenue_PP_Cargiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Potenzial Revenue PP Doctors --></label>
+        <name>Annual_Potenzial_Revenue_PP_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Available For Permanent Employment From --></label>
+        <name>AvailableForPermanentEmploymentFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Available For Substitue From --></label>
+        <name>AvailableForSubstitueFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Holder --></label>
+        <name>BankAccountHolder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Account Number --></label>
+        <name>BankAccountNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank BIC --></label>
+        <name>BankBic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank BLZ --></label>
+        <name>BankCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank IBAN --></label>
+        <name>BankIban__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank Name --></label>
+        <name>BankName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Belongs To Legal Person --></label>
+        <name>BelongsToLegalPerson__c</name>
+        <relationshipLabel><!-- juristisch verbundene Personen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Billing Address c/o</label>
+        <name>BillingAddressCo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birthname --></label>
+        <name>Birthname__c</name>
+    </fields>
+    <fields>
+        <label>Caregiver Job</label>
+        <name>Caregiver_Job__c</name>
+    </fields>
+    <fields>
+        <label>Clearing House</label>
+        <name>ClearingHouse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cluster --></label>
+        <name>Cluster__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CoVid-19 Information --></label>
+        <name>CoVid_19_Information__c</name>
+        <picklistValues>
+            <masterLabel>affidavit of freedom from symptoms</masterLabel>
+            <translation><!-- affidavit of freedom from symptoms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>antigen test on site</masterLabel>
+            <translation><!-- antigen test on site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>test certificate by WAZ</masterLabel>
+            <translation><!-- test certificate by WAZ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cognito ID --></label>
+        <name>CognitoID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comment --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Address Maps --></label>
+        <name>CommissionAddressMaps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission City --></label>
+        <name>CommissionCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Country --></label>
+        <name>CommissionCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission PO Box --></label>
+        <name>CommissionPOBox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Postal Code --></label>
+        <name>CommissionPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission State --></label>
+        <name>CommissionState__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commission Street --></label>
+        <name>CommissionStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Car --></label>
+        <name>Company_Car__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Concern Code --></label>
+        <name>Concern_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmation Of Privacy Statement --></label>
+        <name>ConfirmationOfPrivacyStatement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Vorträge, Lehrgänge und Fortbildungen, die relevant für die Vermittlung sein könnten - aber NICHT offiziell als Zusatzbezeichnung oder Fachkunde anerkannt sind. (Beispiele: Schiffsarzt, Neuraltherapie, Kardioanästhesie, Taucherarzt…) --></help>
+        <label>Continuing Education</label>
+        <name>ContinuingEducation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Address c/o --></label>
+        <name>ContractAddressCo__c</name>
+    </fields>
+    <fields>
+        <label><!-- City (Contract address) --></label>
+        <name>ContractCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country (Contract address) --></label>
+        <name>ContractCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postal Code (Contract address) --></label>
+        <name>ContractPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- State (Contract address) --></label>
+        <name>ContractState__c</name>
+        <picklistValues>
+            <masterLabel>Baden-Württemberg</masterLabel>
+            <translation><!-- Baden-Württemberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bayern</masterLabel>
+            <translation><!-- Bayern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berlin</masterLabel>
+            <translation><!-- Berlin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandenburg</masterLabel>
+            <translation><!-- Brandenburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bremen</masterLabel>
+            <translation><!-- Bremen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hamburg</masterLabel>
+            <translation><!-- Hamburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hessen</masterLabel>
+            <translation><!-- Hessen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mecklenburg-Vorpommern</masterLabel>
+            <translation><!-- Mecklenburg-Vorpommern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niedersachsen</masterLabel>
+            <translation><!-- Niedersachsen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordrhein-Westfalen</masterLabel>
+            <translation><!-- Nordrhein-Westfalen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rheinland-Pfalz</masterLabel>
+            <translation><!-- Rheinland-Pfalz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saarland</masterLabel>
+            <translation><!-- Saarland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sachsen</masterLabel>
+            <translation><!-- Sachsen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sachsen-Anhalt</masterLabel>
+            <translation><!-- Sachsen-Anhalt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schleswig-Holstein</masterLabel>
+            <translation><!-- Schleswig-Holstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thüringen</masterLabel>
+            <translation><!-- Thüringen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Street (Contract address) --></label>
+        <name>ContractStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cooperation with InSitu --></label>
+        <name>Cooperation_with_InSitu__c</name>
+    </fields>
+    <fields>
+        <label>Cost Centre Number</label>
+        <name>CostCentreNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of annual external Caregivers --></label>
+        <name>Count_of_annual_external_Caregivers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of annual external Doctors --></label>
+        <name>Count_of_annual_external_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of annual external PP Caregiver --></label>
+        <name>Count_of_annual_external_PP_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of annual external PP Doctors --></label>
+        <name>Count_of_annual_external_PP_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Birth --></label>
+        <name>CountryOfBirth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Employer --></label>
+        <name>CurrentEmployer__c</name>
+        <relationshipLabel><!-- Accounts (Current Employer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deactivation Reason Comment --></label>
+        <name>DeactivationReasonComment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivation Reason --></label>
+        <name>DeactivationReason__c</name>
+        <picklistValues>
+            <masterLabel>AA Beginner</masterLabel>
+            <translation><!-- AA Beginner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angebot der Festanstellung nicht möglich</masterLabel>
+            <translation><!-- Angebot der Festanstellung nicht möglich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angebots E-Mail ungenau</masterLabel>
+            <translation><!-- Angebots E-Mail ungenau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auf eigenen Wunsch</masterLabel>
+            <translation><!-- Auf eigenen Wunsch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aufgabe Praxisbetrieb</masterLabel>
+            <translation><!-- Aufgabe Praxisbetrieb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Betrugsfall</masterLabel>
+            <translation><!-- Betrugsfall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplikat</masterLabel>
+            <translation><!-- Duplikat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eintrag im Führungszeugnis</masterLabel>
+            <translation><!-- Eintrag im Führungszeugnis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elternzeit</masterLabel>
+            <translation><!-- Elternzeit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachliche Ursache</masterLabel>
+            <translation><!-- Fachliche Ursache --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fehlregistrierung</masterLabel>
+            <translation>Misregistration</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festanstellung</masterLabel>
+            <translation><!-- Festanstellung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fusionierung</masterLabel>
+            <translation><!-- Fusionierung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gehaltsvorschlag nicht passend</masterLabel>
+            <translation><!-- Gehaltsvorschlag nicht passend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insolvent</masterLabel>
+            <translation><!-- Insolvent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Is looking for an internship</masterLabel>
+            <translation><!-- Is looking for an internship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kein Interesse mehr</masterLabel>
+            <translation><!-- Kein Interesse mehr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keine Rückmeldung</masterLabel>
+            <translation><!-- Keine Rückmeldung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kündigung</masterLabel>
+            <translation><!-- Kündigung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Looking for training position</masterLabel>
+            <translation><!-- Looking for training position --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No residence in Germany</masterLabel>
+            <translation><!-- No residence in Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nur 450 €</masterLabel>
+            <translation><!-- Nur 450 € --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only fee business</masterLabel>
+            <translation><!-- Only fee business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Todesfall</masterLabel>
+            <translation><!-- Todesfall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Umkreis nicht passend</masterLabel>
+            <translation><!-- Umkreis nicht passend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unzuverlässigkeit</masterLabel>
+            <translation><!-- Unzuverlässigkeit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zeitlich beschränkt</masterLabel>
+            <translation><!-- Zeitlich beschränkt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zwischenmenschliche Ursachen</masterLabel>
+            <translation><!-- Zwischenmenschliche Ursachen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>falsche Kontaktdaten</masterLabel>
+            <translation>Wrong contact information</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>keine deutsche Anerkennung</masterLabel>
+            <translation><!-- keine deutsche Anerkennung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mangelnde Deutschkenntnisse</masterLabel>
+            <translation>Lack of knowledge of German</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Debtor Number</label>
+        <name>Debtor_Number__c</name>
+    </fields>
+    <fields>
+        <label>Digital Signature</label>
+        <name>DigitalSignature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doctors Surgery Type --></label>
+        <name>DoctorsSurgeryType__c</name>
+        <picklistValues>
+            <masterLabel>Ambulanz</masterLabel>
+            <translation><!-- Ambulanz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einzelpraxis</masterLabel>
+            <translation><!-- Einzelpraxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gemeinschaftspraxis</masterLabel>
+            <translation><!-- Gemeinschaftspraxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medizinisches Versorgungszentrum</masterLabel>
+            <translation><!-- Medizinisches Versorgungszentrum --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Economic Region --></label>
+        <name>EconomicRegion__c</name>
+        <picklistValues>
+            <masterLabel>Drittstaat</masterLabel>
+            <translation><!-- Drittstaat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU/EWR/CH</masterLabel>
+            <translation><!-- EU/EWR/CH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unbekannt</masterLabel>
+            <translation><!-- unbekannt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Email</label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employment Relationship --></label>
+        <name>EmploymentRelationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>ExternalId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Authority --></label>
+        <name>FinalAuthority__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Contract Creation Date Caregivers --></label>
+        <name>First_Contract_Creation_Date_Caregivers__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Contract Creation Date Doctors --></label>
+        <name>First_Contract_Creation_Date_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Contract Creation Date Placement --></label>
+        <name>First_Contract_Creation_Date_Placement__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Power Anue Template --></label>
+        <name>GeneralPowerAnueTemplate__c</name>
+    </fields>
+    <fields>
+        <label><!-- German Language Level --></label>
+        <name>GermanLanguageLevel__c</name>
+        <picklistValues>
+            <masterLabel>A1</masterLabel>
+            <translation><!-- A1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A2</masterLabel>
+            <translation><!-- A2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1</masterLabel>
+            <translation><!-- B1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2</masterLabel>
+            <translation><!-- B2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1</masterLabel>
+            <translation><!-- C1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2</masterLabel>
+            <translation><!-- C2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- German Language Skills --></label>
+        <name>GermanLanguageSkills__c</name>
+        <picklistValues>
+            <masterLabel>Fliessend</masterLabel>
+            <translation><!-- Fliessend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grundlagen</masterLabel>
+            <translation><!-- Grundlagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gut</masterLabel>
+            <translation><!-- Gut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keine</masterLabel>
+            <translation><!-- Keine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Muttersprachler</masterLabel>
+            <translation><!-- Muttersprachler --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Healthcare Institution Type --></label>
+        <name>HealthcareInstitutionType__c</name>
+    </fields>
+    <fields>
+        <label>Historic Registration Date</label>
+        <name>HistoricRegistrationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Visit --></label>
+        <name>HomeVisit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive From --></label>
+        <name>InactiveFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive To --></label>
+        <name>InactiveTo__c</name>
+    </fields>
+    <fields>
+        <label>Institution Type</label>
+        <name>InstitutionType__c</name>
+        <picklistValues>
+            <masterLabel>Akutklinik</masterLabel>
+            <translation><!-- Akutklinik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulanter Pflegedienst</masterLabel>
+            <translation><!-- Ambulanter Pflegedienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambulanz</masterLabel>
+            <translation><!-- Ambulanz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einzelpraxis</masterLabel>
+            <translation><!-- Einzelpraxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gemeinschaftspraxis</masterLabel>
+            <translation><!-- Gemeinschaftspraxis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haus der Grund- und Regelversorgung</masterLabel>
+            <translation><!-- Haus der Grund- und Regelversorgung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haus der Maximalversorgung</masterLabel>
+            <translation><!-- Haus der Maximalversorgung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medizinisches Versorgungszentrum</masterLabel>
+            <translation><!-- Medizinisches Versorgungszentrum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pflegeheim</masterLabel>
+            <translation><!-- Pflegeheim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehaklinik</masterLabel>
+            <translation><!-- Rehaklinik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rehaklinik mit Akutbereich</masterLabel>
+            <translation><!-- Rehaklinik mit Akutbereich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rettungsdienst</masterLabel>
+            <translation><!-- Rettungsdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schwerpunktkrankenhaus</masterLabel>
+            <translation><!-- Schwerpunktkrankenhaus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>alle</masterLabel>
+            <translation><!-- alle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Institution --></label>
+        <name>Institution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest In Germany --></label>
+        <name>InterestInGermany__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unbekannt</masterLabel>
+            <translation><!-- Unbekannt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Interest In Switzerland --></label>
+        <name>InterestInSwitzerland__c</name>
+        <picklistValues>
+            <masterLabel>Ja</masterLabel>
+            <translation><!-- Ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nein</masterLabel>
+            <translation><!-- Nein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unbekannt</masterLabel>
+            <translation><!-- Unbekannt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Invorce Number --></label>
+        <name>InvorceNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job ID --></label>
+        <name>JobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Situation --></label>
+        <name>JobSituation__c</name>
+        <picklistValues>
+            <masterLabel>Arbeitssuchend</masterLabel>
+            <translation><!-- Arbeitssuchend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Befristete Anstellung</masterLabel>
+            <translation><!-- Befristete Anstellung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elternzeit</masterLabel>
+            <translation><!-- Elternzeit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festanstellung (Teilzeit)</masterLabel>
+            <translation><!-- Festanstellung (Teilzeit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festanstellung (Vollzeit)</masterLabel>
+            <translation><!-- Festanstellung (Vollzeit) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rentner</masterLabel>
+            <translation><!-- Rentner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selbständig (Freiberuflich)</masterLabel>
+            <translation><!-- Selbständig (Freiberuflich) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student</masterLabel>
+            <translation><!-- Student --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LXCustomerNo --></label>
+        <name>LXCustomerNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- LXStaffNo --></label>
+        <name>LXStaffNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landlord KAM --></label>
+        <name>Landlord_KAM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landlord PP Caregiver --></label>
+        <name>Landlord_PP_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landlord PP Doctor --></label>
+        <name>Landlord_PP_Doctor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Contract End Date (Person) --></label>
+        <name>LastContractEndDatePerson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Date Status Set To Placeable --></label>
+        <name>LastDateStatusSetToPlaceable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Employer --></label>
+        <name>LastEmployer__c</name>
+        <relationshipLabel><!-- Accounts (Last Employer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Last Contract End Date (Caregiver) --></label>
+        <name>Last_Contract_End_Date_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Contract End Date (Doctors) --></label>
+        <name>Last_Contract_End_Date_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Contract End Date --></label>
+        <name>Last_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity Billing Address --></label>
+        <name>LegalEntityBillingAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity Contract Address --></label>
+        <name>LegalEntityContractAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity Itself --></label>
+        <name>Legal_Entity_Itself__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Entity --></label>
+        <name>Legal_Entity__c</name>
+        <relationshipLabel><!-- Accounts (Legal Entity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lights --></label>
+        <name>Lights__c</name>
+        <picklistValues>
+            <masterLabel>Gelb</masterLabel>
+            <translation><!-- Gelb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grün</masterLabel>
+            <translation><!-- Grün --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rot</masterLabel>
+            <translation><!-- Rot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Mailing Adress c/o</label>
+        <name>MailingAddressCo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing ID --></label>
+        <name>MarketingId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Hours Per Month --></label>
+        <name>MaximumHoursPerMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maximum Hours Per Week --></label>
+        <name>MaximumHoursPerWeek__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical License From --></label>
+        <name>MedicalLicenseFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical License Status --></label>
+        <name>MedicalLicenseStatus__c</name>
+        <picklistValues>
+            <masterLabel>existing</masterLabel>
+            <translation><!-- existing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>existing-from</masterLabel>
+            <translation><!-- existing-from --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>non-existing</masterLabel>
+            <translation><!-- non-existing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Federal state of the pension fund of which the doctor is a member (or pension exemption if no membership) --></help>
+        <label><!-- Medical Pension Scheme --></label>
+        <name>MedicalPensionScheme__c</name>
+        <picklistValues>
+            <masterLabel>Baden-Württemberg</masterLabel>
+            <translation><!-- Baden-Württemberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bayern</masterLabel>
+            <translation><!-- Bayern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berlin</masterLabel>
+            <translation><!-- Berlin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandenburg</masterLabel>
+            <translation><!-- Brandenburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bremen</masterLabel>
+            <translation><!-- Bremen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hamburg</masterLabel>
+            <translation><!-- Hamburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hessen</masterLabel>
+            <translation><!-- Hessen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mecklenburg-Vorpommern</masterLabel>
+            <translation><!-- Mecklenburg-Vorpommern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niedersachsen</masterLabel>
+            <translation><!-- Niedersachsen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordrhein-Westfalen</masterLabel>
+            <translation><!-- Nordrhein-Westfalen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rheinland-Pfalz</masterLabel>
+            <translation><!-- Rheinland-Pfalz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saarland</masterLabel>
+            <translation><!-- Saarland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sachsen</masterLabel>
+            <translation><!-- Sachsen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sachsen-Anhalt</masterLabel>
+            <translation><!-- Sachsen-Anhalt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schleswig-Holstein</masterLabel>
+            <translation><!-- Schleswig-Holstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thüringen</masterLabel>
+            <translation><!-- Thüringen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dauerhafte Rentenbefreiung</masterLabel>
+            <translation><!-- dauerhafte Rentenbefreiung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Medical staff on offer --></label>
+        <name>Medical_staff_on_offer__c</name>
+        <picklistValues>
+            <masterLabel>caregiver</masterLabel>
+            <translation><!-- caregiver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>caregiver assistant</masterLabel>
+            <translation><!-- caregiver assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctors</masterLabel>
+            <translation><!-- doctors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>other staff</masterLabel>
+            <translation><!-- other staff --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Field needed for doctari PWA for displaying onboarding views only for users that haven&apos;t seen it yet --></help>
+        <label><!-- Mein doctari onboarding completed --></label>
+        <name>MeinDoctariOnboardingCompleted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person registered for MeinDoctari --></help>
+        <label><!-- MeinDoctari Account --></label>
+        <name>MeinDoctari_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Memo Field Sales --></label>
+        <name>MemoFieldSales__c</name>
+    </fields>
+    <fields>
+        <label>Migration Protocol</label>
+        <name>MigrationProtocol__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motivation --></label>
+        <name>Motivation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nationwide --></label>
+        <name>Nationwide__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dieses Feld zeigt an für welche Fachrichtungen der Arzt keine Angebote möchte. --></help>
+        <label><!-- No offers for --></label>
+        <name>NoOffersFor__c</name>
+        <picklistValues>
+            <masterLabel>Chirurgie</masterLabel>
+            <translation><!-- Chirurgie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gynaekologie (Frauenheilkunde) und Geburtshilfe</masterLabel>
+            <translation><!-- Gynaekologie (Frauenheilkunde) und Geburtshilfe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innere Medizin</masterLabel>
+            <translation><!-- Innere Medizin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innere Medizin + invasiv</masterLabel>
+            <translation><!-- Innere Medizin + invasiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innere Medizin + nicht invasiv</masterLabel>
+            <translation><!-- Innere Medizin + nicht invasiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neuro</masterLabel>
+            <translation><!-- Neuro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orthopädie</masterLabel>
+            <translation><!-- Orthopädie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Psych</masterLabel>
+            <translation><!-- Psych --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>invasiv</masterLabel>
+            <translation><!-- invasiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nicht invasiv</masterLabel>
+            <translation><!-- nicht invasiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>selbständiges Operieren</masterLabel>
+            <translation><!-- selbständiges Operieren --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>No Qualification for</label>
+        <name>NoQualificationFor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of beds --></label>
+        <name>NumberOfBeds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Employees --></label>
+        <name>NumberOfEmployees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of branches --></label>
+        <name>Number_of_branches__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of external staff --></label>
+        <name>Number_of_external_staff__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of internal staff --></label>
+        <name>Number_of_internal_staff__c</name>
+    </fields>
+    <fields>
+        <help><!-- Haken ja = Nicht kontaktieren | Haken nein = kontaktieren --></help>
+        <label>Opt Out</label>
+        <name>OptOUT__c</name>
+    </fields>
+    <fields>
+        <label>Other Address c/o</label>
+        <name>OtherAddressCo__c</name>
+    </fields>
+    <fields>
+        <label>Other Training and development</label>
+        <name>OtherTrainingAndDevelopment__c</name>
+    </fields>
+    <fields>
+        <label><!-- PR Comment Caregivers --></label>
+        <name>PR_Comment_Caregivers__c</name>
+    </fields>
+    <fields>
+        <label><!-- PR Comment Doctors --></label>
+        <name>PR_Comment_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- PR Comment PP Caregiver --></label>
+        <name>PR_Comment_PP_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- PR Comment PP Doctors --></label>
+        <name>PR_Comment_PP_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Period of Notice --></label>
+        <name>PeriodOfNotice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Place Of Birth --></label>
+        <name>PlaceOfBirth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Placement Types --></label>
+        <name>PlacementTypes__c</name>
+        <picklistValues>
+            <masterLabel>ANÜ</masterLabel>
+            <translation><!-- ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Befristete Anstellung</masterLabel>
+            <translation><!-- Befristete Anstellung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fachpflege</masterLabel>
+            <translation><!-- Fachpflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Festanstellung</masterLabel>
+            <translation><!-- Festanstellung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>alle</masterLabel>
+            <translation><!-- alle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred City --></label>
+        <name>PreferredCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preferred Start at doctari --></label>
+        <name>PreferredStartAtDoctari__c</name>
+    </fields>
+    <fields>
+        <label><!-- Radius km --></label>
+        <name>RadiusKm__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100</masterLabel>
+            <translation><!-- 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200</masterLabel>
+            <translation><!-- 200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deutschlandweit</masterLabel>
+            <translation>Throughout Germany</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Recommended By Firstname</label>
+        <name>RecommendedByFirstname__c</name>
+    </fields>
+    <fields>
+        <label>Recommended By Lastname</label>
+        <name>RecommendedByLastname__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended By --></label>
+        <name>RecommendedBy__c</name>
+        <relationshipLabel><!-- Accounts (Recommended By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Record Type From Lead --></label>
+        <name>RecordTypeFromLead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recruiter --></label>
+        <name>Recruiter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regions --></label>
+        <name>Regions__c</name>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation><!-- East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North</masterLabel>
+            <translation><!-- North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North-East</masterLabel>
+            <translation><!-- North-East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North-West</masterLabel>
+            <translation><!-- North-West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South</masterLabel>
+            <translation><!-- South --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South-East</masterLabel>
+            <translation><!-- South-East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South-West</masterLabel>
+            <translation><!-- South-West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation><!-- West --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Register Court --></label>
+        <name>RegisterCourt__c</name>
+        <picklistValues>
+            <masterLabel>Aachen</masterLabel>
+            <translation><!-- Aachen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altenburg</masterLabel>
+            <translation><!-- Altenburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amberg</masterLabel>
+            <translation><!-- Amberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ansbach</masterLabel>
+            <translation><!-- Ansbach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apolda</masterLabel>
+            <translation><!-- Apolda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arnsberg</masterLabel>
+            <translation><!-- Arnsberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arnstadt</masterLabel>
+            <translation><!-- Arnstadt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arnstadt Zweigstelle Ilmenau</masterLabel>
+            <translation><!-- Arnstadt Zweigstelle Ilmenau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aschaffenburg</masterLabel>
+            <translation><!-- Aschaffenburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Augsburg</masterLabel>
+            <translation><!-- Augsburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aurich</masterLabel>
+            <translation><!-- Aurich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Hersfeld</masterLabel>
+            <translation><!-- Bad Hersfeld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Homburg v.d.H.</masterLabel>
+            <translation><!-- Bad Homburg v.d.H. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Kreuznach</masterLabel>
+            <translation><!-- Bad Kreuznach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Oeynhausen</masterLabel>
+            <translation><!-- Bad Oeynhausen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bad Salzungen</masterLabel>
+            <translation><!-- Bad Salzungen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bamberg</masterLabel>
+            <translation><!-- Bamberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bayreuth</masterLabel>
+            <translation><!-- Bayreuth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berlin (Charlottenburg)</masterLabel>
+            <translation><!-- Berlin (Charlottenburg) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bielefeld</masterLabel>
+            <translation><!-- Bielefeld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bochum</masterLabel>
+            <translation><!-- Bochum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonn</masterLabel>
+            <translation><!-- Bonn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Braunschweig</masterLabel>
+            <translation><!-- Braunschweig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bremen</masterLabel>
+            <translation><!-- Bremen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemnitz</masterLabel>
+            <translation><!-- Chemnitz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coburg</masterLabel>
+            <translation><!-- Coburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coesfeld</masterLabel>
+            <translation><!-- Coesfeld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cottbus</masterLabel>
+            <translation><!-- Cottbus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Darmstadt</masterLabel>
+            <translation><!-- Darmstadt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deggendorf</masterLabel>
+            <translation><!-- Deggendorf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dortmund</masterLabel>
+            <translation><!-- Dortmund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dresden</masterLabel>
+            <translation><!-- Dresden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duisburg</masterLabel>
+            <translation><!-- Duisburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Düren</masterLabel>
+            <translation><!-- Düren --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Düsseldorf</masterLabel>
+            <translation><!-- Düsseldorf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eisenach</masterLabel>
+            <translation><!-- Eisenach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erfurt</masterLabel>
+            <translation><!-- Erfurt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eschwege</masterLabel>
+            <translation><!-- Eschwege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Essen</masterLabel>
+            <translation><!-- Essen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flensburg</masterLabel>
+            <translation><!-- Flensburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frankfurt Oder</masterLabel>
+            <translation><!-- Frankfurt Oder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frankfurt am Main</masterLabel>
+            <translation><!-- Frankfurt am Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freiburg</masterLabel>
+            <translation><!-- Freiburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friedberg</masterLabel>
+            <translation><!-- Friedberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fritzlar</masterLabel>
+            <translation><!-- Fritzlar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulda</masterLabel>
+            <translation><!-- Fulda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fürth</masterLabel>
+            <translation><!-- Fürth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gelsenkirchen</masterLabel>
+            <translation><!-- Gelsenkirchen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gera</masterLabel>
+            <translation><!-- Gera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gießen</masterLabel>
+            <translation><!-- Gießen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gotha</masterLabel>
+            <translation><!-- Gotha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greiz</masterLabel>
+            <translation><!-- Greiz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Göttingen</masterLabel>
+            <translation><!-- Göttingen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gütersloh</masterLabel>
+            <translation><!-- Gütersloh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hagen</masterLabel>
+            <translation><!-- Hagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hamburg</masterLabel>
+            <translation><!-- Hamburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hamm</masterLabel>
+            <translation><!-- Hamm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hanau</masterLabel>
+            <translation><!-- Hanau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hannover</masterLabel>
+            <translation><!-- Hannover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heilbad Heiligenstadt</masterLabel>
+            <translation><!-- Heilbad Heiligenstadt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hildburghausen</masterLabel>
+            <translation><!-- Hildburghausen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hildesheim</masterLabel>
+            <translation><!-- Hildesheim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hof</masterLabel>
+            <translation><!-- Hof --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Homburg</masterLabel>
+            <translation><!-- Homburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingolstadt</masterLabel>
+            <translation><!-- Ingolstadt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iserlohn</masterLabel>
+            <translation><!-- Iserlohn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jena</masterLabel>
+            <translation><!-- Jena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiserslautern</masterLabel>
+            <translation><!-- Kaiserslautern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kassel</masterLabel>
+            <translation><!-- Kassel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kempten (Allgäu)</masterLabel>
+            <translation><!-- Kempten (Allgäu) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kiel</masterLabel>
+            <translation><!-- Kiel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kleve</masterLabel>
+            <translation><!-- Kleve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Koblenz</masterLabel>
+            <translation><!-- Koblenz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korbach</masterLabel>
+            <translation><!-- Korbach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Krefeld</masterLabel>
+            <translation><!-- Krefeld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Köln</masterLabel>
+            <translation><!-- Köln --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Königstein</masterLabel>
+            <translation><!-- Königstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landau</masterLabel>
+            <translation><!-- Landau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landshut</masterLabel>
+            <translation><!-- Landshut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Langenfeld</masterLabel>
+            <translation><!-- Langenfeld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lebach</masterLabel>
+            <translation><!-- Lebach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leipzig</masterLabel>
+            <translation><!-- Leipzig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lemgo</masterLabel>
+            <translation><!-- Lemgo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limburg</masterLabel>
+            <translation><!-- Limburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ludwigshafen a.Rhein (Ludwigshafen)</masterLabel>
+            <translation><!-- Ludwigshafen a.Rhein (Ludwigshafen) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lübeck</masterLabel>
+            <translation><!-- Lübeck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lüneburg</masterLabel>
+            <translation><!-- Lüneburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mainz</masterLabel>
+            <translation><!-- Mainz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mannheim</masterLabel>
+            <translation><!-- Mannheim --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marburg</masterLabel>
+            <translation><!-- Marburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meiningen</masterLabel>
+            <translation><!-- Meiningen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memmingen</masterLabel>
+            <translation><!-- Memmingen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merzig</masterLabel>
+            <translation><!-- Merzig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montabaur</masterLabel>
+            <translation><!-- Montabaur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mönchengladbach</masterLabel>
+            <translation><!-- Mönchengladbach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mühlhausen</masterLabel>
+            <translation><!-- Mühlhausen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>München</masterLabel>
+            <translation><!-- München --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Münster</masterLabel>
+            <translation><!-- Münster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neubrandenburg</masterLabel>
+            <translation><!-- Neubrandenburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neunkirchen</masterLabel>
+            <translation><!-- Neunkirchen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neuruppin</masterLabel>
+            <translation><!-- Neuruppin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neuss</masterLabel>
+            <translation><!-- Neuss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordhausen</masterLabel>
+            <translation><!-- Nordhausen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nürnberg</masterLabel>
+            <translation><!-- Nürnberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offenbach am Main</masterLabel>
+            <translation><!-- Offenbach am Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldenburg (Oldenburg)</masterLabel>
+            <translation><!-- Oldenburg (Oldenburg) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osnabrück</masterLabel>
+            <translation><!-- Osnabrück --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ottweiler</masterLabel>
+            <translation><!-- Ottweiler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paderborn</masterLabel>
+            <translation><!-- Paderborn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passau</masterLabel>
+            <translation><!-- Passau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinneberg</masterLabel>
+            <translation><!-- Pinneberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potsdam</masterLabel>
+            <translation><!-- Potsdam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pößneck</masterLabel>
+            <translation><!-- Pößneck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pößneck Zweigstelle Bad Lobenstein</masterLabel>
+            <translation><!-- Pößneck Zweigstelle Bad Lobenstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recklinghausen</masterLabel>
+            <translation><!-- Recklinghausen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regensburg</masterLabel>
+            <translation><!-- Regensburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rostock</masterLabel>
+            <translation><!-- Rostock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rudolstadt</masterLabel>
+            <translation><!-- Rudolstadt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rudolstadt Zweigstelle Saalfeld</masterLabel>
+            <translation><!-- Rudolstadt Zweigstelle Saalfeld --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saarbrücken</masterLabel>
+            <translation><!-- Saarbrücken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saarlouis</masterLabel>
+            <translation><!-- Saarlouis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schweinfurt</masterLabel>
+            <translation><!-- Schweinfurt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schwerin</masterLabel>
+            <translation><!-- Schwerin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siegburg</masterLabel>
+            <translation><!-- Siegburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siegen</masterLabel>
+            <translation><!-- Siegen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sondershausen</masterLabel>
+            <translation><!-- Sondershausen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonneberg</masterLabel>
+            <translation><!-- Sonneberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Ingbert (St Ingbert)</masterLabel>
+            <translation><!-- St. Ingbert (St Ingbert) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>St. Wendel (St Wendel)</masterLabel>
+            <translation><!-- St. Wendel (St Wendel) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stadthagen</masterLabel>
+            <translation><!-- Stadthagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stadtroda</masterLabel>
+            <translation><!-- Stadtroda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steinfurt</masterLabel>
+            <translation><!-- Steinfurt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stendal</masterLabel>
+            <translation><!-- Stendal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stralsund</masterLabel>
+            <translation><!-- Stralsund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Straubing</masterLabel>
+            <translation><!-- Straubing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stuttgart</masterLabel>
+            <translation><!-- Stuttgart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suhl</masterLabel>
+            <translation><!-- Suhl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sömmerda</masterLabel>
+            <translation><!-- Sömmerda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tostedt</masterLabel>
+            <translation><!-- Tostedt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traunstein</masterLabel>
+            <translation><!-- Traunstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ulm</masterLabel>
+            <translation><!-- Ulm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Völklingen</masterLabel>
+            <translation><!-- Völklingen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walsrode</masterLabel>
+            <translation><!-- Walsrode --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weiden i. d. OPf.</masterLabel>
+            <translation><!-- Weiden i. d. OPf. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weimar</masterLabel>
+            <translation><!-- Weimar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wetzlar</masterLabel>
+            <translation><!-- Wetzlar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wiesbaden</masterLabel>
+            <translation><!-- Wiesbaden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wittlich</masterLabel>
+            <translation><!-- Wittlich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wuppertal</masterLabel>
+            <translation><!-- Wuppertal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Würzburg</masterLabel>
+            <translation><!-- Würzburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zweibrücken</masterLabel>
+            <translation><!-- Zweibrücken --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Register Number</label>
+        <name>RegisterNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Register --></label>
+        <name>Register__c</name>
+        <picklistValues>
+            <masterLabel>GnR</masterLabel>
+            <translation><!-- GnR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRA</masterLabel>
+            <translation><!-- HRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRB</masterLabel>
+            <translation><!-- HRB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR</masterLabel>
+            <translation><!-- PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VR</masterLabel>
+            <translation><!-- VR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Registration Date --></label>
+        <name>Registration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registration --></label>
+        <name>Registration__c</name>
+        <picklistValues>
+            <masterLabel>Deutschland</masterLabel>
+            <translation><!-- Deutschland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schweiz</masterLabel>
+            <translation><!-- Schweiz --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Cancellation Date --></label>
+        <name>RequestedCancellationDate__c</name>
+        <picklistValues>
+            <masterLabel>Monate zum Ende des Kalendermonats</masterLabel>
+            <translation><!-- Monate zum Ende des Kalendermonats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monate zum Jahresende</masterLabel>
+            <translation><!-- Monate zum Jahresende --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monate zum Quartal</masterLabel>
+            <translation><!-- Monate zum Quartal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tage</masterLabel>
+            <translation><!-- Tage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wochen zum 15. des Kalendermonats</masterLabel>
+            <translation><!-- Wochen zum 15. des Kalendermonats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wochen zum Ende des Kalendermonats</masterLabel>
+            <translation><!-- Wochen zum Ende des Kalendermonats --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Position --></label>
+        <name>RequestedPosition__c</name>
+        <picklistValues>
+            <masterLabel>Assistenzarzt</masterLabel>
+            <translation><!-- Assistenzarzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chefarzt</masterLabel>
+            <translation><!-- Chefarzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facharzt</masterLabel>
+            <translation><!-- Facharzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oberarzt</masterLabel>
+            <translation><!-- Oberarzt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Postal Code Region --></label>
+        <name>RequestedPostalCodeRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested State / Canton --></label>
+        <name>RequestedStateCanton__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Types Of Hospital Service --></label>
+        <name>RequestedTypesOfHospitalService__c</name>
+        <picklistValues>
+            <masterLabel>Bereitschaftsdienst</masterLabel>
+            <translation><!-- Bereitschaftsdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frühdienst</masterLabel>
+            <translation><!-- Frühdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hausbereitschaftsdienst</masterLabel>
+            <translation><!-- Hausbereitschaftsdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hintergrunddienst</masterLabel>
+            <translation><!-- Hintergrunddienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nachtdienst</masterLabel>
+            <translation><!-- Nachtdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regeldienst</masterLabel>
+            <translation><!-- Regeldienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rufbereitschaftsdienst</masterLabel>
+            <translation><!-- Rufbereitschaftsdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spätdienst</masterLabel>
+            <translation><!-- Spätdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tagdienst</masterLabel>
+            <translation><!-- Tagdienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zwischendienst</masterLabel>
+            <translation><!-- Zwischendienst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>alle</masterLabel>
+            <translation><!-- alle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Requested Weekdays --></label>
+        <name>RequestedWeekdays__c</name>
+        <picklistValues>
+            <masterLabel>Dienstag</masterLabel>
+            <translation><!-- Dienstag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donnerstag</masterLabel>
+            <translation><!-- Donnerstag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feiertag</masterLabel>
+            <translation><!-- Feiertag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freitag</masterLabel>
+            <translation><!-- Freitag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mittwoch</masterLabel>
+            <translation><!-- Mittwoch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Montag</masterLabel>
+            <translation><!-- Montag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schulferien</masterLabel>
+            <translation><!-- Schulferien --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonnabend</masterLabel>
+            <translation><!-- Sonnabend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonntag</masterLabel>
+            <translation><!-- Sonntag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>alle Wochentage</masterLabel>
+            <translation><!-- alle Wochentage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Residence Permit ANÜ --></label>
+        <name>ResidencePermitANUE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Residence Permit Honorar --></label>
+        <name>ResidencePermitHonorar__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the Account Team Member for Responsibility First Contact --></help>
+        <label><!-- Responsibility First Contact --></label>
+        <name>Responsibility_First_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue 2020 (caregiver) --></label>
+        <name>Revenue2020Caregiver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue 2020 (doctors) --></label>
+        <name>Revenue2020Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Potenzial Revenue Doctors --></label>
+        <name>Revenue_Current_Year_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salary Per Year CHF --></label>
+        <name>SalaryPerYearChf__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salary Per Year EUR --></label>
+        <name>SalaryPerYearEur__c</name>
+    </fields>
+    <fields>
+        <label>Second Employer</label>
+        <name>SecondEmployer__c</name>
+        <relationshipLabel><!-- Accounts (Second Employer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service portfolio --></label>
+        <name>Service_portfolio__c</name>
+        <picklistValues>
+            <masterLabel>ANÜ caregivers</masterLabel>
+            <translation><!-- ANÜ caregivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANÜ doctors</masterLabel>
+            <translation><!-- ANÜ doctors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Vendor</masterLabel>
+            <translation><!-- Master Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OnSite</masterLabel>
+            <translation><!-- OnSite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outsourcing</masterLabel>
+            <translation><!-- Outsourcing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permanent Placement</masterLabel>
+            <translation><!-- Permanent Placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruitment</masterLabel>
+            <translation><!-- Recruitment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Address c/o --></label>
+        <name>ShippingAddressCo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Social Security Number --></label>
+        <name>SocialSecurityNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date New Legal Entity --></label>
+        <name>StartDateNewLegalEntity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Employment ANÜ --></label>
+        <name>StatusEmploymentANUE__c</name>
+        <picklistValues>
+            <masterLabel>befristet</masterLabel>
+            <translation><!-- befristet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>entfristet</masterLabel>
+            <translation><!-- entfristet --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Status Employment Fachpflege</label>
+        <name>StatusEmploymentFachpflege__c</name>
+        <picklistValues>
+            <masterLabel>Anstellung Fachpflege</masterLabel>
+            <translation><!-- Anstellung Fachpflege --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einsatzbogen</masterLabel>
+            <translation><!-- Einsatzbogen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gehaltsberechnung</masterLabel>
+            <translation><!-- Gehaltsberechnung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gesprächstermin</masterLabel>
+            <translation><!-- Gesprächstermin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Bearbeitung</masterLabel>
+            <translation><!-- In Bearbeitung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertrag zur Ansicht</masterLabel>
+            <translation><!-- Vertrag zur Ansicht --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Aktiv</masterLabel>
+            <translation><!-- Aktiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aktiv - Mailing</masterLabel>
+            <translation><!-- Aktiv - Mailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aktiv - Vermittelbar</masterLabel>
+            <translation><!-- Aktiv - Vermittelbar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inaktiv</masterLabel>
+            <translation><!-- Inaktiv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neu</masterLabel>
+            <translation><!-- Neu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualifizierung</masterLabel>
+            <translation><!-- Qualifizierung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strengths/Weaknesses --></label>
+        <name>Strengths_Weaknesses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Substitute --></label>
+        <name>Substitute__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T]6Months after Account is active --></label>
+        <name>T6Months_after_Account_is_active__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Count Contract Rollup --></label>
+        <name>TCountContractRollup__c</name>
+        <relationshipLabel><!-- Contract Count --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- [T]AccountDocuments --></label>
+        <name>T_AccountDocuments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Account Owner Profile Name --></help>
+        <label><!-- [T] Account Owner Profile --></label>
+        <name>T_Account_Owner_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Amount of Caregiver Competences --></label>
+        <name>T_Amount_of_Caregiver_Competences__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Amount of Doctor Competences --></label>
+        <name>T_Amount_of_Doctor_Competences__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Caregiver Further Educat Registration --></label>
+        <name>T_CaregiverFurtherEducatRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Caregiver Job Registration --></label>
+        <name>T_CaregiverJobRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Competitors --></label>
+        <name>T_Competitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Contract Country --></label>
+        <name>T_Contract_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Current User Landlord --></label>
+        <name>T_CurrentUserLandloard__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]DebtorOrCostCenterNumber --></label>
+        <name>T_DebtorOrCostCenterNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Description --></label>
+        <name>T_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Doctor Qualification Registration --></label>
+        <name>T_DoctorQualificationRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Doctor Additional Designations --></label>
+        <name>T_Doctor_Additional_Designations__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Doctor Job --></label>
+        <name>T_Doctor_Job__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Doctor Medical Discipline --></label>
+        <name>T_Doctor_Medical_Discipline__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Doctor Qualification Level --></label>
+        <name>T_Doctor_Qualification_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Duplicate Check --></label>
+        <name>T_Duplicate_Check__c</name>
+        <picklistValues>
+            <masterLabel>Off</masterLabel>
+            <translation><!-- Off --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Angebot Email Out Out --></label>
+        <name>T_EmailOptOut__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Last Activity on Account --></label>
+        <name>T_Last_Activity_on_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number General Power Anue Templates --></label>
+        <name>T_NumberGeneralPowerAnueTemplates__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number of Operating Contracts --></label>
+        <name>T_NumberOfOperatingContracts__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number of Competences --></label>
+        <name>T_Number_of_Competences__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Number won Opportunties --></label>
+        <name>T_Number_won_Opportunties__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Operation Time CM --></label>
+        <name>T_Operation_Time_CM__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Permanent Employment Doctor Registra --></label>
+        <name>T_PermanentEmploymentDoctorRegistra__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Permanent Placement Registration --></label>
+        <name>T_PermanentPlacementRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Process Time --></label>
+        <name>T_Process_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Qualified to Active Date --></label>
+        <name>T_Qualified_to_Active_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Salutation Helper --></label>
+        <name>T_SalutationHelper__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Subject Area Registration --></label>
+        <name>T_SubjectAreaRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Temporary Doctor Registration --></label>
+        <name>T_TemporaryDoctorRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Temporary Registration --></label>
+        <name>T_TemporaryRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]Years since Creation --></label>
+        <name>T_Years_since_Creation__c</name>
+    </fields>
+    <fields>
+        <label>Tax ID</label>
+        <name>TaxId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Number --></label>
+        <name>TaxNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technical Language Examination --></label>
+        <name>TechnicalLanguageExamination__c</name>
+    </fields>
+    <fields>
+        <label>Technical Qualifications</label>
+        <name>TechnicalQualifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination To --></label>
+        <name>TerminationTo__c</name>
+        <picklistValues>
+            <masterLabel>Monate zum Ende des Kalendermonats</masterLabel>
+            <translation><!-- Monate zum Ende des Kalendermonats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monate zum Jahresende</masterLabel>
+            <translation><!-- Monate zum Jahresende --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monate zum Quartal</masterLabel>
+            <translation><!-- Monate zum Quartal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tage</masterLabel>
+            <translation><!-- Tage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wochen zum 15. des Kalendermonats </masterLabel>
+            <translation><!-- Wochen zum 15. des Kalendermonats  --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wochen zum Ende des Kalendermonats</masterLabel>
+            <translation><!-- Wochen zum Ende des Kalendermonats --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Terms and Conditions accepted --></label>
+        <name>TermsAndConditionsAccepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test Record --></label>
+        <name>Test_Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- VT Link --></label>
+        <name>VTLink__c</name>
+    </fields>
+    <fields>
+        <label>Work Experience</label>
+        <name>WorkExperience__c</name>
+        <picklistValues>
+            <masterLabel>1 Jahr</masterLabel>
+            <translation><!-- 1 Jahr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10-15 Jahre</masterLabel>
+            <translation><!-- 10-15 Jahre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Jahre</masterLabel>
+            <translation><!-- 2 Jahre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-5 Jahre</masterLabel>
+            <translation><!-- 3-5 Jahre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-7 Jahre</masterLabel>
+            <translation><!-- 5-7 Jahre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7-10 Jahre</masterLabel>
+            <translation><!-- 7-10 Jahre --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt; 15 Jahre</masterLabel>
+            <translation><!-- &gt; 15 Jahre --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Die %-Angabe bezieht sich auf das Arbeitsvolumen beim &quot;aktuellen Arbeitgeber&quot; --></help>
+        <label><!-- Work Load --></label>
+        <name>WorkLoad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Writes Own Invoices --></label>
+        <name>WritesOwnInvoices__c</name>
+    </fields>
+    <fields>
+        <label><!-- doctari client --></label>
+        <name>doctari_client__c</name>
+    </fields>
+    <fields>
+        <label><!-- freigeschaltet für App Time Tracking --></label>
+        <name>freigeschaltet_f_r_App_Time_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Date --></label>
+        <name>mkto71_Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Acquisition Program --></label>
+        <name>mkto71_Acquisition_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Score --></label>
+        <name>mkto71_Lead_Score__c</name>
+    </fields>
+    <quickActions>
+        <label><!-- Adressen ändern --></label>
+        <name>Addressen_ndern</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Arbeitsvertrag --></label>
+        <name>Arbeitsvertrag</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Account --></label>
+        <name>Availibilities</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SMS --></label>
+        <name>SMS</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Competitor --></label>
+        <name>Competitor</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Doctors Surgery</label>
+        <name>doctorsSurgery</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Healthcare Institution</label>
+        <name>healthcareInstitution</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Sobald &quot;Status Anstellung Fachpflege&quot; den Wert &quot;Vertrag zur Ansicht&quot; oder &quot;Gesprächstermin&quot; enthält, ist &quot;Verfügbar für Festanstellung ab&quot; zu füllen. --></errorMessage>
+        <name>AvailableForPermanentEmployment_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In order to set an account active the birthdate has to be filled and there needs to be at least one related competence. --></errorMessage>
+        <name>Birthdate_and_competence_caregiver</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In order to set an account active the birthdate has to be filled and there needs to be at least one related competence. --></errorMessage>
+        <name>Birthdate_and_competence_doctor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Shipping Address is mandatory for account activation. --></errorMessage>
+        <name>BusinessAccount_AddressMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Maximum length for AccountName is 100 --></errorMessage>
+        <name>BusinessAccount_Name_maximum_length</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Healthcare Institution, Doctor Surgery and Doctors are read only. Please use VTiger to change the data. --></errorMessage>
+        <name>HealthcareInstitANDDoctorSurgReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Das Feld Inaktiv bis darf nicht vor dem Feld Inaktiv von sein --></errorMessage>
+        <name>InactiveToBeforeInactiveFrom</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inaktiv von darf nicht leer sein, wenn Inaktiv bis befüllt ist --></errorMessage>
+        <name>InactiveToFilledButInactiveFromEmpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can&apos;t uncheck an existing Marketing Opt out for data privacy reasons. --></errorMessage>
+        <name>Marketing_Opt_in_restriction_PersonAcc</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Nur Mobilfunknummern sind erlaubt. --></errorMessage>
+        <name>MobilePhoneNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mailing Address is mandatory for account activation. --></errorMessage>
+        <name>PersonAccount_AddressMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The nationality is mandatory if a person account is set to &quot;Active - Placeable&quot;. --></errorMessage>
+        <name>PersonAccount_Nationality</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add the place of birth in order to set the account to &quot;Active - Placable&quot;. --></errorMessage>
+        <name>PersonAccount_PlaceOfBirth</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Anrede darf nicht leer sein. --></errorMessage>
+        <name>Salutation_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Das Feld &quot;Anrede&quot; muss einen Wert enthalten. --></errorMessage>
+        <name>Salutation_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dieser Status darf nur durch die &quot;doctari Personal &amp; Vertragsabteilung&quot; gesetzt werden. --></errorMessage>
+        <name>StatusChangeAcitve</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Der Status kann nicht auf &apos;Neu&apos; gesetzt werden --></errorMessage>
+        <name>StatusNewOnlyOnce</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Der Account darf nicht auf &quot;Aktiv&quot; gesetzt werden, wenn die AGB und/oder Datenschutzbestimmung nicht auf &quot;akzeptiert&quot; gesetzt sind. --></errorMessage>
+        <name>TermsOfServiceDataPolicyCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Ein Pfleger darf entweder den &quot;Status Anstellung Fachpflege&quot; = Anstellung Fachpflege haben ODER den &quot;Status Anstellung ANÜ&quot; = befristet ODER den &quot;Status Anstellung ANÜ&quot; = entfristet. --></errorMessage>
+        <name>Validate_Anstellung</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte immer einen Deaktivierungsgrund angeben --></errorMessage>
+        <name>check_for_deactivation_reason</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+</CustomObjectTranslation>

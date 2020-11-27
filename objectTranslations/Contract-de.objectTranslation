@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Anforderungsprofile --></help>
+        <label><!-- Anlage 1 --></label>
+        <name>Anlage_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wesentliche Arbeitsbedingungen (kundenseitig) --></help>
+        <label>Anlage 3</label>
+        <name>Appendix3EssentialWorkingConditions__c</name>
+    </fields>
+    <fields>
+        <help><!-- die Person erhält eine BahnCard 100 --></help>
+        <label>BC 100</label>
+        <name>BC_100__c</name>
+    </fields>
+    <fields>
+        <help><!-- Die Anzahl der Tage die storniert werden sollen. --></help>
+        <label>Stornierungstage</label>
+        <name>CancellationDays__c</name>
+    </fields>
+    <fields>
+        <help><!-- Der Tag zu dem storniert werden soll. --></help>
+        <label>Stornierung zum</label>
+        <name>CancellationOn__c</name>
+    </fields>
+    <fields>
+        <help><!-- Der Vertrag wird noch vor Vertragsbeginn aufgehoben. --></help>
+        <label>Aufhebung vor Vertragsbeginn</label>
+        <name>Cancellation_before_the_start__c</name>
+    </fields>
+    <fields>
+        <help><!-- Der Vertrag wird während des laufenden Arbeitsverhältnisses aufgehoben. --></help>
+        <label>Aufhebung während der Beschäftigung</label>
+        <name>Cancellation_during_employment__c</name>
+    </fields>
+    <fields>
+        <label>HÜD-Abfrage</label>
+        <name>CheckHUED__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zusätzliche Informationen, die der Vertragsabteilung mitgeteilt wurden --></help>
+        <label>Kommentar Vertragsinformationen</label>
+        <name>CommentContractInformation__c</name>
+    </fields>
+    <fields>
+        <label>Kommentar Einsatzcheck</label>
+        <name>CommentOperationCheck__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zusätzliche Informationen über den Versand für die Vertragsabteilung --></help>
+        <label>Kommentar zum Versand</label>
+        <name>CommentSendingInformation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Notwendige Informationen für die Vertragserstellungen können hier hinterlegt werden. Diese Informationen werden ebenfalls nach L1 übertragen. --></help>
+        <label>Kommentar</label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label>Provision doctari</label>
+        <name>Commission_doctari__c</name>
+    </fields>
+    <fields>
+        <help><!-- die Person erhält einen Firmenwagen --></help>
+        <label>Firmenwagen</label>
+        <name>Company_car__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referenz zur hinterlegten Kompetenz der Person --></help>
+        <label>Kompetenz Personal</label>
+        <name>CompetencePersonal__c</name>
+    </fields>
+    <fields>
+        <label>Ansprechpartner Fachbereich</label>
+        <name>ContactDepartment__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ansprechpartner des Kunden für den Bereich Personal --></help>
+        <label>Ansprechpartner Personal</label>
+        <name>ContactPersonEmployees__c</name>
+        <relationshipLabel><!-- Contracts (Contact Person Employees) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ansprechpartner des Kunden für den Bereich Vertragsversand --></help>
+        <label>Ansprechpartner für Vertragsversand</label>
+        <name>ContactPersonForContractShipping__c</name>
+        <relationshipLabel><!-- Contracts (Contact person for contract shipping) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- die im Account hinterlegte Vertragsanschrift des Kunden --></help>
+        <label>Vertragsanschrift Kunde</label>
+        <name>ContractAddress__c</name>
+    </fields>
+    <fields>
+        <label>Vertrag Datensatztyp</label>
+        <name>ContractRecordType__c</name>
+    </fields>
+    <fields>
+        <label>Vertragsstatus</label>
+        <name>ContractStatus__c</name>
+    </fields>
+    <fields>
+        <label>Vertrags Typ</label>
+        <name>ContractType__c</name>
+        <picklistValues>
+            <masterLabel>ANÜ</masterLabel>
+            <translation><!-- ANÜ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Einsatzvertrag meditiv eG</masterLabel>
+            <translation><!-- Einsatzvertrag meditiv eG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honorarvertrag</masterLabel>
+            <translation><!-- Honorarvertrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rahmenvertrag</masterLabel>
+            <translation><!-- Rahmenvertrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertrag Festanstellung</masterLabel>
+            <translation><!-- Vertrag Festanstellung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertrag PRAG</masterLabel>
+            <translation><!-- Vertrag PRAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertrag befristete Anstellung</masterLabel>
+            <translation><!-- Vertrag befristete Anstellung --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost Centre Number --></label>
+        <name>Cost_Centre_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Information für die Vertragsabteilung, ob ein Kurier benötigt wird. --></help>
+        <label>Kurierbestellung</label>
+        <name>CourierOrder__c</name>
+    </fields>
+    <fields>
+        <help><!-- definiert die Art des Vertrages, der geschlossen werden soll --></help>
+        <label>Erstellung von</label>
+        <name>Creation_of__c</name>
+        <picklistValues>
+            <masterLabel>ANÜ Überlassungsvertrag</masterLabel>
+            <translation><!-- ANÜ Überlassungsvertrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANÜ Überlassungsvertrag mit ZV Kunde</masterLabel>
+            <translation><!-- ANÜ Überlassungsvertrag mit ZV Kunde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANÜ Überlassungsvertrag mit ZV doctari</masterLabel>
+            <translation><!-- ANÜ Überlassungsvertrag mit ZV doctari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verlängerungsvertrag ANÜ Überlassungsvertrag</masterLabel>
+            <translation><!-- Verlängerungsvertrag ANÜ Überlassungsvertrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</masterLabel>
+            <translation><!-- Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</masterLabel>
+            <translation><!-- Verlängerungsvertrag ANÜ Überlassungsvertrag mit ZV doctari --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Änderungsvertrag ANÜ Überlassungsvertrag</masterLabel>
+            <translation><!-- Änderungsvertrag ANÜ Überlassungsvertrag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde</masterLabel>
+            <translation><!-- Änderungsvertrag ANÜ Überlassungsvertrag mit ZV Kunde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Änderungsvertrag ANÜ Überlassungsvertrag mit ZV doctari</masterLabel>
+            <translation><!-- Änderungsvertrag ANÜ Überlassungsvertrag mit ZV doctari --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Art des Vertrages --></help>
+        <label>Erstellung von</label>
+        <name>Creation_of_contract_Employee__c</name>
+        <picklistValues>
+            <masterLabel>Arbeitsvertrag Fachpfleger</masterLabel>
+            <translation>Arbeitsvertrag Fachpflege</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Änderungsvertrag Arbeitsvertrag Fachpfleger</masterLabel>
+            <translation>Änderungsvertrag Fachpflege</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- übergeordneter Grund für die Stornierung --></help>
+        <label>Stornogründe</label>
+        <name>Detail_Lost_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Budget nicht freigegeben</masterLabel>
+            <translation><!-- Budget nicht freigegeben --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doppelanfrage</masterLabel>
+            <translation><!-- Doppelanfrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fehlanfrage</masterLabel>
+            <translation><!-- Fehlanfrage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kandidat ungeeignet</masterLabel>
+            <translation><!-- Kandidat ungeeignet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Krankheit</masterLabel>
+            <translation><!-- Krankheit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>anderem Auftrag zugesagt (Konkurrenz)</masterLabel>
+            <translation><!-- anderem Auftrag zugesagt (Konkurrenz) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>anderem Auftrag zugesagt (bei doctari)</masterLabel>
+            <translation><!-- anderem Auftrag zugesagt (bei doctari) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fachliche Gründe</masterLabel>
+            <translation><!-- fachliche Gründe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>intern gelöscht</masterLabel>
+            <translation><!-- intern gelöscht --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>persönliche Gründe</masterLabel>
+            <translation><!-- persönliche Gründe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unbekannt</masterLabel>
+            <translation><!-- unbekannt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>über andere Agentur zugesagt (Konkurrenz)</masterLabel>
+            <translation><!-- über andere Agentur zugesagt (Konkurrenz) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- erster Tag des ruhenden Arbeitsverhältnisses --></help>
+        <label>Ruhen des Arbeitsverhältnisses von</label>
+        <name>Dormant_employment_from__c</name>
+    </fields>
+    <fields>
+        <help><!-- letzter Tag des ruhenden Arbeitsverhältnisses --></help>
+        <label>Ruhen des Arbeitsverhältnisses bis</label>
+        <name>Dormant_employment_until__c</name>
+    </fields>
+    <fields>
+        <label>Frühster Einsatzbeginn</label>
+        <name>Earliest_Contract_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Vergütung und Abrechnungsmodus --></help>
+        <label>Anlage 2</label>
+        <name>EmploymentContractAnnex2Salary__c</name>
+    </fields>
+    <fields>
+        <label>Anlage 1</label>
+        <name>EmploymentContract__c</name>
+    </fields>
+    <fields>
+        <help><!-- Vertragsbeginn --></help>
+        <label>Eintrittsdatum</label>
+        <name>Entry_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Die Person wird für den Rest der Vertragslaufzeit freigestellt. --></help>
+        <label>Freistellung der Arbeitsleistung</label>
+        <name>Exemption_from_work_performance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Grund für die Vertragsänderung --></help>
+        <label>Begründung</label>
+        <name>Explanation__c</name>
+    </fields>
+    <fields>
+        <help><!-- referenziert das Feld “Abschlussvollmacht” des Kunden Accounts --></help>
+        <label>Abschlussvollmacht</label>
+        <name>FinalAuthority__c</name>
+    </fields>
+    <fields>
+        <label>Zugangsverzicht</label>
+        <name>FirstSigned__c</name>
+    </fields>
+    <fields>
+        <label>Fachweiterbildung</label>
+        <name>FurtherEducation__c</name>
+    </fields>
+    <fields>
+        <label>historisches Erstellungsdatum</label>
+        <name>HistoricCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label>historisches Erstellungsdatum (PK)</label>
+        <name>Historic_Created_Date_Caregivers__c</name>
+    </fields>
+    <fields>
+        <label>historisches Erstellungsdatum (ÄÄ)</label>
+        <name>Historic_Created_Date_Doctors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Historic Created Date Placement --></label>
+        <name>Historic_Created_Date_Placement__c</name>
+    </fields>
+    <fields>
+        <label>historisches Erstellungsdatum</label>
+        <name>Historic_Created_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto-Verdienst pro Stunde in € --></help>
+        <label>Stundensatz</label>
+        <name>Hourly_rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- berechnetes Feld: Arbeitsstunden pro Woche / 5 --></help>
+        <label>h/Tag</label>
+        <name>HoursPerDay__c</name>
+    </fields>
+    <fields>
+        <label>h/Tag</label>
+        <name>Hours_per_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is running User (Doctors) --></label>
+        <name>Is_running_User_Doctors__c</name>
+    </fields>
+    <fields>
+        <label>L1 Vorgangsnummer</label>
+        <name>L1_Case_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- zeigt den auf dem Kunden-Account hinterlegten Hausbesitzer Pflege an --></help>
+        <label>Hausbesitzer Pflege</label>
+        <name>LandlordCaregiver__c</name>
+    </fields>
+    <fields>
+        <help><!-- zeigt den auf dem Kunden-Account hinterlegten Hausbesitzer Ärzte an --></help>
+        <label>Hausbesitzer Ärzte</label>
+        <name>LandlordDoctors__c</name>
+    </fields>
+    <fields>
+        <label>Spätestes Einsatzende (Pfleger)</label>
+        <name>Latest_Contract_End_Date_Caregiver__c</name>
+    </fields>
+    <fields>
+        <label>Spätestes Einsatzende (Ärzte)</label>
+        <name>Latest_Contract_End_Date_Doctors__c</name>
+    </fields>
+    <fields>
+        <label>Spätestes Einsatzende</label>
+        <name>Latest_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rechtsträger des Kunden --></help>
+        <label>Rechtsträger</label>
+        <name>Legal_Entity__c</name>
+        <relationshipLabel><!-- Contracts (Legal Entity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Vertragspartei, die für die Stornierung des Vertrages verantwortlich ist --></help>
+        <label>Storno Vertragspartei</label>
+        <name>LostReason__c</name>
+        <picklistValues>
+            <masterLabel>Klinik</masterLabel>
+            <translation><!-- Klinik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- gibt die Postanschrift der Person wieder, mit dem der Vertrag geschlossen werden soll --></help>
+        <label>Vertragsadresse (Personal)</label>
+        <name>MailingAddress__c</name>
+    </fields>
+    <fields>
+        <label>Vertragsnummer Porky</label>
+        <name>OfferNumber__c</name>
+    </fields>
+    <fields>
+        <label>Einsatzzeitraum</label>
+        <name>OperatingTime__c</name>
+    </fields>
+    <fields>
+        <label>Einsatztage (gesamt)</label>
+        <name>Operating_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referenz zur verbundenen Opportunity ID --></help>
+        <label><!-- OpportunityId --></label>
+        <name>OpportunityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- hier kann eine alternative Adresse zum Feld “Adresse Personal” hinterlegt werden --></help>
+        <label>Abweichende Vertragsadresse (Personal)</label>
+        <name>OtherPersonalAddress__c</name>
+    </fields>
+    <fields>
+        <help><!-- die Person nutzt ihren eigenen PKW --></help>
+        <label>Eigener PKW</label>
+        <name>Own_car__c</name>
+    </fields>
+    <fields>
+        <label>PLZ Gebiet</label>
+        <name>PLZArea__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name der Person, mit der ein Vertrag geschlossen werden soll --></help>
+        <label>Personal</label>
+        <name>Person_Account__c</name>
+        <relationshipLabel>Verträge</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Ort, an dem der Einsatz stattfinden wird --></help>
+        <label>Tatsächlicher Einsatzort</label>
+        <name>PlaceOfAction__c</name>
+    </fields>
+    <fields>
+        <label>Porky Externe ID</label>
+        <name>PorkyExternalID__c</name>
+    </fields>
+    <fields>
+        <help><!-- definiert das Einsatzgebiet nach einem Ort in Kombination mit dem Feld “Umkreis in km” --></help>
+        <label>Ort</label>
+        <name>PreferredCity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referenz zur hinterlegten Qualifikation der verknüpften Opportunity --></help>
+        <label>Gesuchte Qualifizierung</label>
+        <name>QualificationPersonal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referenz zum verbundenen Vertragsentwurf --></help>
+        <label>Vertragsentwurf</label>
+        <name>Quote__c</name>
+        <relationshipLabel>Verträge</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- definiert das Einsatzgebiet nach dem Umkreis in km um den angegebenen Ort --></help>
+        <label>Umkreis in km</label>
+        <name>Radiuskm__c</name>
+    </fields>
+    <fields>
+        <help><!-- gibt das prozentuale Verhältnis zu einer 40-Stunden-Woche wieder --></help>
+        <label>Verhältnis zur Vollzeitstelle</label>
+        <name>RatioToFullTimeJob__c</name>
+    </fields>
+    <fields>
+        <help><!-- Berufsbezeichnung entsprechend Urkunde/Qualifikationsnachweis, die sich aus der Kompetenz der Person ergibt; diese kann bearbeitet werden --></help>
+        <label>Qualifikation aus Urkunde</label>
+        <name>RecruitingAs__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tag, an dem die Aufhebung des Vertrages in Kraft tritt --></help>
+        <label>Aufhebung zum</label>
+        <name>Repeal_from__c</name>
+    </fields>
+    <fields>
+        <help><!-- definiert das Einsatzgebiet nach Bundesländern --></help>
+        <label>Bundesland</label>
+        <name>RequestedStateCanton__c</name>
+    </fields>
+    <fields>
+        <help><!-- Information für die Vertragsabteilung, wie der Vertrag versendet werden soll. --></help>
+        <label>Versandart</label>
+        <name>ShippingMethod__c</name>
+    </fields>
+    <fields>
+        <help><!-- bezahlt oder unbezahlt --></help>
+        <label>Art von Sonderurlaub</label>
+        <name>Special_Leave_Type__c</name>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation>Bezahlt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unpaid</masterLabel>
+            <translation>Unbezahlt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- erster Tag des Sonderurlaubs --></help>
+        <label>Sonderurlaub von</label>
+        <name>Special_leave_from__c</name>
+    </fields>
+    <fields>
+        <help><!-- letzter Tag des Sonderurlaubs --></help>
+        <label>Sonderurlaub bis</label>
+        <name>Special_leave_until__c</name>
+    </fields>
+    <fields>
+        <help><!-- beschreibt die Station, auf der der Einsatz erfolgen soll --></help>
+        <label>Station (Einsatz)</label>
+        <name>Station__c</name>
+    </fields>
+    <fields>
+        <label>Gesamt Tage Einsatzzeitraum</label>
+        <name>Sum_Contract_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tagespauschale, die das Personal pro Tag erhält, sofern er/sie nicht im Kundeneinsatz ist --></help>
+        <label>TP Verleihfrei</label>
+        <name>TPRentalFree__c</name>
+    </fields>
+    <fields>
+        <help><!-- necessary for History Report column --></help>
+        <label>Account Name</label>
+        <name>T_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]_CheckCloned --></label>
+        <name>T_CheckCloned__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]CoVid-19 Email pending --></label>
+        <name>T_CoVid_19_Email_pending__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T]CoVid-19 Information --></label>
+        <name>T_CoVid_19_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Contract Number --></label>
+        <name>T_ContractNumber__c</name>
+    </fields>
+    <fields>
+        <label>[T] Ist aktueller Benutzer</label>
+        <name>T_CurrentUserLandloard__c</name>
+    </fields>
+    <fields>
+        <label>[T] aktueller Benutzer ist Vermittler</label>
+        <name>T_CurrentUserSalesPerson__c</name>
+    </fields>
+    <fields>
+        <label>[T] Einsatzzeit (aktueller Monat)</label>
+        <name>T_Operation_Time_CM__c</name>
+    </fields>
+    <fields>
+        <label>Stornierte Einsatztage</label>
+        <name>T_Prior_Operating_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Unlock Final Contracts --></label>
+        <name>T_UnlockFinalContracts__c</name>
+    </fields>
+    <fields>
+        <label>[T] historisches Erstellungsdatum (Jahr)</label>
+        <name>T_Year_of_historic_created_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tag, an dem die Person ihren letzten vertraglichen Arbeitstag hat --></help>
+        <label>Kündigung zum</label>
+        <name>Termination_from__c</name>
+    </fields>
+    <fields>
+        <help><!-- Findet die Kündigung in der Probezeit statt? --></help>
+        <label>Kündigung in Probezeit</label>
+        <name>Termination_in_trial_period__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rückmeldung von UIPath über Status der Vertragsübertragung nach Landwehr. Gibt Auskunft über fehlende Pflichtfelder. Bei Problemen mit dem Inhalt des Feldes an die IT wenden. --></help>
+        <label>techn. Feedback UIPath</label>
+        <name>UIPath_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referenz zum Hauptvertrag; wird bei Vertragsänderungen automatisch ausgefüllt --></help>
+        <label>Bezug zu Vertrag</label>
+        <name>UsedFromContract__c</name>
+        <relationshipLabel>Vertragsänderungen</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- berechnetes Feld: Stundensatz * h/Tag --></help>
+        <label><!-- Value of a day --></label>
+        <name>ValueOfADay__c</name>
+    </fields>
+    <fields>
+        <help><!-- beschreibt die Tätigkeit, für die die Person eingesetzt wird --></help>
+        <label>Arbeitsbereich (in Einrichtung)</label>
+        <name>Work_area_in_facility__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gesamtanzahl der Arbeitsstunden pro Woche --></help>
+        <label>Arbeitsstunden pro Woche</label>
+        <name>WorkingHoursPerWeek__c</name>
+    </fields>
+    <fields>
+        <help><!-- berechnetes Feld: Arbeitsstunden pro Woche * 52,25 --></help>
+        <label>Arbeitsstunden pro Jahr</label>
+        <name>WorkingHoursPerYear__c</name>
+    </fields>
+    <fields>
+        <label>[T] 14 Tage vor Vertragsende</label>
+        <name>X14_days_prior_Contract_end_date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Diese Adresse wird nicht für den Vertrag verwendet, sondern nur für das Anschreiben. --></help>
+        <label>abweichende Versandadresse (Kunde)</label>
+        <name>differentShippingAddressCustomer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Diese Adresse wird nicht für den Vertrag verwendet, sondern nur für das Anschreiben. --></help>
+        <label>abweichende Versandadresse (Personal)</label>
+        <name>differentShippingAddressPersonal__c</name>
+    </fields>
+    <fields>
+        <label>Vermittler</label>
+        <name>doctariSalesPerson__c</name>
+    </fields>
+    <fields>
+        <label>Vermittler (Lookup)</label>
+        <name>doctari_Sales_PersonLookUp__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>doctari Mandant</label>
+        <name>doctari_client__c</name>
+        <picklistValues>
+            <masterLabel>doctari Fachpflege GmbH</masterLabel>
+            <translation><!-- doctari Fachpflege GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari GbR</masterLabel>
+            <translation><!-- doctari GbR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari GmbH</masterLabel>
+            <translation><!-- doctari GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Med ANÜ GmbH</masterLabel>
+            <translation><!-- doctari Med ANÜ GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Pflege ANÜ GmbH</masterLabel>
+            <translation><!-- doctari Pflege ANÜ GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Pflege GmbH</masterLabel>
+            <translation><!-- doctari Pflege GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>doctari Ärzte ANÜ GmbH</masterLabel>
+            <translation><!-- doctari Ärzte ANÜ GmbH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Startdatum der Vertragslaufzeit. --></help>
+        <label>von</label>
+        <name>from__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stundensatz * Arbeitsstunden pro Jahr / 12 Monate --></help>
+        <label>Monatliches Entgelt brutto</label>
+        <name>gross_monthly_fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Art der Befristung --></help>
+        <label>Befristungsart</label>
+        <name>limitation_type__c</name>
+        <picklistValues>
+            <masterLabel>unlimited</masterLabel>
+            <translation>Unbefristet</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enddatum der Vertragslaufzeit --></help>
+        <label>bis</label>
+        <name>to__c</name>
+    </fields>
+    <fields>
+        <help><!-- Arbeitsstunden pro Jahr / 12 Monate --></help>
+        <label>Arbeitsstunden pro Monat</label>
+        <name>working_hours_per_month__c</name>
+    </fields>
+    <quickActions>
+        <label>Vertrag unterschrieben</label>
+        <name>SetToSigned</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Vertragsänderung --></label>
+        <name>Vertragsaenderung_AV</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Vertragsänderung --></label>
+        <name>Vertragsaenderung_EV</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Arbeitsvertrag --></label>
+        <name>Arbeitsvertrag</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Aufhebung --></label>
+        <name>Aufhebung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Einsatzvertrag --></label>
+        <name>Einsatzvertrag</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Kündigung --></label>
+        <name>Kuendigung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Porky (History) --></label>
+        <name>Porky_History</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ruhen des Arbeitsverhältnisses --></label>
+        <name>Ruhen_des_Arbeitsverh_ltnisses</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sonderurlaub --></label>
+        <name>Sonderurlaub</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Stornierung --></label>
+        <name>Stornierung</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Bitte befülle das Feld &quot;Ansprechpartner für Vertragsversand&quot; auf dem Reiter &quot;Details&quot;, bevor der Vertrag nach Landwehr geschickt werden kann. --></errorMessage>
+        <name>ContactPersonForContractShippingRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Der Vertrag kann nicht mehr bearbeitet werden, da er den Entwurfstatus überschritten hat.</errorMessage>
+        <name>LockContracts</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Die Felder &quot;Aufhebung vor Vertragsbeginn&quot;, &quot;Aufhebung während der Beschäftigung&quot; und &quot;Freistellung der Arbeitsleistung&quot; sind nur für Aufhebungen von Arbeitsverträgen relevant und dürfen daher für Einsatzverträge nicht ausgewählt werden. --></errorMessage>
+        <name>RepealOperationContract</name>
+    </validationRules>
+</CustomObjectTranslation>

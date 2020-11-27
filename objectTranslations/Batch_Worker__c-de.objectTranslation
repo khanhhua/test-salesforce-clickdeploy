@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Batch Worker</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Batch Workers</value>
+    </caseValues>
+    <fields>
+        <label><!-- SObject Id --></label>
+        <name>SObject_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- SObject Name --></label>
+        <name>SObject_Name__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

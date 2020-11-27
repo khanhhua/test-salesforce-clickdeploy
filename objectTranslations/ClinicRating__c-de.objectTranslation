@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kandidatenliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Kandidatenlisten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Kandidatenliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Kandidatenlisten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Kandidatenliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Kandidatenlisten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Kandidatenliste</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Kandidatenlisten</value>
+    </caseValues>
+    <fields>
+        <label>Kandidat</label>
+        <name>CandidateId__c</name>
+        <relationshipLabel>Klinikbewertung (Klinik)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Klinik</label>
+        <name>ClinicId__c</name>
+        <relationshipLabel>Klinikbewertung (Kandidat)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kommentar</label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label>Typ</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Blacklist</masterLabel>
+            <translation>Negativliste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitelist</masterLabel>
+            <translation>Positivliste</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>UniqueKey__c</name>
+    </fields>
+    <fields>
+        <label>Benutzer</label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Candidate Lists --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Kandidatenliste</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Please enter either clinic or user. --></errorMessage>
+        <name>ClinicOrUserFilled</name>
+    </validationRules>
+</CustomObjectTranslation>

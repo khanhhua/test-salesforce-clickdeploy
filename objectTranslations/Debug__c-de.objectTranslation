@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Debug</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Debugs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- Debugs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CampaignmemberIds --></label>
+        <name>CampaignmemberIds__c</name>
+    </fields>
+    <fields>
+        <label><!-- ErrorCode --></label>
+        <name>ErrorCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- MarketoErrorNumber --></label>
+        <name>MarketoErrorNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- MarketoIDs --></label>
+        <name>MarketoIDs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketo IDs --></label>
+        <name>Marketo_IDs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>Message__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Counter</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Counters</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaignmembers --></label>
+        <name>Campaignmembers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Max Campaignmembers --></label>
+        <name>Max_Campaignmembers__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

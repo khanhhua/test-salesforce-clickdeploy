@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Klinik Wettbewerber</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Klinik Wettbewerber</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Klinik Wettbewerbers</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Klinik Wettbewerbers</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Klinik Wettbewerbern</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Klinik Wettbewerbern</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Klinik Wettbewerber</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Klinik Wettbewerber</value>
+    </caseValues>
+    <fields>
+        <label>Wettbewerber</label>
+        <name>Competitors__c</name>
+        <relationshipLabel><!-- Kliniken und Praxen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Laufzeit Vertrag bis</label>
+        <name>Contract_term_until__c</name>
+    </fields>
+    <fields>
+        <label>Klinik / Praxis</label>
+        <name>Healthcare_Institution__c</name>
+        <relationshipLabel><!-- Wettbewerber --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Anzahl sonstiges Personal im Einsatz</label>
+        <name>Number_of_other_working_personnel__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl Pflegekräfte im Einsatz</label>
+        <name>Number_of_working_caregivers__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl Ärzte im Einsatz</label>
+        <name>Number_of_working_doctors__c</name>
+    </fields>
+    <fields>
+        <label>Anzahl Permanent Placements im Einsatz</label>
+        <name>Number_of_working_permanent_placement__c</name>
+    </fields>
+    <fields>
+        <label>Art der Beziehung</label>
+        <name>Relationship_Type__c</name>
+        <picklistValues>
+            <masterLabel>Framework contract</masterLabel>
+            <translation>Rahmenvertrag</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSP</masterLabel>
+            <translation><!-- MSP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master Vendor</masterLabel>
+            <translation><!-- Master Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OnSite</masterLabel>
+            <translation><!-- OnSite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred supplier</masterLabel>
+            <translation>Vorzugslieferant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single vendor</masterLabel>
+            <translation><!-- Single vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Mitarbeitende Gesamt im Einsatz</label>
+        <name>Total_working_Employees__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Klinik Wettbewerber</nameFieldLabel>
+</CustomObjectTranslation>

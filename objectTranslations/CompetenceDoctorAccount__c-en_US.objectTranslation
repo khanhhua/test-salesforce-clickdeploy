@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Kompetenz Arzt Account --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Kompetenz Arzt Account --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Kompetenz Arzt Account --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Additional Designations</label>
+        <name>AdditionalDesignations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Doctor Number (LANR) --></label>
+        <name>Doctor_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>ExternalId__c</name>
+    </fields>
+    <fields>
+        <label>Medical Discipline</label>
+        <name>MedicalDiscipline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migration Protocol --></label>
+        <name>MigrationProtocol__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wenn eine Kompetenz durch diese Checkbox gekennzeichnet ist, dann wird sie auch in Porky hinterlegt. Es ist nur möglich eine Kompetenz pro Arzt zu markieren. --></help>
+        <label><!-- Primary Competence --></label>
+        <name>PrimaryCompetence__c</name>
+    </fields>
+    <fields>
+        <label>Qualification Level</label>
+        <name>QualificationLevel__c</name>
+        <picklistValues>
+            <masterLabel>Assistenzarzt</masterLabel>
+            <translation><!-- Assistenzarzt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facharzt</masterLabel>
+            <translation><!-- Facharzt --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- [T]Count for Account Rollup --></label>
+        <name>T_Count_for_Account_Rollup__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Count for Opportunity rollup --></label>
+        <name>T_Count_for_Opportunity_rollup__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Doctor Job --></label>
+        <name>T_Doctor_Job__c</name>
+    </fields>
+    <nameFieldLabel><!-- Competence Docotor Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

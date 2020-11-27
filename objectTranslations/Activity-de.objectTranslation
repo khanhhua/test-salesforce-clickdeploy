@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Fälligkeitsdatum</label>
+        <name>Aktivity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Person Account --></label>
+        <name>Is_Person_Account__c</name>
+    </fields>
+    <fields>
+        <label>Link zum Kampagnenmitglied</label>
+        <name>Link_to_Campaign_Member__c</name>
+    </fields>
+    <fields>
+        <help>Gibt das &quot;Registrierungsdatum&quot; aus dem Account wieder.</help>
+        <label>[T] Registrierungsdatum</label>
+        <name>T_Acquisition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- [T] Assigned User Profil --></label>
+        <name>T_Assigned_User_Profil__c</name>
+    </fields>
+    <fields>
+        <label>[T] Ist aktueller Benutzer</label>
+        <name>T_Current_User_Assigned__c</name>
+    </fields>
+    <fields>
+        <help>Gibt das Feld &quot;[T] Doctor Job&quot; wieder. Dieses Feld kombiniert die Felder &quot;Qualifizierungsstufe&quot; und &quot;Fachrichtung&quot; aus dem Kompetenz Arzt Account.</help>
+        <label>[T] Qualifizierungsstufe &amp; Fachrichtung</label>
+        <name>T_Doctor_Job__c</name>
+    </fields>
+</CustomObjectTranslation>
