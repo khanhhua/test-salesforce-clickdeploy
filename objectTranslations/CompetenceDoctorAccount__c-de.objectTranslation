@@ -95,5 +95,12 @@
         <name>T_Doctor_Job__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Kompetenz Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Kompetenz Arzt Name</nameFieldLabel>
 </CustomObjectTranslation>

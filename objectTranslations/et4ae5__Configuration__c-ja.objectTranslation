@@ -132,5 +132,12 @@
         <label><!-- URL Root --></label>
         <name>et4ae5__url_root__c</name>
     </fields>
+    <layouts>
+        <layout>Configuration Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>設定番号</nameFieldLabel>
 </CustomObjectTranslation>

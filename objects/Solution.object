@@ -144,4 +144,29 @@
         <searchResultsAdditionalFields>SOLUTION.TIMES_USED</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SOLUTION.LAST_UPDATE</searchResultsAdditionalFields>
     </searchLayouts>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>IsPublished</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SolutionName</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SolutionNote</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsPublishedInPublicKb</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
 </CustomObject>

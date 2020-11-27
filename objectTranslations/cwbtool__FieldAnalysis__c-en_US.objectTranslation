@@ -29,4 +29,11 @@
         <label><!-- Type --></label>
         <name>cwbtool__Type__c</name>
     </fields>
+    <layouts>
+        <layout>Field Analysis Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

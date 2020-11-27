@@ -47,6 +47,21 @@
         <label>Type Of Service</label>
         <name>TypeOfService__c</name>
     </fields>
+    <layouts>
+        <layout>Dienstart &amp; Einsatzzeit</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Dates (Only Opportunity)</label>
+            <section>Datum (Nur Opportunity)</section>
+        </sections>
+        <sections>
+            <label>Times</label>
+            <section>Zeiten</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Type Of Service &amp; Period Of Service</nameFieldLabel>
     <recordTypes>
         <label><!-- Dienstart &amp; Einsatzzeit --></label>

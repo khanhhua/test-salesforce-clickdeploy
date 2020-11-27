@@ -50,6 +50,21 @@
         <name>TypeOfService__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Dienstart &amp; Einsatzzeit</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Datum (Nur Opportunity)</label>
+            <section>Datum (Nur Opportunity)</section>
+        </sections>
+        <sections>
+            <label>Zeiten</label>
+            <section>Zeiten</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Dienstart &amp; Einsatzzeit --></label>
         <name>TypeOfServicePeriodOfService</name>

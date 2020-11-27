@@ -40,4 +40,11 @@
         <name>Unit__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Vergütung Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

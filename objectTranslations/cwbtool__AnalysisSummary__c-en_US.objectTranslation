@@ -72,4 +72,19 @@
         <label><!-- Summary --></label>
         <name>cwbtool__Summary__c</name>
     </fields>
+    <layouts>
+        <layout>Analysis Summary Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Field --></label>
+            <section>Field</section>
+        </sections>
+        <sections>
+            <label><!-- Status --></label>
+            <section>Status</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

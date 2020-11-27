@@ -56,6 +56,17 @@
         <label><!-- Uniform Provided --></label>
         <name>UniformProvided__c</name>
     </fields>
+    <layouts>
+        <layout>Fachbereich Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Kommentar --></label>
+            <section>Kommentar</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Speciality Name</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -199,5 +199,16 @@
         </picklistValues>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>ContractLineItem Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Vertragsdetails --></label>
+            <section>Vertragsdetails</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Vertragskonditionsnummer</nameFieldLabel>
 </CustomObjectTranslation>

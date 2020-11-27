@@ -36,4 +36,15 @@
         <name>Value_PK__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>KPI Layout</layout>
+        <sections>
+            <label><!-- Benutzerdefinierte Links --></label>
+            <section>Benutzerdefinierte Links</section>
+        </sections>
+        <sections>
+            <label>Werte</label>
+            <section>Values</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

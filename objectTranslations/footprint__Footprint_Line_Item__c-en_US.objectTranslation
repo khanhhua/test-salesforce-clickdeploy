@@ -73,4 +73,11 @@
         <label><!-- Validation rules --></label>
         <name>footprint__footprint_Validation_rules__c</name>
     </fields>
+    <layouts>
+        <layout>Foot Print Line Items Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

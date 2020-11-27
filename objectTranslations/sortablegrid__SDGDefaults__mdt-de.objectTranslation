@@ -4,4 +4,15 @@
         <label><!-- Definition --></label>
         <name>sortablegrid__Definition__c</name>
     </fields>
+    <layouts>
+        <layout>Main</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

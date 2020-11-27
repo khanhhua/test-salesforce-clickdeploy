@@ -147,4 +147,20 @@
         <searchResultsAdditionalFields>PRICEBOOK2.IS_ACTIVE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadSelect</sharingModel>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsStandard</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
 </CustomObject>

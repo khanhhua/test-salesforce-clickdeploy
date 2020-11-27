@@ -85,6 +85,21 @@
         <label><!-- doctari client --></label>
         <name>doctari_client__c</name>
     </fields>
+    <layouts>
+        <layout>Einsatzzeitraum Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer --></label>
+            <section>Customer</section>
+        </sections>
+        <sections>
+            <label><!-- Personal --></label>
+            <section>Personal</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Operation Time Name</nameFieldLabel>
     <startsWith>Vowel</startsWith>
     <validationRules>

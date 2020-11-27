@@ -353,7 +353,7 @@ Robin S. 21.11.2019</description>
     </fields>
     <validationRules>
         <fullName>QuoteRequired</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>IF( AND(Contract__r.RecordType.Name &lt;&gt; &apos;Porky (History)&apos;, ISBLANK(Quote__c )), true, false)</errorConditionFormula>
         <errorMessage>Der Vertragsentwurf muss ausgefüllt sein</errorMessage>
     </validationRules>

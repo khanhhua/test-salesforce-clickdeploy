@@ -81,4 +81,11 @@
         <label><!-- Value --></label>
         <name>EMPAUALeadly__Value__c</name>
     </fields>
+    <layouts>
+        <layout>Lead AC Rule Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

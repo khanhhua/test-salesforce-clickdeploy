@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Neu</fullName>
+        <default>false</default>
+        <label>Neu</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Anfrage Einrichtung</fullName>
+        <default>false</default>
+        <label>Anfrage Einrichtung</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>25</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Anfrage Kandidaten</fullName>
+        <default>false</default>
+        <label>Anfrage Kandidaten</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>25</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Kandidat/ -in vorgeschlagen</fullName>
+        <default>false</default>
+        <label>Kandidat/ -in vorgeschlagen</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Vorstellungsgespräch</fullName>
+        <default>false</default>
+        <label>Vorstellungsgespräch</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>60</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualifizierung</fullName>
+        <default>false</default>
+        <label>Qualifizierung</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>25</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Ziel-/Nutzenanalyse &amp; Inhaltsdefinition</fullName>
+        <default>false</default>
+        <label>Ziel-/Nutzenanalyse &amp; Inhaltsdefinition</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>30</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Angebot</fullName>
+        <default>false</default>
+        <label>Angebot</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>In Verhandlung</fullName>
+        <default>false</default>
+        <label>In Verhandlung</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>70</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Vertragsabwicklung</fullName>
+        <default>false</default>
+        <label>Vertragsabwicklung</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Vertrag versendet</fullName>
+        <default>false</default>
+        <label>Vertrag versendet</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>75</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Überprüfung</fullName>
+        <default>false</default>
+        <label>Überprüfung</label>
+        <closed>false</closed>
+        <forecastCategory>Pipeline</forecastCategory>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <fullName>gewonnen</fullName>
+        <color>#57F17C</color>
+        <default>false</default>
+        <label>gewonnen</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>Teilweise Gewonnen</fullName>
+        <default>false</default>
+        <description>Teilweise Gewonnen</description>
+        <label>Teilweise Gewonnen</label>
+        <closed>true</closed>
+        <forecastCategory>Closed</forecastCategory>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <fullName>verloren</fullName>
+        <color>#FF6666</color>
+        <default>false</default>
+        <label>verloren</label>
+        <closed>true</closed>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>

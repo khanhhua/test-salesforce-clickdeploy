@@ -2526,6 +2526,21 @@
         <label><!-- Marketo Opt Out --></label>
         <name>mkto71_Marketo_Opt_Out__c</name>
     </fields>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Availability &amp; Interests --></label>
+            <section>Availability &amp; Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Responsibility --></label>
+            <section>Responsibility</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- SMS --></label>
         <name>SMS</name>

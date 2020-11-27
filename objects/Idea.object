@@ -83,4 +83,12 @@
         <searchResultsAdditionalFields>IDEA.CREATED_DATE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Categories</fullName>
+        <type>Picklist</type>
+    </fields>
 </CustomObject>

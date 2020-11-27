@@ -693,9 +693,177 @@
         <label>Arbeitsstunden pro Monat</label>
         <name>working_hours_per_month__c</name>
     </fields>
+    <layouts>
+        <layout>Aufhebung</layout>
+        <sections>
+            <label>Vertragsdetails</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>Systeminformation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contract (Arbeitsvertrag)</layout>
+        <sections>
+            <label>Konditionen</label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label>Vertragsdetails</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label>Art des Vertrages</label>
+            <section>Contract Type</section>
+        </sections>
+        <sections>
+            <label>Versandinformation</label>
+            <section>Shipping information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contract (Einsatzvertrag)</layout>
+        <sections>
+            <label><!-- Contract Information --></label>
+            <section>Contract Information</section>
+        </sections>
+        <sections>
+            <label>Kunde</label>
+            <section>Customer</section>
+        </sections>
+        <sections>
+            <label>Personal</label>
+            <section>Personal</section>
+        </sections>
+        <sections>
+            <label>Versandinformation</label>
+            <section>Shipping information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Kündigung</layout>
+        <sections>
+            <label>Vertragsdetails</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Explanation --></label>
+            <section>Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>Systeminformation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Porky (History)</layout>
+        <sections>
+            <label><!-- Vertragsparteien --></label>
+            <section>Vertragsparteien</section>
+        </sections>
+        <sections>
+            <label><!-- Vertragszeitraum --></label>
+            <section>Vertragszeitraum</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ruhen des Arbeitsverhältnisses</layout>
+        <sections>
+            <label>Vertragsdetails</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Explanation --></label>
+            <section>Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>Systeminformation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sonderurlaub</layout>
+        <sections>
+            <label>Vertragsdeatils</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Explanation --></label>
+            <section>Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>Systeminformation</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Stornierung</layout>
+        <sections>
+            <label>Vertragsdetails</label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Explanation --></label>
+            <section>Explanation</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>Systeminformation</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label>Einsatzzeiträume</label>
+        <name>OperatingTimes</name>
+    </quickActions>
     <quickActions>
         <label>Vertrag unterschrieben</label>
         <name>SetToSigned</name>
+    </quickActions>
+    <quickActions>
+        <label>Reisekosten</label>
+        <name>TravelingCosts</name>
     </quickActions>
     <quickActions>
         <label><!-- Vertragsänderung --></label>

@@ -105,6 +105,22 @@
     <enableFeeds>false</enableFeeds>
     <sharingModel>ControlledByParent</sharingModel>
     <fields>
+        <fullName>Discount</fullName>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+        <inlineHelpText>nur technisches Hilfsfeld</inlineHelpText>
+    </fields>
+    <fields>
+        <fullName>UnitPrice</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>ServiceDate</fullName>
+    </fields>
+    <fields>
         <fullName>Note__c</fullName>
         <description>This is needed for the contract Management of the Landwehr system.
 Robin S. 14.10.2019</description>

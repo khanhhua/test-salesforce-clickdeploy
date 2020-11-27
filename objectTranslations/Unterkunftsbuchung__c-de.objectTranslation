@@ -141,4 +141,11 @@
         <name>max_Preis_pro_Nacht__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Unterkunftsbuchung Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

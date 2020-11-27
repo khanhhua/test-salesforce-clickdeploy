@@ -40,4 +40,11 @@
         <name>Message__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Debug Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

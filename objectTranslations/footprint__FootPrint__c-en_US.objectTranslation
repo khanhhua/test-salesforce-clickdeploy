@@ -76,6 +76,21 @@
         <label><!-- reports --></label>
         <name>footprint__reports__c</name>
     </fields>
+    <layouts>
+        <layout>Foot_Print Layout</layout>
+        <sections>
+            <label><!-- Analysis details --></label>
+            <section>Analysis details</section>
+        </sections>
+        <sections>
+            <label><!-- Analytics --></label>
+            <section>Analytics</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- You cannot edit This field --></errorMessage>
         <name>footprint__FP_BlockEdit</name>

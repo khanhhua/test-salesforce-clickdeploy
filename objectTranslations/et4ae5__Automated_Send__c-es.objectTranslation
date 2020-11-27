@@ -253,6 +253,44 @@
         <name>et4ae5__hasDelayedSends__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Active Send Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Información de correo electrónico</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Información de seguimiento</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Acciones de envío desencadenado</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inactive Send Layout</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Información de correo electrónico</label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label>Información de seguimiento</label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label>Acciones de envío desencadenado</label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nombre de envío desencadenado</nameFieldLabel>
     <recordTypes>
         <label><!-- Active --></label>

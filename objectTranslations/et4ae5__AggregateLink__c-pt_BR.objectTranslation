@@ -46,5 +46,12 @@
         <name>et4ae5__Unique_Link_ID__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Aggregate Link Level Detail Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nome do link</nameFieldLabel>
 </CustomObjectTranslation>

@@ -30,6 +30,20 @@
         <label><!-- [T] Doctor Job --></label>
         <name>T_Doctor_Job__c</name>
     </fields>
+    <layouts>
+        <layout>Task Contract/Quote Layout</layout>
+        <sections>
+            <label><!-- Related To --></label>
+            <section>Related To</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Task Layout</layout>
+        <sections>
+            <label><!-- Verknüpfungen --></label>
+            <section>Verknüpfungen</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Defer --></label>
         <name>Defer</name>

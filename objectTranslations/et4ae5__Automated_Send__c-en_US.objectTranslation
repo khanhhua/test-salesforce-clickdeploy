@@ -244,6 +244,44 @@
         <label><!-- hasDelayedSends --></label>
         <name>et4ae5__hasDelayedSends__c</name>
     </fields>
+    <layouts>
+        <layout>Active Send Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Information --></label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label><!-- Triggered Send Actions --></label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inactive Send Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Email Information --></label>
+            <section>Email Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Information --></label>
+            <section>Tracking Information</section>
+        </sections>
+        <sections>
+            <label><!-- Triggered Send Actions --></label>
+            <section>Triggered Send Actions</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Active --></label>
         <name>et4ae5__Active</name>

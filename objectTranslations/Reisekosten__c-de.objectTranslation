@@ -157,6 +157,17 @@
         <name>other_type__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Reisekosten Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label><!-- Accommodation booking --></label>
         <name>Accommodation_booking</name>

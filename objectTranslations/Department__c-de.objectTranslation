@@ -37,4 +37,15 @@
         <relationshipLabel><!-- Departments --></relationshipLabel>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Abteilung Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Zusatzinfo Gynäkologie --></label>
+            <section>Zusatzinfo Gynäkologie</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

@@ -44,4 +44,19 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <sharingModel>Read</sharingModel>
+    <fields>
+        <fullName>GiverId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Message</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>FeedItemId</fullName>
+        <type>Lookup</type>
+    </fields>
 </CustomObject>

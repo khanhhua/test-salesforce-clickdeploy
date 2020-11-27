@@ -268,6 +268,220 @@
         <label>Account Competitor Compact Layout</label>
     </compactLayouts>
     <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Sic</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Site</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SicDesc</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>Ownership</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonTitle</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TickerSymbol</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AccountNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AccountSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>BillingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonBirthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonDoNotCall</fullName>
+        <inlineHelpText>Haken ja = nicht anrufen | Haken nein = anrufen</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonHomePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ShippingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonDepartment</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonLeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>PersonOtherPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonMobilePhone</fullName>
+        <inlineHelpText>Nummer wird für die SMS Versendung genutzt</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonIndividualId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PersonOtherAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonAssistantName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonAssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonMailingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonHasOptedOutOfFax</fullName>
+        <inlineHelpText>Haken ja = nicht anfaxen | Haken nein = anfaxen</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>PersonLastCUUpdateDate</fullName>
+    </fields>
+    <fields>
+        <fullName>PersonLastCURequestDate</fullName>
+    </fields>
+    <fields>
+        <fullName>PersonHasOptedOutOfEmail</fullName>
+        <inlineHelpText>Haken ja = Keine Angebote | Haken nein = Angebote</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
         <fullName>Email__c</fullName>
         <externalId>false</externalId>
         <label>Email</label>
@@ -1287,7 +1501,7 @@ Robin S. 19.02.2020</description>
                     <label>Sachsen</label>
                 </value>
                 <value>
-                    <fullName>ST</fullName>
+                    <fullName>SA</fullName>
                     <default>false</default>
                     <label>Sachsen-Anhalt</label>
                 </value>
@@ -7045,6 +7259,10 @@ Robin S. 25.06.2019</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>SA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>SH</fullName>
                 <default>false</default>
             </values>
@@ -7054,10 +7272,6 @@ Robin S. 25.06.2019</description>
             </values>
             <values>
                 <fullName>SN</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>ST</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12412,6 +12626,10 @@ Robin S. 25.06.2019</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>SA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>SH</fullName>
                 <default>false</default>
             </values>
@@ -12421,10 +12639,6 @@ Robin S. 25.06.2019</description>
             </values>
             <values>
                 <fullName>SN</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>ST</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17627,6 +17841,10 @@ Robin S. 25.06.2019</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>SA</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>SH</fullName>
                 <default>false</default>
             </values>
@@ -17636,10 +17854,6 @@ Robin S. 25.06.2019</description>
             </values>
             <values>
                 <fullName>SN</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>ST</fullName>
                 <default>false</default>
             </values>
             <values>

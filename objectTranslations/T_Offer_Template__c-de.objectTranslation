@@ -43,4 +43,15 @@
         <name>Template__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>[T] Offer Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Template --></label>
+            <section>Template</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

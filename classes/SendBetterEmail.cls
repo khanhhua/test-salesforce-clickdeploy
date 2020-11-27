@@ -53,7 +53,7 @@ public without sharing class SendBetterEmail {
 				String templateLanguage = curRequest.templateLanguage;
 				String templateTargetObjectId = curRequest.templateTargetObjectId;
 				String emailMessageType = curRequest.emailMessageType == null?'singleEmail':curRequest.emailMessageType;
-				Boolean useSalesforceSignature = curRequest.useSalesforceSignature == null?true:curRequest.useSalesforceSignature;
+				Boolean useSalesforceSignature = curRequest.useSalesforceSignature == null?false:curRequest.useSalesforceSignature;
 				Boolean bcc = curRequest.bcc == null?false:curRequest.bcc; // default to false
 				if (subject != null && (subject.length() == 0) ) subject = null;
 				Response thisResponse = new Response();

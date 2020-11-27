@@ -32,4 +32,11 @@
         <label><!-- Enabled --></label>
         <name>et4ae5__PreSaved__c</name>
     </fields>
+    <layouts>
+        <layout>Business Unit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

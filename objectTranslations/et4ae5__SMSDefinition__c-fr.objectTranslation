@@ -400,6 +400,68 @@
         <name>et4ae5__smsName__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Mobile Send Layout</layout>
+        <sections>
+            <label>Actions d&apos;envoi mobile</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informations sur le message</label>
+            <section>Message Info</section>
+        </sections>
+        <sections>
+            <label>Texte du message</label>
+            <section>Message Text</section>
+        </sections>
+        <sections>
+            <label>Messages</label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label>Actions d&apos;envoi mobile</label>
+            <section>Mobile Send Actions</section>
+        </sections>
+        <sections>
+            <label>Informations sur la définition de l&apos;envoi</label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label>Actions d&apos;envoi mobile</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Queued Mobile Send Layout</layout>
+        <sections>
+            <label>Texte du message</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informations système</label>
+            <section>Message Info</section>
+        </sections>
+        <sections>
+            <label>Informations sur le message</label>
+            <section>Message Text</section>
+        </sections>
+        <sections>
+            <label>Informations sur la définition de l&apos;envoi</label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label>Messages</label>
+            <section>Mobile Send Actions</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numéro de définition d’envoi mobile</nameFieldLabel>
     <recordTypes>
         <label><!-- Queued SMS Definition --></label>

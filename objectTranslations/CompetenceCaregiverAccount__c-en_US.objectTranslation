@@ -53,6 +53,13 @@
         <label><!-- [T] Count for Opportunity rollup --></label>
         <name>T_Count_for_Opportunity_rollup__c</name>
     </fields>
+    <layouts>
+        <layout>Kompetenz Pfleger Account Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Competence Caregiver Account Name</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

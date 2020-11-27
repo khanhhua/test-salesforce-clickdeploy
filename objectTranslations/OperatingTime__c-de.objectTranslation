@@ -118,6 +118,21 @@
         <name>doctari_client__c</name>
     </fields>
     <gender>Neuter</gender>
+    <layouts>
+        <layout>Einsatzzeitraum Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer --></label>
+            <section>Customer</section>
+        </sections>
+        <sections>
+            <label><!-- Personal --></label>
+            <section>Personal</section>
+        </sections>
+    </layouts>
     <validationRules>
         <errorMessage><!-- &quot;Von&quot; muss das gleiche oder ein früheres Datum als &quot;Bis&quot; beinhalten. --></errorMessage>
         <name>From_less_or_equal_than_To</name>

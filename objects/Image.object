@@ -135,4 +135,35 @@
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
+    <fields>
+        <fullName>Url</fullName>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+    </fields>
+    <fields>
+        <fullName>ImageClass</fullName>
+    </fields>
+    <fields>
+        <fullName>AlternateText</fullName>
+    </fields>
+    <fields>
+        <fullName>CapturedAngle</fullName>
+    </fields>
+    <fields>
+        <fullName>ImageViewType</fullName>
+    </fields>
+    <fields>
+        <fullName>ContentDocumentId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ImageClassObjectType</fullName>
+    </fields>
 </CustomObject>

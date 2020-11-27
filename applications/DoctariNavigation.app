@@ -2,7 +2,6 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <brand>
         <headerColor>#264B66</headerColor>
-        <logo>doctariAsset_390</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
@@ -12,1227 +11,245 @@
     <label>doctari</label>
     <navType>Standard</navType>
     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Competitors</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
         <actionName>Tab</actionName>
         <content>Recruiting_Home_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter External User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter External User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.Strategic_Opportunity</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>Vermittlung_Hamburg_Home_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>Vermittlung_Berlin_Home_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter External User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter External User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.healthcareInstitution</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.doctorsSurgery</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>Tab</actionName>
@@ -1244,896 +261,507 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>Admin</profile>
+        <profile>Api-Profil</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>Chatter External User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Qualification_Doctor</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>Api-Profil</profile>
+        <profile>Chatter Free User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>doctari KAM</profile>
+        <profile>Chatter Moderator User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
+        <profile>ContractManager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Empfang Berlin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Empfang Hamburg</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari KAM</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Marketo Sync</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Office User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Recht &amp; Arbeitsschutz</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Recruiting</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Tableau User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>doctari Vermittlung Berlin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
+        <profile>Guest License User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>Admin</profile>
+        <profile>Landwehr Sync</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>Api-Profil</profile>
+        <profile>MarketingProfile</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>doctari KAM</profile>
+        <profile>ReadOnly</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
+        <profile>SolutionManager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>Api-Profil</profile>
+        <profile>StandardAul</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
-        <profile>doctari KAM</profile>
+        <profile>Standard</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>Api-Profil</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>Chatter External User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>Chatter Free User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>Chatter Moderator User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>ContractManager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Empfang Berlin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Empfang Hamburg</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari KAM</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Marketo Sync</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Office User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Recht &amp; Arbeitsschutz</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Recruiting</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Tableau User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>doctari Vermittlung Berlin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>Guest License User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>MarketingProfile</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>ReadOnly</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>SolutionManager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>StandardAul</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>Standard</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Campaign_Member_Record_Page</content>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Campaign_Member_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Campaign_Member_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Campaign_Member_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Campaign_Member_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_Competitors</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
         <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
+        <profile>Api-Profil</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
+        <content>Account_Competitors</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.Competitor</recordType>
         <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>Personal_Vertrag_Home_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>Vermittlung_Hamburg_Home_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
+        <profile>Chatter External User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2436,69 +1064,6 @@
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <recordType>Opportunity.SubstituteDoctor</recordType>
         <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteCaregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
         <profile>Chatter External User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
@@ -2569,18 +1134,81 @@
         <content>Opportunity_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
         <type>Flexipage</type>
-        <profile>StandardAul</profile>
+        <profile>Chatter External User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>Opportunity_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
         <type>Flexipage</type>
-        <profile>Chatter External User</profile>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2664,19 +1292,11 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>Tab</actionName>
-        <content>Recht_Arbeit_Home_Page</content>
+        <content>Vermittlung_Hamburg_Home_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>Recht_Arbeit_Home_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
+        <profile>doctari Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2685,16 +1305,7 @@
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <recordType>Opportunity.PlacementDoctor</recordType>
         <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
+        <profile>doctari Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2703,7 +1314,7 @@
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <recordType>Opportunity.RecruitmentDoctor</recordType>
         <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
+        <profile>doctari Office User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2712,7 +1323,7 @@
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <recordType>Opportunity.RecruitmentDoctor</recordType>
         <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
+        <profile>doctari Standard User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2721,7 +1332,7 @@
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <recordType>Opportunity.SubstituteCaregiver</recordType>
         <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
+        <profile>doctari Office User</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2730,43 +1341,7 @@
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <recordType>Opportunity.SubstituteCaregiver</recordType>
         <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.PlacementDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Opportunity_Record_Page3</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.RecruitmentDoctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+        <profile>ReadOnly</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
@@ -2775,32 +1350,168 @@
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
         <recordType>Opportunity.SubstituteCaregiver</recordType>
         <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+        <profile>SolutionManager</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
         <content>Opportunity_Record_Page3</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Opportunity</pageOrSobjectType>
-        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
         <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+        <profile>StandardAul</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Account_Competitors</content>
+        <content>Opportunity_Record_Page3</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
         <type>Flexipage</type>
-        <profile>Api-Profil</profile>
+        <profile>Standard</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Account_Competitors</content>
+        <content>Opportunity_Record_Page3</content>
         <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Qualification_Doctor</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>QualificationDoctor__c</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>Chatter External User</profile>
     </profileActionOverrides>
@@ -2811,960 +1522,7 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
         <recordType>Account.Competitor</recordType>
         <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Competitors</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>Account.Competitor</recordType>
-        <type>Flexipage</type>
         <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter External User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari KAM</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Marketo Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Office User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Placement</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Read-Only</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Recruiting</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Standard User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Tableau User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Vermittlung Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Guest License User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Landwehr Sync</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>ReadOnly</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>SolutionManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.caregiver</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter External User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Berlin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>doctari Empfang Hamburg</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>MarketingProfile</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Standard</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>StandardAul</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>Admin</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.doctor</recordType>
-        <type>Flexipage</type>
-        <profile>ContractManager</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter External User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Api-Profil</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Free User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>View</actionName>
-        <content>Account_Doctors_Caregivers</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-        <recordType>PersonAccount.PersonAccount</recordType>
-        <type>Flexipage</type>
-        <profile>Chatter Moderator User</profile>
-    </profileActionOverrides>
-    <profileActionOverrides>
-        <actionName>Tab</actionName>
-        <content>Recht_Arbeit_Home_Page</content>
-        <formFactor>Large</formFactor>
-        <pageOrSobjectType>standard-home</pageOrSobjectType>
-        <type>Flexipage</type>
-        <profile>doctari Recht &amp; Arbeitsschutz</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>Tab</actionName>
@@ -3773,6 +1531,885 @@
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
         <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.doctorsSurgery</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_HealthcareInstitutions_DoctorsSurgery</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>Account.healthcareInstitution</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Campaign_Member_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Campaign_Member_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Campaign_Member_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Campaign_Member_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Campaign_Member_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>CampaignMember</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Personal_Vertrag_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Vermittlung_Hamburg_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Vermittlung_Berlin_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>Tab</actionName>
@@ -3784,11 +2421,1373 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>Tab</actionName>
+        <content>Recht_Arbeit_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
         <content>Personal_Vertrag_Home_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
         <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Recht_Arbeit_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Recht_Arbeit_Home_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
         <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.caregiver</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.doctor</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Doctors_Caregivers</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <recordType>PersonAccount.PersonAccount</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PlacementDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.RecruitmentDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Api-Profil</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter External User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Free User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Chatter Moderator User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>ContractManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Empfang Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari KAM</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Marketo Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Office User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Personal &amp; Vertragsabteilung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recht &amp; Arbeitsschutz</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Recruiting</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Standard User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Tableau User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Berlin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Vermittlung Hamburg</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Guest License User</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>MarketingProfile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>ReadOnly</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>SolutionManager</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>StandardAul</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Standard</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Strategic_Opportunity</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Read-Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteCaregiver</recordType>
+        <type>Flexipage</type>
+        <profile>Landwehr Sync</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.SubstituteDoctor</recordType>
+        <type>Flexipage</type>
+        <profile>doctari Placement</profile>
     </profileActionOverrides>
     <setupExperience>all</setupExperience>
     <tabs>standard-home</tabs>

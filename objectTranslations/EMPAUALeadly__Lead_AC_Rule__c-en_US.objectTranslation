@@ -21,4 +21,11 @@
         <label><!-- Order --></label>
         <name>EMPAUALeadly__Order__c</name>
     </fields>
+    <layouts>
+        <layout>Lead AC Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

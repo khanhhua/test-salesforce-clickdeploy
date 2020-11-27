@@ -59,6 +59,20 @@
         <label><!-- sObjectName --></label>
         <name>sortablegrid__sObjectName__c</name>
     </fields>
+    <layouts>
+        <layout>SDG Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SDG Layout v2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Export Wizard --></label>
         <name>sortablegrid__Export_Wizard</name>

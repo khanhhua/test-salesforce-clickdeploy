@@ -65,6 +65,13 @@
         <name>et4ae5__mid__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>AB Test Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de test AB</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

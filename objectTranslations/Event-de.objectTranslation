@@ -30,6 +30,13 @@
         <label><!-- [T] Doctor Job --></label>
         <name>T_Doctor_Job__c</name>
     </fields>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- Related To --></label>
+            <section>Related To</section>
+        </sections>
+    </layouts>
     <recordTypes>
         <label>Ereignis</label>
         <name>Events</name>

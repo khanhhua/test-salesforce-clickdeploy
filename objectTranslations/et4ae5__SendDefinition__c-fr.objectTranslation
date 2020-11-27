@@ -470,6 +470,165 @@
         <name>et4ae5__fBusiness_Unit__c</name>
     </fields>
     <gender>Masculine</gender>
+    <layouts>
+        <layout>Queued Send Definition Layout</layout>
+        <sections>
+            <label>Actions d&apos;envoi d&apos;e-mail</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informations sur l&apos;e-mail</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>Actions d&apos;envoi d&apos;e-mail</label>
+            <section>Email Send Actions</section>
+        </sections>
+        <sections>
+            <label>Messages</label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label>Informations sur la définition de l&apos;envoi</label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label>Objet</label>
+            <section>Subject</section>
+        </sections>
+        <sections>
+            <label>Informations sur la définition de l&apos;envoi</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Send Definition Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informations sur l&apos;e-mail</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>Informations système</label>
+            <section>Email Send Actions</section>
+        </sections>
+        <sections>
+            <label>Objet</label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label>Informations système</label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Subject</section>
+        </sections>
+        <sections>
+            <label>Messages</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trackable Send Definition Layout</layout>
+        <sections>
+            <label>Objet</label>
+            <section>Aggregate Tracking Info</section>
+        </sections>
+        <sections>
+            <label>Informations sur l&apos;e-mail</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Messages</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>Informations de suivi agrégées</label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label>Informations sur la définition de l&apos;envoi</label>
+            <section>Subject</section>
+        </sections>
+        <sections>
+            <label>Informations de suivi</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trackable Send Definition Layout 2015-02</layout>
+        <sections>
+            <label>Informations sur l&apos;e-mail</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Messages</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>Informations système</label>
+            <section>Email Send Actions</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label>Informations sur l&apos;abonné</label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label>Messages</label>
+            <section>Subscriber Info</section>
+        </sections>
+        <sections>
+            <label>Informations sur l&apos;abonné</label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label>Informations de suivi</label>
+            <section>Tracking Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Trackable Send Definition Layout new</layout>
+        <sections>
+            <label>Informations sur l&apos;e-mail</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Email Info</section>
+        </sections>
+        <sections>
+            <label>Actions d&apos;envoi d&apos;e-mail</label>
+            <section>Messages</section>
+        </sections>
+        <sections>
+            <label>Informations système</label>
+            <section>Send Definition Info</section>
+        </sections>
+        <sections>
+            <label><!-- Subscriber Info --></label>
+            <section>Subscriber Info</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Info --></label>
+            <section>Tracking Info</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Numéro d’envoi d’e-mail</nameFieldLabel>
     <quickActions>
         <label><!-- Request Tracking Immediately --></label>
